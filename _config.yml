@@ -2,3 +2,5 @@ theme: jekyll-theme-minimal
 title: Yash Srivastava.
 description: Simplistic yet elegant.
 permalink: /404.html
+lsi: false
+safe: true
