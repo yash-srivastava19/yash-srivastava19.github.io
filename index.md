@@ -13,3 +13,8 @@ They do not need recognition, they need discussions. I might have reached a dead
 - Learning : QML(Qiskit, TFQ), Deep Reinforcement Learning(ChainerRL, Dopamine, Mesa), Reinforcement Learning(Gym,Torch,TFlow, RecSim),MLOps(TFX), Novel App Development(Flutter), Research(Recommender Systems, Neuroimaging, Artificial Intelligence, ACO, ), Data Analysis(Apache Spark), Miscellaneous(Edward2, JAX, Story Writing, Philosophy)
 
 - Languages Familiarity :  Spoken(Hindi, English, Very Basic Spanish), Programming(C, C++, C#, Python, R, Go(Basic), Prolog)
+
+## Projects
+Here I'll pin some of my favorite projects :
+
+
