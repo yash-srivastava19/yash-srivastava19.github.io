@@ -4,4 +4,4 @@ description: Simplistic yet elegant.
 permalink: /404.html
 lsi: false
 safe: true
-logo: '/logo.png'
+logo: /logo.png
