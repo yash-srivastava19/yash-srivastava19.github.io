@@ -1,4 +1,4 @@
-## Greetings Hoomans !! 
+## Hello Everyone !! 
 Hi ! This is your friendly neighborhood Yash Srivastava. This is the homepage of my GitHub Pages website. This page will serve as a navigator for some of my most loved and cherished projects. While the good stuff is about to come, I hope what I love doing doesn't get unnoticed. 
 
 
