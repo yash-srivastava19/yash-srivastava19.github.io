@@ -1,1 +1,5 @@
-This is the projects file............
+Projects that are close to my heart : 
+  - Alzhemist : 
+  - Maxwell :
+  - SpiceyDicey :
+  - Stable Diffusion :
