@@ -8,20 +8,20 @@ It's pretty easy. Just hit me up on [Twitter](https://twitter.com/Yaaaaaashhh), 
 ## About Me 🙇‍♂️: 
 Well, where to start ? I am Yashovardhan Srivastava(quite a mouthful - Yash is good) an undergraduate engineering student in National Institute of Technology, Warangal. From a young age, I have been fascinated by computers. As I grew older, this fascination turned into crush and crush turned into love - and from that moment, I haven't looked back. I believe opensource projects has played a significant role in that. They made me fall in love with research, development and much more. Since now I believe I am capable enough to produce some original work, I want to be a part of this beautiful journey, in which all of you play an important role,
 
-All of projects are a result of extreme dedication, meticulousness, and hardwork. Most of them are just random thoughts that I once thought-What If ?
+All of projects are a result of extreme dedication, meticulousness, and hardwork. Most of them are just random thoughts that I once had, and thought-What If ?
 They do not need recognition, they need discussions. I might have reached a dead end with some of those - but their cycle isn't complete. I have plenty of projects in pipeline, which I hope will be just beautiful as the ones which are already there.
 
 ## Experience 👷 : 
 
-- **Research Intern, Indian Institute of Technology-Banaras Hindi University** : Worked under Prof. A.K. Singh on a research project on developing a machine translation system for low resource languages such as Hindi, Bhojpuri, Magahi, Maithali.
+- **Research Intern, Indian Institute of Technology-Banaras Hindi University**: Worked under Prof. A.K. Singh on a research project on developing a machine translation system for low resource languages such as Hindi, Bhojpuri, Magahi, Maithali.
 
-- **Executive Member, Research and Development Cell(National Institute of Technolgy, Warangal)** : Part of Undergraduate Research Association team of NIT Warangal which actively takes part in educating and fostering academic growth among undergraduate students.
+- **Executive Member, Research and Development Cell(National Institute of Technolgy, Warangal)**: Part of Undergraduate Research Association team of NIT Warangal which actively takes part in educating and fostering academic growth among undergraduate students.
   
 - **Executive Member, Big Data Analytics and Consulting Cell(National Institute of Technolgy, Warangal)** : Part of a dynamic team that has collaborated in several of the student club events such as Kaggle, Pytorch Workshop and Case study competitions, among other initiatives to develop a community of machine learning enthusiasts in NIT Warangal.
 
 
 ## Proficiency and Interests ⭐ :
-- Research Interests : Quantum Machine Learning, Medical Intelligence, Reinforcement Learning.
+- Research Interests : Natural Language Processing, Generative AI.
 
 - Learning : Artificial Intelligence Research, Data Science and Natural Language Processing.
 
@@ -54,7 +54,10 @@ In no particular order, I am listing doen some really awesome reserach papers th
 
   - **Attention is all you need** : It's everyone's favourite research paper-and mine too. This was the paper that introduced transformers, and the rest is history. This paper taught me how to communicate your research and how to present your work.
  
-  - **Recsim-A configurable platform for recommender systems** : This opened my eyes. I was in awe when I found out we can use reinforcement learning in recommendation setting. I even emailed the author of the paper thanking and asking him what he thinks whether this will be used in future recommendation systems. Google Research for the WIN.      
+  - **Recsim-A configurable platform for recommender systems** : This opened my eyes. I was in awe when I found out we can use reinforcement learning in recommendation setting. I even emailed the author of the paper thanking and asking him what he thinks whether this will be used in future recommendation systems. Google Research for the WIN.
+    
+  - **Improving Low-Resource NMT through Relevance Based Linguistic
+Features Incorporation**: This was a really well written and structured paper, which I was able to understand easily, and even used for testing in my internship project. 
 
 ## Projects 🧰
 Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
@@ -69,7 +72,8 @@ Here I'll pin some of my favorite projects, more on the research 👨‍🔬 sid
 
 Here I'll pin some of my favorite projects, more on the development 💻 side. Feedback is always appreciated for projects like these.:
 
-
+  -[**Blaze**](https://github.com/yash-srivastava19/blaze) : Developed a RAG(Retrieval Augmentation Generation) system by using Cohere LLM and Metaphor as a part of recruitement process for Metaphor, which is made using Langchain, Chainlit and deployed on Huggingface.
+  
   - [**CodeSmith**](https://github.com/yash-srivastava19/CodeSmith) : Developed a ChatGPT-inspired chatbot trained on a Python programming problems on custom created dataset, made using Langchain, and deployed on Huggingface.
 
   - [**Alzhemist**](https://github.com/yash-srivastava19/Alzhemist) : One of the first projects that got me in to the world of Attention. A Deep Learning Model to see which classifies Brain MRI on the basis of the dementia (AD). The images are classified as follows - Mildly Demented, Moderate Demented, Non Demented, Very Mild Demented.
