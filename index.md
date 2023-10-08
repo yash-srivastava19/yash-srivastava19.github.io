@@ -72,7 +72,7 @@ Here I'll pin some of my favorite projects, more on the research 👨‍🔬 sid
 
 Here I'll pin some of my favorite projects, more on the development 💻 side. Feedback is always appreciated for projects like these.:
 
-  -[**Blaze**](https://github.com/yash-srivastava19/blaze) : Developed a RAG(Retrieval Augmentation Generation) system by using Cohere LLM and Metaphor as a part of recruitement process for Metaphor, which is made using Langchain, Chainlit and deployed on Huggingface.
+  - [**Blaze**](https://github.com/yash-srivastava19/blaze) : Developed a RAG(Retrieval Augmentation Generation) system by using Cohere LLM and Metaphor as a part of recruitement process for Metaphor, which is made using Langchain, Chainlit and deployed on Huggingface.
   
   - [**CodeSmith**](https://github.com/yash-srivastava19/CodeSmith) : Developed a ChatGPT-inspired chatbot trained on a Python programming problems on custom created dataset, made using Langchain, and deployed on Huggingface.
 
