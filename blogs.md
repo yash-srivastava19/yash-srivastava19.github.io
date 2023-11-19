@@ -2,7 +2,7 @@
 
 ### Letter to Myself at 21 Birthday [Date - 19-11-2023]
 
-Life has been a big roller coaster for me. Although on the surface it doesn’t seem like much, a fair share of my “life lessons” seem very obvious. So, on the day I turn 21, I would like to share with you 21 so-called lessons(or advice) that have helped me a lot. The playlist for the same is linked at the bottom, so you can always listen to these life lessns 😙
+Life has been a big roller coaster for me. Although on the surface it doesn’t seem like much, a fair share of my “life lessons” seem very obvious. So, on the day I turn 21, I would like to share with you 21 so-called lessons(or advice) that have helped me a lot. The playlist for the same is linked at the bottom, so you can always listen to these life lessons 😙
 
 - **01. Lose Yourself(Eminem) :** 
 Life is actually really short. We often think too much about our decision and the long term implications it might have, without ever fully enjoying the present. Depression is caring too much about the past, and anxiety is caring too much about the future. Relax a little. Find your purpose in life, and immerse yourself completely in that craft. You get only 1 shot at life, so make most of it.
@@ -69,7 +69,10 @@ Do I think I’ve lived a ‘hell of a life’ - absolutely yes. Many experience
 
 Listen to all of lessons in a Spotify playlist [here](https://open.spotify.com/playlist/5BObFQSzflNhGhJct3jWrU?si=7437fcc2eedf467b).
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5BObFQSzflNhGhJct3jWrU?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+[![Widget]([https://example.com/widget.svg](https://github.com/yash-srivastava19/yash-srivastava19.github.io/assets/85068689/a4d829e1-0bb4-48bf-a2d6-77198cbb7ce7))]([https://example.com](https://open.spotify.com/playlist/5BObFQSzflNhGhJct3jWrU?si=7437fcc2eedf467b))
+
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5BObFQSzflNhGhJct3jWrU?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ### Will AI ever shade their child when they are sleeping ? [Date - 17-09-2023]
 
