@@ -1,6 +1,6 @@
 ## Blogs
 
-### Letter to Myself at 21 Birthday [Date - 19-11-2023]
+### Letter to Myself on my 21 Birthday [Date - 19-11-2023]
 
 Life has been a big roller coaster for me. Although on the surface it doesn’t seem like much, a fair share of my “life lessons” seem very obvious. So, on the day I turn 21, I would like to share with you 21 so-called lessons(or advice) that have helped me a lot. The playlist for the same is linked at the bottom, so you can always listen to these life lessons 😙
 
