@@ -69,7 +69,7 @@ Do I think I’ve lived a ‘hell of a life’ - absolutely yes. Many experience
 
 Listen to all of lessons in a Spotify playlist [here](https://open.spotify.com/playlist/5BObFQSzflNhGhJct3jWrU?si=7437fcc2eedf467b).
 
-[![Widget]([(https://github.com/yash-srivastava19/yash-srivastava19.github.io/assets/85068689/a4d829e1-0bb4-48bf-a2d6-77198cbb7ce7))]([https://example.com](https://open.spotify.com/playlist/5BObFQSzflNhGhJct3jWrU?si=7437fcc2eedf467b))
+[![Widget]([(playlist.png)](https://open.spotify.com/playlist/5BObFQSzflNhGhJct3jWrU?si=7437fcc2eedf467b))
 
 ### Will AI ever shade their child when they are sleeping ? [Date - 17-09-2023]
 
