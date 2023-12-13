@@ -46,22 +46,23 @@ I see myself as a research scientist in the near future-specifically in the fiel
 ## Reseach Papers I Love 📎
 In no particular order, I am listing doen some really awesome reserach papers that in one way or other have helped me think outside of the box.
 
-  - **The Hardware Lottery** : Probably one of my favorite papers till day. The way Sara Hookor explained how AI/ML research should proceed, and how is it going till now is a real eye opener. Highly highly recommend if you want to look at the bigger picture of AI research. 
+  - **[The Hardware Lottery](https://arxiv.org/pdf/2009.06489.pdf)** : Probably one of my favorite papers till day. The way Sara Hookor explained how AI/ML research should proceed, and how is it going till now is a real eye opener. Highly highly recommend if you want to look at the bigger picture of AI research. 
 
-  - **Building Machines that Learn and Think for Themselves - Commentary on Lake, Ullman, Tenenbaum, and Gershman** : Not exactly a paper, but this really forced me to think about some things. Definitely recommend this for casual reading.   
+  - **[Building Machines that Learn and Think for Themselves - Commentary on Lake, Ullman, Tenenbaum, and Gershman](https://arxiv.org/pdf/1604.00289.pdf)** : Not exactly a paper, but this really forced me to think about some things. Definitely recommend this for casual reading.   
       
-  - **A Two-Systems Perspective for Computational Thinking** : This is one of the first papers that I read and it blew my mind. Inspired by the Kahneman's Two Systems Approach of Thinking(Thinking Fast and Slow), this papers presents the cognitive models against which computational thinking can be analyzed and evaluated.
+  - **[A Two-Systems Perspective for Computational Thinking](https://arxiv.org/pdf/2012.03201.pdf)** : This is one of the first papers that I read and it blew my mind. Inspired by the Kahneman's Two Systems Approach of Thinking(Thinking Fast and Slow), this papers presents the cognitive models against which computational thinking can be analyzed and evaluated.
 
-  - **Attention is all you need** : It's everyone's favourite research paper-and mine too. This was the paper that introduced transformers, and the rest is history. This paper taught me how to communicate your research and how to present your work.
+  - **[Attention is all you need](https://arxiv.org/pdf/1706.03762.pdf)** : It's everyone's favourite research paper-and mine too. This was the paper that introduced transformers, and the rest is history. This paper taught me how to communicate your research and how to present your work.
  
-  - **Recsim-A configurable platform for recommender systems** : This opened my eyes. I was in awe when I found out we can use reinforcement learning in recommendation setting. I even emailed the author of the paper thanking and asking him what he thinks whether this will be used in future recommendation systems. Google Research for the WIN.
+  - **[Recsim-A configurable platform for recommender systems](https://arxiv.org/pdf/1909.04847.pdf)** : This opened my eyes. I was in awe when I found out we can use reinforcement learning in recommendation setting. I even emailed the author of the paper thanking and asking him what he thinks whether this will be used in future recommendation systems. Google Research for the WIN.
     
-  - **Improving Low-Resource NMT through Relevance Based Linguistic
-Features Incorporation**: This was a really well written and structured paper, which I was able to understand easily, and even used for testing in my internship project. 
+  - **[Improving Low-Resource NMT through Relevance Based Linguistic Features Incorporation](https://aclanthology.org/2020.coling-main.376.pdf)**: This was a really well written and structured paper, which I was able to understand easily, and even used for testing in my internship project. 
 
 ## Projects 🧰
 Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
 
+  - [**YeetCode**](https://github.com/yash-srivastava19/yeetcode) : YeetCode is a sassy version of Python made for all GenZ people. The aim is to create a new programming language which is bussin'.
+    
   - [**Nexus Theory**](https://github.com/yash-srivastava19/nexus-theory) : Can we really trust our humaness for the messages that we send into the cosmos? Nexus theory is a gamified version to understand machine learning interpretability using Large Language Models.
 
   -  [**Elixr**](https://github.com/yash-srivastava19/Elixir) : Elixr an autograd library using Complex Numbers similar to Pytorch.
