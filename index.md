@@ -60,8 +60,6 @@ In no particular order, I am listing doen some really awesome reserach papers th
 
 ## Projects 🧰
 Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
-
-  - [**YeetCode**](https://github.com/yash-srivastava19/yeetcode) : YeetCode is a sassy version of Python made for all GenZ people. The aim is to create a new programming language which is bussin'.
     
   - [**Nexus Theory**](https://github.com/yash-srivastava19/nexus-theory) : Can we really trust our humaness for the messages that we send into the cosmos? Nexus theory is a gamified version to understand machine learning interpretability using Large Language Models.
 
@@ -73,6 +71,10 @@ Here I'll pin some of my favorite projects, more on the research 👨‍🔬 sid
 
 Here I'll pin some of my favorite projects, more on the development 💻 side. Feedback is always appreciated for projects like these.:
 
+  - [**Verizon**](https://github.com/yash-srivastava19/verizon) : A Git like version control system, from scratch, in Python, spelled out.
+    
+  - [**YeetCode**](https://github.com/yash-srivastava19/yeetcode) : YeetCode is a sassy version of Python made for all GenZ people. The aim is to create a new programming language which is bussin'.
+
   - [**Blaze**](https://github.com/yash-srivastava19/blaze) : Developed a RAG(Retrieval Augmentation Generation) system by using Cohere LLM and Metaphor as a part of recruitement process for Metaphor, which is made using Langchain, Chainlit and deployed on Huggingface.
   
   - [**CodeSmith**](https://github.com/yash-srivastava19/CodeSmith) : Developed a ChatGPT-inspired chatbot trained on a Python programming problems on custom created dataset, made using Langchain, and deployed on Huggingface.
@@ -83,7 +85,7 @@ Here I'll pin some of my favorite projects, more on the development 💻 side. F
     
   - [**SpiceyDicey**](https://github.com/yash-srivastava19/SpicyDicey) : SpicyDicey is a end to end machine learning project that aims to predicts the number that appears on a dice. All of the work in collecting the data and editing the images has been done individually and from scratch.
     
-Here are some of the awesome notebooks 📓 I've made on Kaggle :
+Here are some of the awesome notebooks 📓 I've made on Kaggle(I'm a 2x Kaggle Expert also !!) :
 
   - [**FC Barcelona is Back!**](https://www.kaggle.com/code/yashsrivastava51213/part1-fc-barcelona-is-back-sports-data-analytics) : Analyzed FC Barcelona’s LaLiga performance in the 2022-23 season on Kaggle, achieving Bronze Medal and 200+ views apart from receiving recognition from Kaggle.
 
