@@ -62,7 +62,7 @@ In no particular order, I am listing doen some really awesome reserach papers th
 Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
   - [**Collaborative Debating**](https://github.com/yash-srivastava19/collaborative-debating) (Work in Progress) : A hacky implementation of the paper "Improving Factuality and Reasoning in Language Models through Multiagent Debate".
     
-  - [**NEAT-JAX**](https://github.com/yash-srivastava19/NEAT-JAX)) (Work in Progress) : An implementation of Neuroevolution of Augmented Topologies Algorithm in JAX which is compatible with EvoJAX.
+  - [**NEAT-JAX**](https://github.com/yash-srivastava19/NEAT-JAX) (Work in Progress) : An implementation of Neuroevolution of Augmented Topologies Algorithm in JAX which is compatible with EvoJAX.
      
   - [**Nexus Theory**](https://github.com/yash-srivastava19/nexus-theory) : Can we really trust our human-ness for the messages that we send into the cosmos? Nexus theory is a gamified version to understand   machine learning interpretability using Large Language Models.
 
