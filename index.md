@@ -60,17 +60,21 @@ In no particular order, I am listing doen some really awesome reserach papers th
 
 ## Projects 🧰
 Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
+  - [**Collaborative Debating**](https://github.com/yash-srivastava19/collaborative-debating) (Work in Progress) : A hacky implementation of the paper "Improving Factuality and Reasoning in Language Models through Multiagent Debate".
     
-  - [**Nexus Theory**](https://github.com/yash-srivastava19/nexus-theory) : Can we really trust our humaness for the messages that we send into the cosmos? Nexus theory is a gamified version to understand machine learning interpretability using Large Language Models.
+- [**NEAT-JAX**](https://github.com/yash-srivastava19/NEAT-JAX)) (Work in Progress) : An implementation of Neuroevolution of Augmented Topologies Algorithm in JAX which is compatible with EvoJAX.
+     
+  - [**Nexus Theory**](https://github.com/yash-srivastava19/nexus-theory) : Can we really trust our human-ness for the messages that we send into the cosmos? Nexus theory is a gamified version to understand machine learning interpretability using Large Language Models.
 
   -  [**Elixr**](https://github.com/yash-srivastava19/Elixir) : Elixr an autograd library using Complex Numbers similar to Pytorch.
 
-  -  [**Attention Free Revolution**](https://github.com/yash-srivastava19/attention-free-revolution) : Developed *Leviathan* architectures, and alternate to Transformer architecture using a modified attention scores, taking inspiration from signal processing.
+  -  [**Attention Free Revolution**](https://github.com/yash-srivastava19/attention-free-revolution) : Developed *Leviathan* architectures, and alternate to Transformer architecture using a modified attention scores, taking inspiration from signal processing.  
 
   -  [**P-GLAm**](https://github.com/yash-srivastava19/P-GLAm) : P-GLAm is a random thought experiment on Infinite Monkey Theorem. In this, I developed a GPT-2 inspired Large Language Model which aims to test the arithmetic correctness.
 
 Here I'll pin some of my favorite projects, more on the development 💻 side. Feedback is always appreciated for projects like these.:
-
+  - [**Pandora**](https://github.com/yash-srivastava19/pandora) : Pandora is domain agnostic framework for case study generation and solving.
+    
   - [**Verizon**](https://github.com/yash-srivastava19/verizon) : A Git like version control system, from scratch, in Python, spelled out.
     
   - [**YeetCode**](https://github.com/yash-srivastava19/yeetcode) : YeetCode is a sassy version of Python made for all GenZ people. The aim is to create a new programming language which is bussin'.
