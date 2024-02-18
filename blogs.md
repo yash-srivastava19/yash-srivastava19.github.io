@@ -1,5 +1,13 @@
 ## Blogs
 
+### Childhood Conversations [Date - 18-02-2024]
+
+A lot of time has passed since I’ve sat down and enjoyed the warm sunny breeze in winter afternoons, and even longer since I’ve watched a show or eaten something peacefully. Life is pretty fast and there’s no catching up to it. If you are lucky, you will cherish the memories in retrospect or you will make yourself believe that those memories are golden. For every person who loves to romanticize life, was once in a rut and wanted to live the best life. For every poet who loves to find beauty in the passage of time, was once trying to make sense of life through literature. We all become a version of what we thought we would become - just that not everything is there. The earlier picture was much simpler, and now it just has too many moving parts. An actor is someone who pretends they are content, and a painter is just someone who calls the mess an art.
+
+For what is the use of that child-like innocence when people take advantage of you. We all live our lives shielding our inner selves to the atrocities of the world, failing to realize the shield also leaves scars - and that too deep ones.
+
+There’s nothing we can do, O there’s nothing we can do.
+
 ### The Life in Review Interview [Date - 15-01-2024]
 
 Life seems like a movie that feels like it is building up to something beautiful.  There's always something to look forward to - and the best part about life is that it always gives you a fresh start every 24 hours. From the eyes of the protagonist, having to live all of those 24 hours doing something "heroic" feels a bit overwhelming. Having something always to look forward to sometimes places less importance to what we have now.   
