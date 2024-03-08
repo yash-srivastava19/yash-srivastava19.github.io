@@ -1,5 +1,13 @@
 ## Blogs
 
+### Past Lives [Date - 08-03-2024]
+
+“In another universe, I would’ve loved doing laundry and taxes with you”. This seemingly simple dialogue is heavy. The lives we live are catastrophically chaotic. When we were young, things were simple, or at least seemed simple. As we grew older, things started changing rapidly. Everything that was naive, is now ruined somehow? Every preconceived notion seems to degrade, and so does, very little by little, our worldview. Adulthood is scary. It always keeps you on your toes and keeps reminding you that everything you have is temporary. It’s damn scary. Relationships are what help us make sense of this spaghetti. They give us hope that even if everything changes in this world, what I have with them will be there.It’s that sense of security that makes people hold on to them. 
+
+You can’t define people because a definition binds them to being unchanged - we are dynamic species. Nature is chaotic, and embracing it is the best we can do to keep peace with ourselves. But it’s really scary. You have to realize that everything around you is to a large extent relying on some seemingly small notion. Everything can crumble at any moment - but it doesn’t. Focus on the “not-crumbling part”, not the “it could crumble” part. It’s hard, but needs to be done.
+
+Everyone wants to go back to simpler times, but no one wants to take a deep breath, believe in themselves, and take that leap of faith. Be happy, I know even though it is hard.
+
 ### Childhood Conversations [Date - 18-02-2024]
 
 A lot of time has passed since I’ve sat down and enjoyed the warm sunny breeze in winter afternoons, and even longer since I’ve watched a show or eaten something peacefully. Life is pretty fast and there’s no catching up to it. If you are lucky, you will cherish the memories in retrospect or you will make yourself believe that those memories are golden. For every person who loves to romanticize life, was once in a rut and wanted to live the best life. For every poet who loves to find beauty in the passage of time, was once trying to make sense of life through literature. We all become a version of what we thought we would become - just that not everything is there. The earlier picture was much simpler, and now it just has too many moving parts. An actor is someone who pretends they are content, and a painter is just someone who calls the mess an art.
