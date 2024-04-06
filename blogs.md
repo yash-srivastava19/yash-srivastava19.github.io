@@ -1,7 +1,7 @@
-# Technical Blogs - Some of my learnings.
+# Technical Blogs
+Some of my learnings about the stuff in tech. Personal, but very helpful for others as well.
 
 ## Design for Generality - Dated(06/04/2024)
-
 Designing is a complicated process, not a complex process. What I mean particularly is that the latter is analogous to difficult, while the former means it just has a lot of moving parts. The basic task of designer is to reduce the entropy of moving parts and make sense of it, without losing much generality. There are many examples you can think of, I would like to go with Transformers.
 
 ### Learning design principles with Transformers
