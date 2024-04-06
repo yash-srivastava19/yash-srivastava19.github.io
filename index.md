@@ -60,6 +60,8 @@ In no particular order, I am listing doen some really awesome reserach papers th
 
 ## Projects 🧰
 Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
+  - [**Secure BPE**](https://github.com/yash-srivastava19/sec_bpe) (Work in Progress) : A modified, secure version of Byte Pair Encoding algorithm.
+  
   - [**Collaborative Debating**](https://github.com/yash-srivastava19/collaborative-debating) (Work in Progress) : A hacky implementation of the paper "Improving Factuality and Reasoning in Language Models through Multiagent Debate".
     
   - [**NEAT-JAX**](https://github.com/yash-srivastava19/NEAT-JAX) (Work in Progress) : An implementation of Neuroevolution of Augmented Topologies Algorithm in JAX which is compatible with EvoJAX.
@@ -73,6 +75,8 @@ Here I'll pin some of my favorite projects, more on the research 👨‍🔬 sid
   -  [**P-GLAm**](https://github.com/yash-srivastava19/P-GLAm) : P-GLAm is a random thought experiment on Infinite Monkey Theorem. In this, I developed a GPT-2 inspired Large Language Model which aims to test the arithmetic correctness.
 
 Here I'll pin some of my favorite projects, more on the development 💻 side. Feedback is always appreciated for projects like these.:
+  - [**Synapse**](https://github.com/yash-srivastava19/Synapse) : Synapse is hackernews-type platform that can be used by any community as a forum. Tried making this for my college, but need more inspiration.
+  
   - [**Pandora**](https://github.com/yash-srivastava19/pandora) : Pandora is domain agnostic framework for case study generation and solving.
     
   - [**Verizon**](https://github.com/yash-srivastava19/verizon) : A Git like version control system, from scratch, in Python, spelled out.
