@@ -1,4 +1,4 @@
-## Blogs
+## Diary
 
 ### What if love never finds us? [Date - 01-04-2024]
 
