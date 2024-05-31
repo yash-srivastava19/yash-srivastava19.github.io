@@ -27,11 +27,11 @@ They do not need recognition, they need discussions. I might have reached a dead
 ## Experience 👷 : 
 
 - **[NEW!] Project Intern, Solvendo India Private Limited**: Worked with the Machine Learning Team on : a) A production LLM RAG application b) developing time series machine learning models for predict volatility of a stock(Deep Learning Based, GluonTS).
-- 
+  
 - **Research Intern, Indian Institute of Technology-Banaras Hindi University**: Worked under Prof. A.K. Singh on a research project on developing a machine translation system for low resource languages such as Hindi, Bhojpuri, Magahi, Maithali.
 
 - **[NEW!] President, Big Data Analytics and Consulting Cell(National Institute of Technolgy, Warangal)** : Lead the BDACC team for the academic year 2024-2025 after being the member for 2 years in a team that has collaborated in several of the student club events such as Kaggle, Pytorch Workshop and Case study competitions, among other initiatives to develop a community of machine learning enthusiasts in NIT Warangal.
-- 
+  
 - **Executive Member, Research and Development Cell(National Institute of Technolgy, Warangal)**: Part of Undergraduate Research Association team of NIT Warangal which actively takes part in educating and fostering academic growth among undergraduate students.
   
 
@@ -46,7 +46,9 @@ They do not need recognition, they need discussions. I might have reached a dead
 - Frameworks: Tensorflow, Pytorch, Keras(and anything if given enough time)
 
 ## Achievements 🥇
-- Honour : Received Kaggle Notebook and Dataset Expert with an overall rank of 699 and 573 respectively.
+#### Honours
+- Promoted as the President of Big Data Analytics and Consulting Cell(National Institute of Technology, Warangal) for the year 2024-2025.
+- Received Kaggle Notebook and Dataset Expert with an overall rank of 699 and 573 respectively.
   
 - Personal Interests : Football, badminton, avid reader, philosophy connoisseur and writing.
 
