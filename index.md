@@ -5,31 +5,45 @@ Hi ! This is your friendly neighborhood Yash Srivastava. This is the homepage of
 ### How to contact me? ☎️
 It's pretty easy. Just hit me up on [Twitter](https://twitter.com/Yaaaaaashhh), [LinkedIn](https://www.linkedin.com/in/yash-srivastava1911/) or [Mail](mailto:ysrivastava82@gmail.com). I'll get back to you pretty soon, if I'm not busy.
 
+## Should you hire me?
+The short answer is yes. 
+Here's a big explanation on what I bring to the table :
+
+- **Team Player :** I have been part of, and lead teams at college level in ML/AI domain. I have successfully conducted various workshops, and hosted events(details in this page). Apart from that, I've also been part of teams at industrial level(see next point). I know the power of teamwork, and know how to use it to my full advantage.
+    
+- **Experience :** I have experience in both academia and research setting, and I'm pretty comfortable with conducting independent research(with little pushes in the right direction working best). I've worked in a startup to make a RAG system for financial data and I've also built a machine translation system(Transformer based, from scratch) for low-resourced languages as a part of a research internship - which demonstrates that I'm well versed in programming and have experience to back that up as well.
+
+- **Thinking Fast and Slow :** I've worked on various projects independently, both research and engineering(references in this page itself, so scroll down) and my work has been appereciated by the open source community as well(see next point). I'm someone who is great both in zero shot and chain of thought abilities, so you can bet on me.
+
+- **Quantifiable work :** I have achieved [2x Kaggle Expert](https://www.kaggle.com/yashsrivastava51213), created popular Python packages and kernels( which have received appreciation from [Kaggle](https://twitter.com/Yaaaaaashhh/status/1676593869931126786) as well). I have also made open-source projects that have been praised on [HN](https://news.ycombinator.com/item?id=38697922), [GitHub](https://github.com/yash-srivastava19), [Twitter](https://x.com/tailwiinder/status/1759527294287356177?s=20).
+  
+
 ## About Me 🙇‍♂️: 
-Well, where to start ? I am Yashovardhan Srivastava(quite a mouthful - Yash is good) an undergraduate engineering student in National Institute of Technology, Warangal. From a young age, I have been fascinated by computers. As I grew older, this fascination turned into crush and crush turned into love - and from that moment, I haven't looked back. I believe opensource projects has played a significant role in that. They made me fall in love with research, development and much more. Since now I believe I am capable enough to produce some original work, I want to be a part of this beautiful journey, in which all of you play an important role,
+I am Yashovardhan Srivastava(quite a mouthful, so Yash is good) an undergraduate engineering student in National Institute of Technology, Warangal. From a young age, I have been fascinated by computers. As I grew older, this fascination turned into crush and crush turned into love - and from that moment, I haven't looked back. I believe open source projects has played a significant role in that. They made me fall in love with research, development and much more. Since now I believe I am capable enough to produce some original work, I want to be a part of this beautiful journey, in which all of you play an important role.
 
 All of projects are a result of extreme dedication, meticulousness, and hardwork. Most of them are just random thoughts that I once had, and thought-What If ?
 They do not need recognition, they need discussions. I might have reached a dead end with some of those - but their cycle isn't complete. I have plenty of projects in pipeline, which I hope will be just beautiful as the ones which are already there.
 
 ## Experience 👷 : 
 
+- **[NEW!] Project Intern, Solvendo India Private Limited**: Worked with the Machine Learning Team on : a) A production LLM RAG application b) developing time series machine learning models for predict volatility of a stock(Deep Learning Based, GluonTS).
+- 
 - **Research Intern, Indian Institute of Technology-Banaras Hindi University**: Worked under Prof. A.K. Singh on a research project on developing a machine translation system for low resource languages such as Hindi, Bhojpuri, Magahi, Maithali.
 
+- **[NEW!] President, Big Data Analytics and Consulting Cell(National Institute of Technolgy, Warangal)** : Lead the BDACC team for the academic year 2024-2025 after being the member for 2 years in a team that has collaborated in several of the student club events such as Kaggle, Pytorch Workshop and Case study competitions, among other initiatives to develop a community of machine learning enthusiasts in NIT Warangal.
+- 
 - **Executive Member, Research and Development Cell(National Institute of Technolgy, Warangal)**: Part of Undergraduate Research Association team of NIT Warangal which actively takes part in educating and fostering academic growth among undergraduate students.
   
-- **Executive Member, Big Data Analytics and Consulting Cell(National Institute of Technolgy, Warangal)** : Part of a dynamic team that has collaborated in several of the student club events such as Kaggle, Pytorch Workshop and Case study competitions, among other initiatives to develop a community of machine learning enthusiasts in NIT Warangal.
 
 
 ## Proficiency and Interests ⭐ :
 - Research Interests : Natural Language Processing, Generative AI.
 
-- Learning : Artificial Intelligence Research, Data Science and Natural Language Processing.
+- Learning : Artificial Intelligence Research, Data Science, Natural Language Processing and Machine Learning Research.
 
 - Languages Familiarity :  Spoken(Hindi, English, Very Basic Spanish), Programming(C, C++,Python, R, Julia)
-
-- Developer Tools: Github, Excel
   
-- Frameworks: Tensorflow, Pytorch, Keras
+- Frameworks: Tensorflow, Pytorch, Keras(and anything if given enough time)
 
 ## Achievements 🥇
 - Honour : Received Kaggle Notebook and Dataset Expert with an overall rank of 699 and 573 respectively.
@@ -41,12 +55,20 @@ Wooh. That's a tough one. There are many things that I like and I feel it is dif
 
 The place where I come from, this is NOT a trend. We are hard-working, talented people-but we realise very later in life what matters to us. True satisfaction comes from happiness-and that is the purpose of life. I choose to take the road not taken.
 
-I see myself as a research scientist in the near future-specifically in the field of AI, but let's see where life takes me. 
+I see myself as a research scientist/research engineer in the near future-specifically in the field of AI, an I want to highlight why this field speaks to me a lot.
+
+Anyone who has studied Engineering(especially in India) will tell how "academically challenging" and "rigorous" the degree is - an I believe it is somewhat justified. Engineers are responsible for building the "lego blocks" on which society stands, and when you work for the greater good of society, you better be the best. I always say, Engineering is a great profession in theory, but(especially here), the adaptaion is really not good. I guess my love for engineering did not fade away even after going through this system, so I guess working on "scale up" is something I can see myself working in. It is really fascinating ince you get the hold of it.
+
+Another interesting thing that I like is coming up with ideas and test them using the scientific method. The joy of discovering really speaks to the creative side of me, and I would really love if I can make a career in this.   
+
+Those are some of the reasons why I want to be a researcher + engineer. That is, coming up with new ideas, and testing them at various scales of production. This is something that I dream of as of now, but let's see where life takes me. 
 
 ## Reseach Papers I Love 📎
 In no particular order, I am listing doen some really awesome reserach papers that in one way or other have helped me think outside of the box.
 
   - **[The Hardware Lottery](https://arxiv.org/pdf/2009.06489.pdf)** : Probably one of my favorite papers till day. The way Sara Hookor explained how AI/ML research should proceed, and how is it going till now is a real eye opener. Highly highly recommend if you want to look at the bigger picture of AI research. 
+  
+  - **[Scaling Scaling Laws For Board Games](https://arxiv.org/pdf/2104.03113)** : Andy Jones is a genius. This paper explained how we can use shorter experiments to predict outcomes of larger experiments - which are resource heavy. Highly recommend if you want learn how scale up works in real life. 
 
   - **[Building Machines that Learn and Think for Themselves - Commentary on Lake, Ullman, Tenenbaum, and Gershman](https://arxiv.org/pdf/1604.00289.pdf)** : Not exactly a paper, but this really forced me to think about some things. Definitely recommend this for casual reading.   
       
@@ -61,7 +83,7 @@ In no particular order, I am listing doen some really awesome reserach papers th
 ## Projects 🧰
 Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
   - [**Secure BPE**](https://github.com/yash-srivastava19/sec_bpe) (Work in Progress) : A modified, secure version of Byte Pair Encoding algorithm.
-  
+    
   - [**Collaborative Debating**](https://github.com/yash-srivastava19/collaborative-debating) (Work in Progress) : A hacky implementation of the paper "Improving Factuality and Reasoning in Language Models through Multiagent Debate".
     
   - [**NEAT-JAX**](https://github.com/yash-srivastava19/NEAT-JAX) (Work in Progress) : An implementation of Neuroevolution of Augmented Topologies Algorithm in JAX which is compatible with EvoJAX.
@@ -75,6 +97,8 @@ Here I'll pin some of my favorite projects, more on the research 👨‍🔬 sid
   -  [**P-GLAm**](https://github.com/yash-srivastava19/P-GLAm) : P-GLAm is a random thought experiment on Infinite Monkey Theorem. In this, I developed a GPT-2 inspired Large Language Model which aims to test the arithmetic correctness.
 
 Here I'll pin some of my favorite projects, more on the development 💻 side. Feedback is always appreciated for projects like these.:
+  - [**AI GF**]((https://github.com/yash-srivastava19/ai_gf)) : A small weekend project that through which youcan creaate a virtual girlfriend(not made for imitation, but for learning)
+  
   - [**Synapse**](https://github.com/yash-srivastava19/Synapse) : Synapse is hackernews-type platform that can be used by any community as a forum. Tried making this for my college, but need more inspiration.
   
   - [**Pandora**](https://github.com/yash-srivastava19/pandora) : Pandora is domain agnostic framework for case study generation and solving.
