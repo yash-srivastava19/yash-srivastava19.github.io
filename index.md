@@ -98,6 +98,9 @@ Here I'll pin some of my favorite projects, more on the research 👨‍🔬 sid
   -  [**P-GLAm**](https://github.com/yash-srivastava19/P-GLAm) : P-GLAm is a random thought experiment on Infinite Monkey Theorem. In this, I developed a GPT-2 inspired Large Language Model which aims to test the arithmetic correctness.
 
 Here I'll pin some of my favorite projects, more on the development 💻 side. Feedback is always appreciated for projects like these.:
+
+  - [**Gm Tunes**](https://github.com/yash-srivastava19/gym_tunes) : GymTunes is a simple AI agent that schedules a random playlist into your GCalendar based on your vibe. 
+  
   - [**AI GF**]((https://github.com/yash-srivastava19/ai_gf)) : A small weekend project that through which youcan creaate a virtual girlfriend(not made for imitation, but for learning)
   
   - [**Synapse**](https://github.com/yash-srivastava19/Synapse) : Synapse is hackernews-type platform that can be used by any community as a forum. Tried making this for my college, but need more inspiration.
