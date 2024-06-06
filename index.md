@@ -1,13 +1,14 @@
-## Home
+# Pages
+I do write a lot of stuff, both technical and non-technical, so do check them out. Here are my [technical blogs](./blogs.html), and here is my unofficial [diary](./diary.html). Apart from that, If you want to contact me, here are my [socials](./contact.html)
 
-Hi ! This is your friendly neighborhood Yash Srivastava. This is the homepage of my GitHub Pages website. This page will serve as a navigator for some of my most loved and cherished projects. While the good stuff is about to come, I hope what I love doing doesn't get unnoticed. 
-
-### How to contact me? ☎️
-It's pretty easy. Just hit me up on [Twitter](https://twitter.com/Yaaaaaashhh), [LinkedIn](https://www.linkedin.com/in/yash-srivastava1911/) or [Mail](mailto:ysrivastava82@gmail.com). I'll get back to you pretty soon, if I'm not busy.
+## Why this website ?
+This page will serve as a navigator for some of my most loved and cherished projects. While the good stuff is about to come, I hope what I love doing doesn't get unnoticed. 
 
 ## Should you hire me?
 The short answer is yes. 
 Here's a big explanation on what I bring to the table :
+
+- **High Agency :** This is the most important skill for me. If I am working on a project that I like, chances are I'm going to anything to make it happen(no one ever teaches this!). I have a great blend of both research and engineering skills, so if I'm invested in a project, you can bet on me that I'm going to complete it by any means.   
 
 - **Team Player :** I have been part of, and lead teams at college level in ML/AI domain. I have successfully conducted various workshops, and hosted events(details in this page). Apart from that, I've also been part of teams at industrial level(see next point). I know the power of teamwork, and know how to use it to my full advantage.
     
@@ -17,40 +18,11 @@ Here's a big explanation on what I bring to the table :
 
 - **Quantifiable work :** I have achieved [2x Kaggle Expert](https://www.kaggle.com/yashsrivastava51213), created popular Python packages and kernels( which have received appreciation from [Kaggle](https://twitter.com/Yaaaaaashhh/status/1676593869931126786) as well). I have also made open-source projects that have been praised on [HN](https://news.ycombinator.com/item?id=38697922), [GitHub](https://github.com/yash-srivastava19), [Twitter](https://x.com/tailwiinder/status/1759527294287356177?s=20).
   
-
 ## About Me 🙇‍♂️: 
 I am Yashovardhan Srivastava(quite a mouthful, so Yash is good) an undergraduate engineering student in National Institute of Technology, Warangal. From a young age, I have been fascinated by computers. As I grew older, this fascination turned into crush and crush turned into love - and from that moment, I haven't looked back. I believe open source projects has played a significant role in that. They made me fall in love with research, development and much more. Since now I believe I am capable enough to produce some original work, I want to be a part of this beautiful journey, in which all of you play an important role.
 
 All of projects are a result of extreme dedication, meticulousness, and hardwork. Most of them are just random thoughts that I once had, and thought-What If ?
 They do not need recognition, they need discussions. I might have reached a dead end with some of those - but their cycle isn't complete. I have plenty of projects in pipeline, which I hope will be just beautiful as the ones which are already there.
-
-## Experience 👷 : 
-
-- **[NEW!] Project Intern, Solvendo India Private Limited**: Worked with the Machine Learning Team on : a) A production LLM RAG application b) developing time series machine learning models for predict volatility of a stock(Deep Learning Based, GluonTS).
-  
-- **Research Intern, Indian Institute of Technology-Banaras Hindi University**: Worked under Prof. A.K. Singh on a research project on developing a machine translation system for low resource languages such as Hindi, Bhojpuri, Magahi, Maithali.
-
-- **[NEW!] President, Big Data Analytics and Consulting Cell(National Institute of Technolgy, Warangal)** : Lead the BDACC team for the academic year 2024-2025 after being the member for 2 years in a team that has collaborated in several of the student club events such as Kaggle, Pytorch Workshop and Case study competitions, among other initiatives to develop a community of machine learning enthusiasts in NIT Warangal.
-  
-- **Executive Member, Research and Development Cell(National Institute of Technolgy, Warangal)**: Part of Undergraduate Research Association team of NIT Warangal which actively takes part in educating and fostering academic growth among undergraduate students.
-  
-
-
-## Proficiency and Interests ⭐ :
-- Research Interests : Natural Language Processing, Generative AI.
-
-- Learning : Artificial Intelligence Research, Data Science, Natural Language Processing and Machine Learning Research.
-
-- Languages Familiarity :  Spoken(Hindi, English, Very Basic Spanish), Programming(C, C++,Python, R, Julia)
-  
-- Frameworks: Tensorflow, Pytorch, Keras(and anything if given enough time)
-
-## Achievements 🥇
-#### Honours
-- Promoted as the President of Big Data Analytics and Consulting Cell(National Institute of Technology, Warangal) for the year 2024-2025.
-- Received Kaggle Notebook and Dataset Expert with an overall rank of 699 and 573 respectively.
-  
-- Personal Interests : Football, badminton, avid reader, philosophy connoisseur and writing.
 
 ## Career Goals 🥅: 
 Wooh. That's a tough one. There are many things that I like and I feel it is difficult to commit to something. But, there comes a time when we need commit to a field. Balance between exploration and exploitation needs to be made-and for me, that comes from working on research problems. I want to study more, to do things that make me happy.
@@ -63,7 +35,34 @@ Anyone who has studied Engineering(especially in India) will tell how "academica
 
 Another interesting thing that I like is coming up with ideas and test them using the scientific method. The joy of discovering really speaks to the creative side of me, and I would really love if I can make a career in this.   
 
-Those are some of the reasons why I want to be a researcher + engineer. That is, coming up with new ideas, and testing them at various scales of production. This is something that I dream of as of now, but let's see where life takes me. 
+Those are some of the reasons why I want to be a researcher + engineer. That is, coming up with new ideas, and testing them at various scales of production. This is something that I dream of as of now, but let's see where life takes me.
+
+## Experience 👷 : 
+
+- **[NEW!] Project Intern, Solvendo India Private Limited**: Worked with the Machine Learning Team on : a) A production LLM RAG application b) developing time series machine learning models for predict volatility of a stock(Deep Learning Based, GluonTS).
+  
+- **Research Intern, Indian Institute of Technology-Banaras Hindi University**: Worked under Prof. A.K. Singh on a research project on developing a machine translation system for low resource languages such as Hindi, Bhojpuri, Magahi, Maithali.
+
+- **[NEW!] President, Big Data Analytics and Consulting Cell(National Institute of Technolgy, Warangal)** : Lead the BDACC team for the academic year 2024-2025 after being the member for 2 years in a team that has collaborated in several of the student club events such as Kaggle, Pytorch Workshop and Case study competitions, among other initiatives to develop a community of machine learning enthusiasts in NIT Warangal.
+  
+- **Executive Member, Research and Development Cell(National Institute of Technolgy, Warangal)**: Part of Undergraduate Research Association team of NIT Warangal which actively takes part in educating and fostering academic growth among undergraduate students.
+  
+
+## Proficiency and Interests ⭐ :
+- Research Interests : Natural Language Processing, Generative AI.
+
+- Building in : Artificial Intelligence Research, Data Science, Natural Language Processing and Machine Learning Research.
+
+- Languages :  Spoken(Hindi, English, Very Basic Spanish), Programming(C, C++,Python, R, Julia)
+  
+- Frameworks: Tensorflow, Pytorch, Keras(and anything if given enough time)
+
+## Achievements 🥇
+#### Honours
+- Promoted as the President of Big Data Analytics and Consulting Cell(National Institute of Technology, Warangal) for the year 2024-2025.
+- Received Kaggle Notebook and Dataset Expert with an overall rank of 699 and 573 respectively.
+  
+- Personal Interests : Football, badminton, avid reader, philosophy connoisseur and writing. 
 
 ## Reseach Papers I Love 📎
 In no particular order, I am listing doen some really awesome reserach papers that in one way or other have helped me think outside of the box.
