@@ -3,11 +3,12 @@ Some of my learnings about the stuff in tech. Personal, but very helpful for oth
 
 ## Arrakis - A toolkit to conduct, track and visualize mechanistic interpretability experiments.
 
-**Project Name :** Arrakis.
-**Project Description :** Arrakis is a library to conduct, track and visualize mechanistic interpretability experiments.
-**Project Home :** https://github.com/yash-srivastava19/arrakis
-**Project Documentation :** https://arrakis-mi.readthedocs.io/en/latest/README.html
-**PyPI Home :** https://pypi.org/project/arrakis-mi/
+- **Project Name :** Arrakis.
+- **Project Description :** Arrakis is a library to conduct, track and visualize mechanistic interpretability experiments.
+- **Project Home :** [Github Repo](https://github.com/yash-srivastava19/arrakis)
+- **Project Documentation :** [Read the Docs](https://arrakis-mi.readthedocs.io/en/latest/README.html)
+- **PyPI Home :** [PyPi Home](https://pypi.org/project/arrakis-mi/)
+
 ## Introduction
 _"The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge."_ 
                                                                                  -Daniel J. Boorstin
