@@ -153,6 +153,7 @@ Speaking from personal experience, I wasn’t someone who used to have a work et
 
 People are obsessed with prodigies and often believe having such identity can set them apart. They swallow the pill that “they are not smart” and often don’t pursue(or quickly give up) what they want because of this. It takes time, patience, resilience, a deep sense of affection for the craft and most importantly - hard work. Don’t aim to be a prodigy, be Sisyphus :) 
 
+---
 
 ## Leviathan - Let's modify and improve the Transformer model(from scratch).
 Transformers have been the go-to architecture for modern deep learning stack from the moment they were introduced. They are quite powerful, and many successful architectures have been made from them which have been SOTA in their respective domain.
@@ -185,6 +186,7 @@ I want to continue to do more experimentd in this project as it was something th
 
 Apart from that, I’ve also thought of making a separate architecture using Involution scores - which is basically a mix between attention and convolution. Involution is more effective and efficient than CNNs, and is much simpler than self-attention.
 
+---
 
 ## Design for Generality - Dated(06/04/2024)
 Designing is a complicated process, not a complex process. What I mean particularly is that the latter is analogous to difficult, while the former means it just has a lot of moving parts. The basic task of designer is to reduce the entropy of moving parts and make sense of it, without losing much generality. There are many examples you can think of, I would like to go with Transformers.
