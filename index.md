@@ -1,4 +1,4 @@
-# Pages
+# Home
 I do write a lot of stuff, both technical and non-technical, so do check them out. Here are my [technical blogs](./blogs.html), and here is my unofficial [diary](./diary.html). Apart from that, If you want to contact me, here are my [socials](./contact.html)
 
 ## Why this website ?
@@ -16,7 +16,7 @@ Here's a big explanation on what I bring to the table :
 
 - **Thinking Fast and Slow :** I've worked on various projects independently, both research and engineering(references in this page itself, so scroll down) and my work has been appereciated by the open source community as well(see next point). I'm someone who is great both in zero shot and chain of thought abilities, so you can bet on me.
 
-- **Quantifiable work :** I have achieved [2x Kaggle Expert](https://www.kaggle.com/yashsrivastava51213), created popular Python packages and kernels( which have received appreciation from [Kaggle](https://twitter.com/Yaaaaaashhh/status/1676593869931126786) as well). I have also made open-source projects that have been praised on [HN](https://news.ycombinator.com/item?id=38697922), [GitHub](https://github.com/yash-srivastava19), [Twitter](https://x.com/tailwiinder/status/1759527294287356177?s=20).
+- **Quantifiable work :** I have achieved [2x Kaggle Expert](https://www.kaggle.com/yashsrivastava51213), created popular Python packages and kernels( which have received appreciation from [Kaggle](https://twitter.com/Yaaaaaashhh/status/1676593869931126786) as well). I have also made open-source projects that have been praised on [HN](https://news.ycombinator.com/item?id=38697922), [GitHub](https://github.com/yash-srivastava19), [Twitter](https://x.com/tailwiinder/status/1759527294287356177?s=20) (multiple instances on Twitter).
   
 ## About Me 🙇‍♂️: 
 I am Yashovardhan Srivastava(quite a mouthful, so Yash is good) an undergraduate engineering student in National Institute of Technology, Warangal. From a young age, I have been fascinated by computers. As I grew older, this fascination turned into crush and crush turned into love - and from that moment, I haven't looked back. I believe open source projects has played a significant role in that. They made me fall in love with research, development and much more. Since now I believe I am capable enough to produce some original work, I want to be a part of this beautiful journey, in which all of you play an important role.
@@ -49,7 +49,7 @@ Those are some of the reasons why I want to be a researcher + engineer. That is,
   
 
 ## Proficiency and Interests ⭐ :
-- Research Interests : Natural Language Processing, Generative AI.
+- Research Interests : Natural Language Processing, Mechanistic Interpretability.
 
 - Building in : Artificial Intelligence Research, Data Science, Natural Language Processing and Machine Learning Research.
 
@@ -67,6 +67,8 @@ Those are some of the reasons why I want to be a researcher + engineer. That is,
 ## Reseach Papers I Love 📎
 In no particular order, I am listing doen some really awesome reserach papers that in one way or other have helped me think outside of the box.
 
+ - **[Interpretability in the Wild - IOI Circuit Identification](https://arxiv.org/pdf/2211.00593)** : A very detailed and understandable paper on circuit identification for mechanistic interpretability. Highly recommended if you want to understand how to design your own experiments.
+
   - **[The Hardware Lottery](https://arxiv.org/pdf/2009.06489.pdf)** : Probably one of my favorite papers till day. The way Sara Hookor explained how AI/ML research should proceed, and how is it going till now is a real eye opener. Highly highly recommend if you want to look at the bigger picture of AI research. 
   
   - **[Scaling Scaling Laws For Board Games](https://arxiv.org/pdf/2104.03113)** : Andy Jones is a genius. This paper explained how we can use shorter experiments to predict outcomes of larger experiments - which are resource heavy. Highly recommend if you want learn how scale up works in real life. 
@@ -83,6 +85,8 @@ In no particular order, I am listing doen some really awesome reserach papers th
 
 ## Projects 🧰
 Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
+  - [**Arrakis**](https://github.com/yash-srivastava19/arrakis) (Looking for contributors) : Arrakis is a library to conduct, track and visualize mechanistic interpretability experiments.
+
   - [**Secure BPE**](https://github.com/yash-srivastava19/sec_bpe) (Work in Progress) : A modified, secure version of Byte Pair Encoding algorithm.
     
   - [**Collaborative Debating**](https://github.com/yash-srivastava19/collaborative-debating) (Work in Progress) : A hacky implementation of the paper "Improving Factuality and Reasoning in Language Models through Multiagent Debate".
@@ -99,7 +103,7 @@ Here I'll pin some of my favorite projects, more on the research 👨‍🔬 sid
 
 Here I'll pin some of my favorite projects, more on the development 💻 side. Feedback is always appreciated for projects like these.:
 
-  - [**Gm Tunes**](https://github.com/yash-srivastava19/gym_tunes) : GymTunes is a simple AI agent that schedules a random playlist into your GCalendar based on your vibe. 
+  - [**Gym Tunes**](https://github.com/yash-srivastava19/gym_tunes) : GymTunes is a simple AI agent that schedules a random playlist into your GCalendar based on your vibe. 
   
   - [**AI GF**]((https://github.com/yash-srivastava19/ai_gf)) : A small weekend project that through which youcan creaate a virtual girlfriend(not made for imitation, but for learning)
   
