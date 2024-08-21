@@ -86,6 +86,10 @@ In no particular order, I am listing doen some really awesome reserach papers th
 ## Projects 🧰
 Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
   - [**Arrakis**](https://github.com/yash-srivastava19/arrakis) (Looking for contributors) : Arrakis is a library to conduct, track and visualize mechanistic interpretability experiments.
+    
+  - [**Deeprobe**](https://github.com/yash-srivastava19/deeprobe) (Looking for ideas) : Deeprobe is a study to understand feature importance and pattern undderstaing in Sparse Autoencoders using Monte Carlo Tree Search.
+       
+  - [**SAE Macaronic Languages**](https://github.com/yash-srivastava19/sae-macaronic-analysis) : Understand whether language models learn words beyond language barriers, a study in Mechanistic Interpretability.
 
   - [**Secure BPE**](https://github.com/yash-srivastava19/sec_bpe) (Work in Progress) : A modified, secure version of Byte Pair Encoding algorithm.
     
@@ -103,6 +107,12 @@ Here I'll pin some of my favorite projects, more on the research 👨‍🔬 sid
 
 Here I'll pin some of my favorite projects, more on the development 💻 side. Feedback is always appreciated for projects like these.:
 
+  - [**Dynamo**](https://github.com/yash-srivastava19/Dynamo) : Dynamo is a Python/Rust implementation of a load balancer and autoscaler for MySQL web tier. 
+  
+  - [**Safe SQLO**](https://github.com/yash-srivastava19/safe_sql) : Safe SQL provides sanity checks for common DB pitfalls(so you don't delete prod DB) ; available as a python package(CLI included)
+  
+  - [**Stock Tank**](https://github.com/yash-srivastava19/stock-tank) : End to End ML pipeline to predict stock p[rices. Automate retraining, evals andd more(Github Actions). Web App available as well.  
+  
   - [**Gym Tunes**](https://github.com/yash-srivastava19/gym_tunes) : GymTunes is a simple AI agent that schedules a random playlist into your GCalendar based on your vibe. 
   
   - [**AI GF**]((https://github.com/yash-srivastava19/ai_gf)) : A small weekend project that through which youcan creaate a virtual girlfriend(not made for imitation, but for learning)
