@@ -1,12 +1,8 @@
 # Home
 I do write a lot of stuff, both technical and non-technical, so do check them out. Here are my [technical blogs](./blogs.html), and here is my unofficial [diary](./diary.html). Apart from that, If you want to contact me, here are my [socials](./contact.html)
 
-## Why this website ?
-This page will serve as a navigator for some of my most loved and cherished projects. While the good stuff is about to come, I hope what I love doing doesn't get unnoticed. 
-
 ## Should you hire me?
-The short answer is yes. 
-Here's a big explanation on what I bring to the table :
+The answer is written below. Here's my [resume](https://drive.google.com/file/d/1MMBYq2WtWBbPKZptncy7iOb7gxAUHr03/view?usp=sharing) if you prefer it that way:
 
 - **High Agency :** This is the most important skill for me. If I am working on a project that I like, chances are I'm going to anything to make it happen(no one ever teaches this!). I have a great blend of both research and engineering skills, so if I'm invested in a project, you can bet on me that I'm going to complete it by any means.   
 
@@ -16,8 +12,82 @@ Here's a big explanation on what I bring to the table :
 
 - **Thinking Fast and Slow :** I've worked on various projects independently, both research and engineering(references in this page itself, so scroll down) and my work has been appereciated by the open source community as well(see next point). I'm someone who is great both in zero shot and chain of thought abilities, so you can bet on me.
 
-- **Quantifiable work :** I have achieved [2x Kaggle Expert](https://www.kaggle.com/yashsrivastava51213), created popular Python packages and kernels( which have received appreciation from [Kaggle](https://twitter.com/Yaaaaaashhh/status/1676593869931126786) as well). I have also made open-source projects that have been praised on [HN](https://news.ycombinator.com/item?id=38697922), [GitHub](https://github.com/yash-srivastava19), [Twitter](https://x.com/tailwiinder/status/1759527294287356177?s=20) (multiple instances on Twitter).
+- **Quantifiable work :** I have achieved [2x Kaggle Expert](https://www.kaggle.com/yashsrivastava51213), created popular Python packages and kernels( which have received appreciation from [Kaggle](https://twitter.com/Yaaaaaashhh/status/1676593869931126786) as well). I have also made open-source projects that have been praised on [HN](https://news.ycombinator.com/item?id=38697922), [GitHub](https://github.com/yash-srivastava19), [Twitter](https://x.com/tailwiinder/status/1759527294287356177?s=20) (multiple instances on Twitter).   
+
+Here's my [resume](https://drive.google.com/file/d/1MMBYq2WtWBbPKZptncy7iOb7gxAUHr03/view?usp=sharing) if you don't want me to yap about my projects lol. 
+
+## Projects 🧰
+Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
+
+  - [**Arrakis**](https://github.com/yash-srivastava19/arrakis) (Looking for contributors) : Arrakis is a library to conduct, track and visualize mechanistic interpretability experiments. 17+ stars on Github ; 150+ monthly PyPi downloads.
+    
+  - [**Deeprobe**](https://github.com/yash-srivastava19/deeprobe) (Looking for ideas) : Deeprobe is a study to understand feature importance and pattern undderstaing in Sparse Autoencoders using Monte Carlo Tree Search.
+       
+  - [**SAE Macaronic Languages**](https://github.com/yash-srivastava19/sae-macaronic-analysis) : Understand whether language models learn words beyond language barriers, a study in Mechanistic Interpretability.
+
+  - [**Secure BPE**](https://github.com/yash-srivastava19/sec_bpe) (Work in Progress) : A modified, secure version of Byte Pair Encoding algorithm.
+    
+  - [**Collaborative Debating**](https://github.com/yash-srivastava19/collaborative-debating) (Work in Progress) : A hacky implementation of the paper "Improving Factuality and Reasoning in Language Models through Multiagent Debate".
+    
+  - [**NEAT-JAX**](https://github.com/yash-srivastava19/NEAT-JAX) (Working 
+ on PR) : An implementation of Neuroevolution of Augmented Topologies Algorithm in JAX which is compatible with EvoJAX. 10+ Github stars ; PRs
+     
+  - [**Nexus Theory**](https://github.com/yash-srivastava19/nexus-theory) : Can we really trust our human-ness for the messages that we send into the cosmos? Nexus theory is a gamified version to understand machine learning interpretability using Large Language Models.
+
+  -  [**Elixr**](https://github.com/yash-srivastava19/Elixir) : Elixr an autograd library using Complex Numbers similar to Pytorch. 3+ Github stars ; Multiple PRs
+
+  -  [**Attention Free Revolution**](https://github.com/yash-srivastava19/attention-free-revolution) : Developed *Leviathan* architectures, and alternate to Transformer architecture using a modified attention scores, taking inspiration from signal processing. 7+ Github stars
+
+  -  [**P-GLAm**](https://github.com/yash-srivastava19/P-GLAm) : P-GLAm is a random thought experiment on Infinite Monkey Theorem. In this, I developed a GPT-2 inspired Large Language Model which aims to test the arithmetic correctness.
+
+Here I'll pin some of my favorite projects, more on the development 💻 side. Feedback is always appreciated for projects like these.:
+
+  - [**Dynamo**](https://github.com/yash-srivastava19/Dynamo) : Dynamo is a Python/Rust implementation of a load balancer and autoscaler for MySQL web tier. 
   
+  - [**Safe SQL**](https://github.com/yash-srivastava19/safe_sql) : Safe SQL provides sanity checks for common DB pitfalls(so you don't delete prod DB) ; available as a python package(CLI included). 220+ monthly PyPI Downloads.
+  
+  - [**Stock Tank**](https://github.com/yash-srivastava19/stock-tank) : End to End ML pipeline to predict stock prices(upto 30 days). Automate retraining, evals andd more(Github Actions). Streamlit Web App available as well.  
+  
+  - [**Gym Tunes**](https://github.com/yash-srivastava19/gym_tunes) : GymTunes is a simple AI agent that schedules a random playlist into your GCalendar based on your vibe. 
+  
+  - [**AI GF**]((https://github.com/yash-srivastava19/ai_gf)) : A small weekend project that through which youcan creaate a virtual girlfriend(not made for imitation, but for learning)
+  
+  - [**Synapse**](https://github.com/yash-srivastava19/Synapse) : Synapse is hackernews-type platform that can be used by any community as a forum. Tried making this for my college, but need more inspiration.
+  
+  - [**Pandora**](https://github.com/yash-srivastava19/pandora) : Pandora is domain agnostic framework for case study generation and solving.
+    
+  - [**Verizon**](https://github.com/yash-srivastava19/verizon) : A Git like version control system, from scratch, in Python, spelled out.
+    
+  - [**YeetCode**](https://github.com/yash-srivastava19/yeetcode) : YeetCode is a sassy version of Python made for all GenZ people. The aim is to create a new programming language which is bussin'.
+
+  - [**Blaze**](https://github.com/yash-srivastava19/blaze) : Developed a RAG(Retrieval Augmentation Generation) system by using Cohere LLM and Metaphor as a part of recruitement process for Metaphor, which is made using Langchain, Chainlit and deployed on Huggingface. 8+ Github stars.
+  
+  - [**CodeSmith**](https://github.com/yash-srivastava19/CodeSmith) : Developed a ChatGPT-inspired chatbot trained on a Python programming problems on custom created dataset, made using Langchain, and deployed on Huggingface.
+
+  - [**Alzhemist**](https://github.com/yash-srivastava19/Alzhemist) : One of the first projects that got me in to the world of Attention. A Deep Learning Model to see which classifies Brain MRI on the basis of the dementia (AD). The images are classified as follows - Mildly Demented, Moderate Demented, Non Demented, Very Mild Demented.
+    
+  - [**Maxwell**](https://github.com/yash-srivastava19/Maxwell) : One of my most priced possession. Maxwell is twisted take on **One Shot Frequency Dominant Neighborhood Search**. The scheme provided in the paper is a bit modified to generate fingerprint for an image.
+    
+  - [**SpiceyDicey**](https://github.com/yash-srivastava19/SpicyDicey) : SpicyDicey is a end to end machine learning project that aims to predicts the number that appears on a dice. All of the work in collecting the data and editing the images has been done individually and from scratch.
+    
+Here are some of the awesome notebooks 📓 I've made on Kaggle(I'm a 2x Kaggle Expert also !!) :
+
+  - [**FC Barcelona is Back!**](https://www.kaggle.com/code/yashsrivastava51213/part1-fc-barcelona-is-back-sports-data-analytics) : Analyzed FC Barcelona’s LaLiga performance in the 2022-23 season on Kaggle, achieving Bronze Medal and 200+ views apart from receiving recognition from Kaggle.
+
+  - [**BART Pretrainig from Scratch**](https://www.kaggle.com/code/yashsrivastava51213/bart-pretraining-from-scratch) : Developed a BART model from scratch using Huggingface on Shakespere dataset in a notebook on Kaggle, which received a silver medal and 600+ views.
+    
+  - [**Tensorflow Recommendation System**](https://www.kaggle.com/code/yashsrivastava51213/tensorflow-recommendation-system-on-movielens) :  Demonstrated on using Tensorflow Recommendation System in a Kaggle notebook that gained bronze medal, and 500+ views.
+
+## Experience 👷 : 
+
+- **Project Intern, Solvendo India Private Limited**: Worked with the Machine Learning Team on : a) A production LLM RAG application b) developing time series machine learning models for predict volatility of a stock(Deep Learning Based, GluonTS).
+  
+- **Research Intern, Indian Institute of Technology-Banaras Hindi University**: Worked under Prof. A.K. Singh on a research project on developing a machine translation system for low resource languages such as Hindi, Bhojpuri, Magahi, Maithali.
+
+- **President, Big Data Analytics and Consulting Cell(National Institute of Technolgy, Warangal)** : Lead the BDACC team for the academic year 2024-2025 after being the member for 2 years in a team that has collaborated in several of the student club events such as Kaggle, Pytorch Workshop and Case study competitions, among other initiatives to develop a community of machine learning enthusiasts in NIT Warangal.
+  
+- **Executive Member, Research and Development Cell(National Institute of Technolgy, Warangal)**: Part of Undergraduate Research Association team of NIT Warangal which actively takes part in educating and fostering academic growth among undergraduate students.
+
 ## About Me 🙇‍♂️: 
 I am Yashovardhan Srivastava(quite a mouthful, so Yash is good) an undergraduate engineering student in National Institute of Technology, Warangal. From a young age, I have been fascinated by computers. As I grew older, this fascination turned into crush and crush turned into love - and from that moment, I haven't looked back. I believe open source projects has played a significant role in that. They made me fall in love with research, development and much more. Since now I believe I am capable enough to produce some original work, I want to be a part of this beautiful journey, in which all of you play an important role.
 
@@ -37,24 +107,10 @@ Another interesting thing that I like is coming up with ideas and test them usin
 
 Those are some of the reasons why I want to be a researcher + engineer. That is, coming up with new ideas, and testing them at various scales of production. This is something that I dream of as of now, but let's see where life takes me.
 
-## Experience 👷 : 
-
-- **[NEW!] Project Intern, Solvendo India Private Limited**: Worked with the Machine Learning Team on : a) A production LLM RAG application b) developing time series machine learning models for predict volatility of a stock(Deep Learning Based, GluonTS).
-  
-- **Research Intern, Indian Institute of Technology-Banaras Hindi University**: Worked under Prof. A.K. Singh on a research project on developing a machine translation system for low resource languages such as Hindi, Bhojpuri, Magahi, Maithali.
-
-- **[NEW!] President, Big Data Analytics and Consulting Cell(National Institute of Technolgy, Warangal)** : Lead the BDACC team for the academic year 2024-2025 after being the member for 2 years in a team that has collaborated in several of the student club events such as Kaggle, Pytorch Workshop and Case study competitions, among other initiatives to develop a community of machine learning enthusiasts in NIT Warangal.
-  
-- **Executive Member, Research and Development Cell(National Institute of Technolgy, Warangal)**: Part of Undergraduate Research Association team of NIT Warangal which actively takes part in educating and fostering academic growth among undergraduate students.
-  
-
 ## Proficiency and Interests ⭐ :
 - Research Interests : Natural Language Processing, Mechanistic Interpretability.
-
 - Building in : Artificial Intelligence Research, Data Science, Natural Language Processing and Machine Learning Research.
-
 - Languages :  Spoken(Hindi, English, Very Basic Spanish), Programming(C, C++,Python, R, Julia)
-  
 - Frameworks: Tensorflow, Pytorch, Keras(and anything if given enough time)
 
 ## Achievements 🥇
@@ -81,68 +137,4 @@ In no particular order, I am listing doen some really awesome reserach papers th
  
   - **[Recsim-A configurable platform for recommender systems](https://arxiv.org/pdf/1909.04847.pdf)** : This opened my eyes. I was in awe when I found out we can use reinforcement learning in recommendation setting. I even emailed the author of the paper thanking and asking him what he thinks whether this will be used in future recommendation systems. Google Research for the WIN.
     
-  - **[Improving Low-Resource NMT through Relevance Based Linguistic Features Incorporation](https://aclanthology.org/2020.coling-main.376.pdf)**: This was a really well written and structured paper, which I was able to understand easily, and even used for testing in my internship project. 
-
-## Projects 🧰
-Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
-  - [**Arrakis**](https://github.com/yash-srivastava19/arrakis) (Looking for contributors) : Arrakis is a library to conduct, track and visualize mechanistic interpretability experiments.
-    
-  - [**Deeprobe**](https://github.com/yash-srivastava19/deeprobe) (Looking for ideas) : Deeprobe is a study to understand feature importance and pattern undderstaing in Sparse Autoencoders using Monte Carlo Tree Search.
-       
-  - [**SAE Macaronic Languages**](https://github.com/yash-srivastava19/sae-macaronic-analysis) : Understand whether language models learn words beyond language barriers, a study in Mechanistic Interpretability.
-
-  - [**Secure BPE**](https://github.com/yash-srivastava19/sec_bpe) (Work in Progress) : A modified, secure version of Byte Pair Encoding algorithm.
-    
-  - [**Collaborative Debating**](https://github.com/yash-srivastava19/collaborative-debating) (Work in Progress) : A hacky implementation of the paper "Improving Factuality and Reasoning in Language Models through Multiagent Debate".
-    
-  - [**NEAT-JAX**](https://github.com/yash-srivastava19/NEAT-JAX) (Work in Progress) : An implementation of Neuroevolution of Augmented Topologies Algorithm in JAX which is compatible with EvoJAX.
-     
-  - [**Nexus Theory**](https://github.com/yash-srivastava19/nexus-theory) : Can we really trust our human-ness for the messages that we send into the cosmos? Nexus theory is a gamified version to understand   machine learning interpretability using Large Language Models.
-
-  -  [**Elixr**](https://github.com/yash-srivastava19/Elixir) : Elixr an autograd library using Complex Numbers similar to Pytorch.
-
-  -  [**Attention Free Revolution**](https://github.com/yash-srivastava19/attention-free-revolution) : Developed *Leviathan* architectures, and alternate to Transformer architecture using a modified attention scores, taking inspiration from signal processing.  
-
-  -  [**P-GLAm**](https://github.com/yash-srivastava19/P-GLAm) : P-GLAm is a random thought experiment on Infinite Monkey Theorem. In this, I developed a GPT-2 inspired Large Language Model which aims to test the arithmetic correctness.
-
-Here I'll pin some of my favorite projects, more on the development 💻 side. Feedback is always appreciated for projects like these.:
-
-  - [**Dynamo**](https://github.com/yash-srivastava19/Dynamo) : Dynamo is a Python/Rust implementation of a load balancer and autoscaler for MySQL web tier. 
-  
-  - [**Safe SQLO**](https://github.com/yash-srivastava19/safe_sql) : Safe SQL provides sanity checks for common DB pitfalls(so you don't delete prod DB) ; available as a python package(CLI included)
-  
-  - [**Stock Tank**](https://github.com/yash-srivastava19/stock-tank) : End to End ML pipeline to predict stock p[rices. Automate retraining, evals andd more(Github Actions). Web App available as well.  
-  
-  - [**Gym Tunes**](https://github.com/yash-srivastava19/gym_tunes) : GymTunes is a simple AI agent that schedules a random playlist into your GCalendar based on your vibe. 
-  
-  - [**AI GF**]((https://github.com/yash-srivastava19/ai_gf)) : A small weekend project that through which youcan creaate a virtual girlfriend(not made for imitation, but for learning)
-  
-  - [**Synapse**](https://github.com/yash-srivastava19/Synapse) : Synapse is hackernews-type platform that can be used by any community as a forum. Tried making this for my college, but need more inspiration.
-  
-  - [**Pandora**](https://github.com/yash-srivastava19/pandora) : Pandora is domain agnostic framework for case study generation and solving.
-    
-  - [**Verizon**](https://github.com/yash-srivastava19/verizon) : A Git like version control system, from scratch, in Python, spelled out.
-    
-  - [**YeetCode**](https://github.com/yash-srivastava19/yeetcode) : YeetCode is a sassy version of Python made for all GenZ people. The aim is to create a new programming language which is bussin'.
-
-  - [**Blaze**](https://github.com/yash-srivastava19/blaze) : Developed a RAG(Retrieval Augmentation Generation) system by using Cohere LLM and Metaphor as a part of recruitement process for Metaphor, which is made using Langchain, Chainlit and deployed on Huggingface.
-  
-  - [**CodeSmith**](https://github.com/yash-srivastava19/CodeSmith) : Developed a ChatGPT-inspired chatbot trained on a Python programming problems on custom created dataset, made using Langchain, and deployed on Huggingface.
-
-  - [**Alzhemist**](https://github.com/yash-srivastava19/Alzhemist) : One of the first projects that got me in to the world of Attention. A Deep Learning Model to see which classifies Brain MRI on the basis of the dementia (AD). The images are classified as follows - Mildly Demented, Moderate Demented, Non Demented, Very Mild Demented.
-    
-  - [**Maxwell**](https://github.com/yash-srivastava19/Maxwell) : One of my most priced possession. Maxwell is twisted take on **One Shot Frequency Dominant Neighborhood Search**. The scheme provided in the paper is a bit modified to generate fingerprint for an image.
-    
-  - [**SpiceyDicey**](https://github.com/yash-srivastava19/SpicyDicey) : SpicyDicey is a end to end machine learning project that aims to predicts the number that appears on a dice. All of the work in collecting the data and editing the images has been done individually and from scratch.
-    
-Here are some of the awesome notebooks 📓 I've made on Kaggle(I'm a 2x Kaggle Expert also !!) :
-
-  - [**FC Barcelona is Back!**](https://www.kaggle.com/code/yashsrivastava51213/part1-fc-barcelona-is-back-sports-data-analytics) : Analyzed FC Barcelona’s LaLiga performance in the 2022-23 season on Kaggle, achieving Bronze Medal and 200+ views apart from receiving recognition from Kaggle.
-
-  - [**BART Pretrainig from Scratch**](https://www.kaggle.com/code/yashsrivastava51213/bart-pretraining-from-scratch) : Developed a BART model from scratch using Huggingface on Shakespere dataset in a notebook on Kaggle, which received a silver medal and 600+ views.
-    
-  - [**Tensorflow Recommendation System**](https://www.kaggle.com/code/yashsrivastava51213/tensorflow-recommendation-system-on-movielens) :  Demonstrated on using Tensorflow Recommendation System in a Kaggle notebook that gained bronze medal, and 500+ views.
-
-  Much is yet to come, so keep an 👀
-
-
+  - **[Improving Low-Resource NMT through Relevance Based Linguistic Features Incorporation](https://aclanthology.org/2020.coling-main.376.pdf)**: This was a really well written and structured paper, which I was able to understand easily, and even used for testing in my internship project.
