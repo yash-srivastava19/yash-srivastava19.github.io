@@ -1,7 +1,15 @@
 remote_theme: b2a3e8/jekyll-theme-console
 plugins:
 - jekyll-remote-theme
-title: Yashovardhan Srivastava.
+header_pages:
+  - index.md
+  - contact.md
+  - blogs.md
+  - diary.md
+style: hacker
+listen_for_clients_preferred_style: true
+footer: 'follow me on <a href="https://x.com/Yaaaaaashhh">twitter</a>'
+title: Yashovardhan Srivastava
 description: A genius, shy and broke bloke.
 permalink: /404.html
 lsi: false
