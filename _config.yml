@@ -1,6 +1,4 @@
-remote_theme: yous/whiteglass
-plugins:
-- jekyll-remote-theme
+theme: jekyll-whiteglass
 title: Yashovardhan Srivastava
 description: A genius, shy and broke bloke.
 permalink: /404.html
