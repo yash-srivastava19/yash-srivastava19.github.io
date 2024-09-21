@@ -1,4 +1,4 @@
-# Technical Blogs
+# Blogs
 Some of my learnings about the stuff in tech. Personal, but very helpful for others as well.
 
 ## Arrakis - A toolkit to conduct, track and visualize mechanistic interpretability experiments.
