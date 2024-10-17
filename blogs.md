@@ -1756,7 +1756,7 @@ print(y, y_dot)
 
 ```
 
-### Implementing `vjp` and `grad`
+#### Implementing `vjp` and `grad`
 
 The `vjp` transformation is very similar to linearize, with the only difference being the fact that  we transpose the linear part of the computation before returning it, so our implementation is pretty straightforward. Also, since we have the linear computation as a JaxPr, we can implement the transpose transformation as a JaxPr interpreter. The use of `UndefPrimal` instance is to indicate which arguments we want to transpose(and with respect to what). We also register this as a pytree node as that gives us a handy way to prune these placeholders out of argument lists.
 
