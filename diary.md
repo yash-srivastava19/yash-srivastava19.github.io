@@ -1,5 +1,19 @@
 ## Diary
 
+### Love on the Cusp of Goodbyes [Date - 09-11-2024]
+
+There's something about goodbyes that just makes me feel hollow. Growing up, I never knew how to express (or receive) love, so I always had a bitter sweet relationship with it. Love is a little more complicated than that in the sense that you are always surrounded by it, more so when you think you don't deserve any of it.
+
+Being the kind of person I am, it took me forever to realise just how much I was surrounded by love, I just never had the ability to see it. There's a small catch to this - it all seems to go well till it's time to say goodbye.
+
+There's something beautiful about unexpressed love that makes you overcompensate for love you didn't act on before. There's guilt, there's closure and there's hope that things are the same, even though you promise you'll be better at expressing it moving forward. Each glance on your loved one invokes an emotion you never had before.
+
+Unexpressed love comes in all shapes and sizes. You can see it in your parents when they're packing more "food" just so you never feel homesick. It is in that extra "long" hug at airports and stations, and in that "one last walk" at farewell parties. Nothing can ever prepare you for this hollow feeling, and no amount of "last minute" love can make up for it.
+
+That's beautiful in its own way. The guilt, or the grief means that there's always going to be a part of them in you.  It's just so beautiful how emotions work. The only way you make sure someone's memory always stays with you is to have some pain attached to it.
+
+--- 
+
 ### Will [Date - 11-10-2024]
 
 One of the key areas I worked on is understanding the importance of will. I've always been an ambitious person, and have often taken up goals which have at that time seemed impossible. I've achieved many of my goals, and have failed a lot more. I've learned a lot of shortcomings from my failures, but have gained a lot of wisdom from my wins. Goals are two edged sword, because they make you both confident and entitled - and that is a really interesting combination. Goals and accomplishments seldom come with a survivorship bias tag, and that's ever scary.
@@ -13,6 +27,8 @@ Most of the time in life, we chase goals on the sole basis of what results they 
 Finding will is the most difficult part. You need to go on a long and exhausting journey of self discovery - which in the beginning will feel very confusing and unnecessary, but it is actually important to understand your fulfillment needs. The fear of missing out on things to pursue what you like seems a lot selfish, and at times wasteful but I strongly believe the opportunity cost of fulfillment far outweighs the endless pursuit of accomplishments.
 
 Life's always been about understanding yourself and giving back to people you love. Pursuing what you want from life is the greatest form of self love you can practice.
+
+---
 
 ### The Right Time [Date - 21-09-2024]
 
@@ -28,6 +44,8 @@ Once you start seeing obstacles as growth opportunities, you'll always feel cont
 
 This was an eye-opener for me. There is no "right time" and you are never "late" for anything in life. You create your life with what you have, and your life canvas should be a testament to that. Your canvas should be a representation of you - your suffering, your happiness, your shortcomings, your successes and most importantly your experiences. If you craft your life experiences through other people's lenses, you will regret decisions you never made in the first place.
 
+---
+
 ### The Cost of Living Life Freely [Date - 03-09-2024]
 
 I've lived most of my life some or the other dilemma. Questions like "What if I lose X if I chase Y" are really anxiety inducing for me. I've lived through life being scared by something or other that I forgot to extract happiness out of small things in life. Life had always been about chase X then chase Y and then chase Z and so on... I only thought of life as a series of achievements and thought that the only thing that is stopping me from achieving greatness is hard work. A deadly combo for life, but a feast for my anxiety.
@@ -37,6 +55,8 @@ I've had several experiences in life to formulate that this is not always the ca
 We are often scared to face the reality as it is very different from our expectations. The confrontation is hard, so the trivial remedy for it is ignorance. There is a saying that ignorance is bliss, but the problem with ignorance is that it compounds the feeling when we confront it in the future. Keep bottling things up and one day it'll burst with a loud bang.
 
 To live life, enjoy the overall human experience. Go out, have fun, work on things you like and always seek happiness in the discomfort life gives you.
+
+---
 
 ### Love is an act of giving even when you are starved [Date - 09-05-2024]
 
@@ -52,6 +72,8 @@ Love is just unfledged version of responsibility. Ego love is based on expectati
 
 Love is endless if you seek it with pure intentions, but don't get scared later if it evolves into responsibility. Love requires effort and dedication, and although it can be overwhelming at times, but for soldiers of love, it's just another day at the office of absurdity.
 
+---
+
 ### What if love never finds us? [Date - 01-04-2024]
 
 No, like seriously - what if love never finds you? It’s a stupid question to ask, but a difficult one to answer. Love is messy, it’s awful, but still we chase it a lot. Most love is just there, but to receive it, is a privilege. It hurts you a lot, even unintentionally, even when you pursue it with the purest of intentions. Even in the most nurturing conditions, you can experience Lingchi. But still, we pursue it.
@@ -59,6 +81,8 @@ No, like seriously - what if love never finds you? It’s a stupid question to a
 We are complex creatures, there are many things we do that make sense, but some things just don't. Even in the strangest, to the most vile environments, we can find hope. Perseverance. That’s human. You can say all that you don’t deserve love, but you do. Love is not superficial - it is thorough. It has power to both keep you afloat, or make you sink deep into its trenches - but it will not keep you dry. Love on its own is intrinsic, but if it includes other feelings, things get a lot messy - whether it is ego, or expectation, or judgment.
 
 The good news is that Love will find you. Maybe not in the form you expect, because it is much deeper than that. It shows when you least expect it, but the only way to ensure you receive it, is to just give it. It’s a contagious chain reaction.
+
+---
 
 ### Past Lives [Date - 08-03-2024]
 
@@ -68,6 +92,8 @@ You can’t define people because a definition binds them to being unchanged - w
 
 Everyone wants to go back to simpler times, but no one wants to take a deep breath, believe in themselves, and take that leap of faith. Be happy, I know even though it is hard.
 
+---
+
 ### Childhood Conversations [Date - 18-02-2024]
 
 A lot of time has passed since I’ve sat down and enjoyed the warm sunny breeze in winter afternoons, and even longer since I’ve watched a show or eaten something peacefully. Life is pretty fast and there’s no catching up to it. If you are lucky, you will cherish the memories in retrospect or you will make yourself believe that those memories are golden. For every person who loves to romanticize life, was once in a rut and wanted to live the best life. For every poet who loves to find beauty in the passage of time, was once trying to make sense of life through literature. We all become a version of what we thought we would become - just that not everything is there. The earlier picture was much simpler, and now it just has too many moving parts. An actor is someone who pretends they are content, and a painter is just someone who calls the mess an art.
@@ -75,6 +101,8 @@ A lot of time has passed since I’ve sat down and enjoyed the warm sunny breeze
 For what is the use of that child-like innocence when people take advantage of you. We all live our lives shielding our inner selves to the atrocities of the world, failing to realize the shield also leaves scars - and that too deep ones.
 
 There’s nothing we can do, O there’s nothing we can do.
+
+---
 
 ### The Life in Review Interview [Date - 15-01-2024]
 
@@ -84,6 +112,7 @@ That's life. On surface it seems like there should always be something to look f
 
 Imagine having to sit down for an interview at the end of your life having to describe yourself, maybe giving a life in review interview, and all you had was a mixed bag of unprocessed emotions and achievements, which at this point, even you can't feel connected to - and I don't think that is something someone should strive for. Your life in review should a collection of memories at which you can laugh, cry or get embarrassed in retrospect, it is more about you as a person than about your armor of possession you have to shield you from your true self. Life is way too short for waiting for the next big thing to happen - create it yourself. Go out there and do some main character shit.
 
+---
 
 ### Letter to Myself on my 21 Birthday [Date - 19-11-2023]
 
@@ -155,6 +184,8 @@ Do I think I’ve lived a ‘hell of a life’ - absolutely yes. Many experience
 Listen to all of lessons in a Spotify playlist [here](https://open.spotify.com/playlist/5BObFQSzflNhGhJct3jWrU?si=7437fcc2eedf467b).
 
 ![playlist](https://github.com/yash-srivastava19/yash-srivastava19.github.io/assets/85068689/79a16914-f706-40cf-ba41-c1d71bfe49f1)
+
+---
 
 ### Will AI ever shade their child when they are sleeping ? [Date - 17-09-2023]
 
