@@ -46,11 +46,11 @@ Here I'll pin some of my favorite projects, more on the development 💻 side. F
   
   - [**Safe SQL**](https://github.com/yash-srivastava19/safe_sql) : Safe SQL provides sanity checks for common DB pitfalls(so you don't delete prod DB) ; available as a python package(CLI included). 220+ monthly PyPI Downloads.
   
-  - [**Stock Tank**](https://github.com/yash-srivastava19/stock-tank) : End to End ML pipeline to predict stock prices(upto 30 days). Automate retraining, evals andd more(Github Actions). Streamlit Web App available as well.  
+  - [**Stock Tank**](https://github.com/yash-srivastava19/stock-tank) : End to End ML pipeline to predict stock prices(upto 30 days). Automate retraining, evals and more(Github Actions). Streamlit Web App available as well.  
   
   - [**Gym Tunes**](https://github.com/yash-srivastava19/gym_tunes) : GymTunes is a simple AI agent that schedules a random playlist into your GCalendar based on your vibe. 
   
-  - [**AI GF**]((https://github.com/yash-srivastava19/ai_gf)) : A small weekend project that through which youcan creaate a virtual girlfriend(not made for imitation, but for learning)
+  - [**AI GF**]((https://github.com/yash-srivastava19/ai_gf)) : A small weekend project that through which you can create a virtual girlfriend(not made for imitation, but for learning)
   
   - [**Synapse**](https://github.com/yash-srivastava19/Synapse) : Synapse is hackernews-type platform that can be used by any community as a forum. Tried making this for my college, but need more inspiration.
   
@@ -74,7 +74,7 @@ Here are some of the awesome notebooks 📓 I've made on Kaggle(I'm a 2x Kaggle 
 
   - [**FC Barcelona is Back!**](https://www.kaggle.com/code/yashsrivastava51213/part1-fc-barcelona-is-back-sports-data-analytics) : Analyzed FC Barcelona’s LaLiga performance in the 2022-23 season on Kaggle, achieving Bronze Medal and 200+ views apart from receiving recognition from Kaggle.
 
-  - [**BART Pretrainig from Scratch**](https://www.kaggle.com/code/yashsrivastava51213/bart-pretraining-from-scratch) : Developed a BART model from scratch using Huggingface on Shakespere dataset in a notebook on Kaggle, which received a silver medal and 600+ views.
+  - [**BART Pretrainig from Scratch**](https://www.kaggle.com/code/yashsrivastava51213/bart-pretraining-from-scratch) : Developed a BART model from scratch using Huggingface on Shakespeare dataset in a notebook on Kaggle, which received a silver medal and 600+ views.
     
   - [**Tensorflow Recommendation System**](https://www.kaggle.com/code/yashsrivastava51213/tensorflow-recommendation-system-on-movielens) :  Demonstrated on using Tensorflow Recommendation System in a Kaggle notebook that gained bronze medal, and 500+ views.
 
@@ -91,7 +91,7 @@ Here are some of the awesome notebooks 📓 I've made on Kaggle(I'm a 2x Kaggle 
 ## About Me 🙇‍♂️: 
 I am Yashovardhan Srivastava(quite a mouthful, so Yash is good) an undergraduate engineering student in National Institute of Technology, Warangal. From a young age, I have been fascinated by computers. As I grew older, this fascination turned into crush and crush turned into love - and from that moment, I haven't looked back. I believe open source projects has played a significant role in that. They made me fall in love with research, development and much more. Since now I believe I am capable enough to produce some original work, I want to be a part of this beautiful journey, in which all of you play an important role.
 
-All of projects are a result of extreme dedication, meticulousness, and hardwork. Most of them are just random thoughts that I once had, and thought-What If ?
+All of projects are a result of extreme dedication, meticulousness, and hardwork. Most of them are just random thoughts that I once had, and thought-I can build that.
 They do not need recognition, they need discussions. I might have reached a dead end with some of those - but their cycle isn't complete. I have plenty of projects in pipeline, which I hope will be just beautiful as the ones which are already there.
 
 ## Career Goals 🥅: 
@@ -101,7 +101,7 @@ The place where I come from, this is NOT a trend. We are hard-working, talented 
 
 I see myself as a research scientist/research engineer in the near future-specifically in the field of AI, an I want to highlight why this field speaks to me a lot.
 
-Anyone who has studied Engineering(especially in India) will tell how "academically challenging" and "rigorous" the degree is - an I believe it is somewhat justified. Engineers are responsible for building the "lego blocks" on which society stands, and when you work for the greater good of society, you better be the best. I always say, Engineering is a great profession in theory, but(especially here), the adaptaion is really not good. I guess my love for engineering did not fade away even after going through this system, so I guess working on "scale up" is something I can see myself working in. It is really fascinating ince you get the hold of it.
+Anyone who has studied Engineering(especially in India) will tell how "academically challenging" and "rigorous" the degree is - an I believe it is somewhat justified. Engineers are responsible for building the "lego blocks" on which society stands, and when you work for the greater good of society, you better be the best. I always say, Engineering is a great profession in theory, but(especially here), the adaptation is really not good. I guess my love for engineering did not fade away even after going through this system, so I guess working on "scale up" is something I can see myself working in. It is really fascinating once you get the hold of it.
 
 Another interesting thing that I like is coming up with ideas and test them using the scientific method. The joy of discovering really speaks to the creative side of me, and I would really love if I can make a career in this.   
 
@@ -121,7 +121,7 @@ Those are some of the reasons why I want to be a researcher + engineer. That is,
 - Personal Interests : Football, badminton, avid reader, philosophy connoisseur and writing. 
 
 ## Reseach Papers I Love 📎
-In no particular order, I am listing doen some really awesome reserach papers that in one way or other have helped me think outside of the box.
+In no particular order, I am listing some really awesome research papers that in one way or other have helped me think outside of the box.
 
  - **[Interpretability in the Wild - IOI Circuit Identification](https://arxiv.org/pdf/2211.00593)** : A very detailed and understandable paper on circuit identification for mechanistic interpretability. Highly recommended if you want to understand how to design your own experiments.
 
