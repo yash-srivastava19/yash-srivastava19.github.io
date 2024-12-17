@@ -1,3 +1,5 @@
+# Scratchpad
+
 This is my scratchpad, where I'll try to include stuff that I'm currently working on and why. This might serve as a log for the initial days of the project. If you want to work together on any of this, or have ideas to look into, please hit me up at my [mail](mailto:ysrivastava82@gmail.com)
 
 ## GNUMake, but with a lot of batteries included
