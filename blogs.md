@@ -11,8 +11,7 @@ Some of my learnings about the stuff in tech. Personal, but very helpful for oth
 
 The key idea introduced in the paper, in the development of transformer architecture was that of scaled dot product attention and self attention. For each input sequence, three vectors are generated dynamically, namely queries(Q), keys(K) and values(V) which allows the model to focus on different parts of the input. These three vectors make one "head" of attention. The scores are calculated as:
 
-![image](https://github.com/user-attachments/assets/d0922fa8-ce80-45a4-8e22-03291f58c8b2)
-
+![image](https://github.com/user-attachments/assets/caf420cf-1925-4007-ad25-40b12cfeb91e)
 
 Performance has always been a bottleneck for using these models in downstream applications. The dot product step in the attention score calculation is quadratic in memory requirement. Another drawback which limits their application is numerical instability. When working with large sequences, the self attention score calculation can suffer from "avalanche effect" where small perturbations in the input can magnify the error during computations.
 
@@ -49,7 +48,8 @@ This section will demonstrate the use of FlexAttention through the Pytorch API(c
 
 Since the matrix multiplication step in the vanilla attention is the one which we need to optimize, Pytorch allows us to optimize that particular step by introducing a user-defined function `score_mod`, which allows us to modify the attention scores prior to softmax(surprisingly, this is sufficient for a majority of attention variants):
 
-![image](https://github.com/user-attachments/assets/76e4495a-7a39-4266-a7ca-780f627be1b3)
+![image](https://github.com/user-attachments/assets/8a52e60a-d945-4c52-be2f-3ac269a9c3c3)
+
 
 Behind the scenes, the `score_mod` function is fused into a single fused FlexAttention kernel. Let us solidify our understanding of the API by implementing a common attention variant - RoPE(relational positional encoding), something which is central to Eleuther GPT-NeoX models. The first step is implementing the `score_mod` function which has the following signature:
 
