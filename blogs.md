@@ -9,9 +9,9 @@ Some of my learnings about the stuff in tech. Personal, but very helpful for oth
 
 "[Attention is all you need](https://arxiv.org/pdf/1706.03762)" was a pivotal paper that marked the revolution in the AI industry. All of the breakthroughs that we see today in the AI space can be traced back to that infamous paper. The authors of that paper are really influential too, but that's a story for another blog.
 
-The key idea introduced in the paper, in the development of transformer architecture was that of scaled dot product attention and self attention. For each input sequence, three vectors are generated dynamically, namely queries($Q$), keys($K$) and values($V$) which allows the model to focus on different parts of the input. These three vectors make one "head" of attention. The scores are calculated as:
+The key idea introduced in the paper, in the development of transformer architecture was that of scaled dot product attention and self attention. For each input sequence, three vectors are generated dynamically, namely queries(`$Q$`), keys(`$K$`) and values(`$V$`) which allows the model to focus on different parts of the input. These three vectors make one "head" of attention. The scores are calculated as:
 
-```latex
+```katex
 Attention(Q, K,V) = softmax(\frac{QK^T}{\sqrt{d_{k}}})V
 ```
 
