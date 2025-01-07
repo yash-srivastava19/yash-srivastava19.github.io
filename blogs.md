@@ -11,9 +11,7 @@ Some of my learnings about the stuff in tech. Personal, but very helpful for oth
 
 The key idea introduced in the paper, in the development of transformer architecture was that of scaled dot product attention and self attention. For each input sequence, three vectors are generated dynamically, namely queries(`$Q$`), keys(`$K$`) and values(`$V$`) which allows the model to focus on different parts of the input. These three vectors make one "head" of attention. The scores are calculated as:
 
-```katex
-Attention(Q, K,V) = softmax(\frac{QK^T}{\sqrt{d_{k}}})V
-```
+`$$ Attention(Q, K,V) = softmax(\frac{QK^T}{\sqrt{d_{k}}})V $$`
 
 Performance has always been a bottleneck for using these models in downstream applications. The dot product step in the attention score calculation is quadratic ($O(n^2)$ )in memory requirement. Another drawback which limits their application is numerical instability. When working with large sequences, the self attention score calculation can suffer from "avalanche effect" where small perturbations in the input can magnify the error during computations.
 
@@ -26,7 +24,8 @@ The core idea behind engineering is simple in theory, but is difficult in implem
 
 One approach was the introduction of "fused" attention. For applications where memory is a constraint, having to compute the query and key matrix multiplication ($Q . K^T$ ) could be a bottleneck. A query, key vector of size $`4096 \times 4096`$ (standard in practice) and datatype `bloat16` can take about $`4096 \times 4096 \times 2 \approx 32MB`$ of space. To avoid exhausting space and skipping the multiplication of query and key vectors, we can "fuse" the softmax computation with the second matrix multiplication. We make use of the fact(which is by no means trivial and is really clever) that in order to produce one block of the final result, we only need one block of the query vector. This implies that instead of multiplying the entire $`Q.K`$, we can compute one block at a time to produce one block of the output. For a block size of, say $`128`$, the matrix multiplication $`q.K^T`$  has the shape $`128 \times 4096`$  which takes about(for the same `bfloat16` datatype) $`128 \times 4096 \times 2 \approx 1MB`$ of space at once. Now, to get the final result, just look over all the blocks!! How cool is that! 
 
-![image](https://github.com/user-attachments/assets/30ee918c-4b43-446f-8ddb-9a8c0c04385c)
+![image](https://github.com/user-attachments/assets/398c10f4-706c-46de-b7f2-358fc6ffcb85)
+
 
 A great effort in this direction has been [Flash Attention](https://arxiv.org/pdf/2205.14135). Flash Attention improves Attention's time and space complexity by using techniques to improve efficiency.  The key here, similar to fused attention method is not storing large intermediate matrices. Flash attention does so by employing two established technique, namely tiling and recomputation. Tiling involves dividing the bigger attention matrix in manageable chunks(I'm skipping over a lot of details regarding softmax computation and the associated statistics). Recomputation involves recalculating attention matrix in the backward pass from blocks of $Q,K, V$ in SRAM(this is so we don't have to store the $O(n^2)$ intermediate values for the backward pass). Flash Attention is hardware specific, and the optimizations in it are specifically for GPUs. Tiling allows to implement the Flash Attention algorithm in one CUDA kernel and apply kernel fusion(kernel fusion "fuses" many element wise operations, so that they need not to be loaded multiple times). Flash Attention is also very clever when it comes to reducing numerical instability(I'm skipping over it for the sake of readability, however, I would highly encourage reading the Flash Attention [paper](https://arxiv.org/pdf/2205.14135))
 
