@@ -11,7 +11,7 @@ Some of my learnings about the stuff in tech. Personal, but very helpful for oth
 
 The key idea introduced in the paper, in the development of transformer architecture was that of scaled dot product attention and self attention. For each input sequence, three vectors are generated dynamically, namely queries($Q$), keys($K$) and values($V$) which allows the model to focus on different parts of the input. These three vectors make one "head" of attention. The scores are calculated as:
 
-```math
+```latex
 Attention(Q, K,V) = softmax(\frac{QK^T}{\sqrt{d_{k}}})V
 ```
 
