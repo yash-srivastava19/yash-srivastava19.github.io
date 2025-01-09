@@ -1920,6 +1920,7 @@ Finally, we are done with our implementation!!! Give yourself a pat on the back,
 3. [Is JAX better than PyTorch](https://www.reddit.com/r/learnmachinelearning/comments/16vgfed/is_jax_a_better_choice_to_focus_on_over_pytorch/) - Reddit Discussion.
 4. [JAX - The Sharp Bits](https://jax.readthedocs.io/en/latest/notebooks/Common_Gotchas_in_JAX.html) - JAX Docs
 
+### Footnotes:
 
 [^1]: A better and more detailed explanation(without abstracting any math) goes something like this(according to JAX Docs):
 	>To answer that, first think about how you could use a JVP to build a full Jacobian matrix. If we apply a JVP to a one-hot tangent vector, it reveals one column of the Jacobian matrix, corresponding to the nonzero entry we fed in. So we can build a full Jacobian one column at a time, and to get each column costs about the same as one function evaluation. That will be efficient for functions with “tall” Jacobians, but inefficient for “wide” Jacobians.
