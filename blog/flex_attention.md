@@ -1,8 +1,8 @@
-## How to Scale Attention Models for Billions Users?
+### How to Scale Attention Models for Billions Users?
 
 **Foreword:** The title is a clickbait. I don't actually know how to scale attention to serve billion users, as I feel it is a really complicated problem with a lot of moving parts and optimizations to keep in mind, but in this blog I'm going to explore one of the approaches which I find really interesting. I got the idea to write this blog after watching Horace He's [talk](https://youtu.be/139UPjoq7Kw?si=8hoc2s7FZ7SRj4B1) with Jane Street. I hope I was able to do it justice. I've also linked resources which I referred to while piecing together this blog. Get a cup of coffee, sit in a nice place, and enjoy this blog.
 
-### Why isn't vanilla `self_attention` not used too much in practice?
+#### Why isn't vanilla `self_attention` not used too much in practice?
 
 "[Attention is all you need](https://arxiv.org/pdf/1706.03762)" was a pivotal paper that marked the revolution in the AI industry. All of the breakthroughs that we see today in the AI space can be traced back to that infamous paper. The authors of that paper are really influential too, but that's a story for another blog.
 
@@ -12,7 +12,7 @@ The key idea introduced in the paper, in the development of transformer architec
 
 Performance has always been a bottleneck for using these models in downstream applications. The dot product step in the attention score calculation is quadratic in memory requirement. Another drawback which limits their application is numerical instability. When working with large sequences, the self attention score calculation can suffer from "avalanche effect" where small perturbations in the input can magnify the error during computations.
 
-### How do we optimize the attention mechanism?
+#### How do we optimize the attention mechanism?
 <blockquote>
 "Any optimization that is not about the bottleneck is an illusion of improvement"
 </blockquote>
@@ -31,7 +31,7 @@ There are have been other efforts in the space as well, which attention variants
 
 So, naturally, the question arises, how to solve this problem? 
 
-### Introducing - Flex Attention
+#### Introducing - Flex Attention
 
 Apart the different attention variants that are available today, researchers have tried implementing combinations of different variants(all with masking, biases, and other settings), for which there is no optimized kernel support. Given that there are exponential number of settings and various variants, we end up in a situation where we have less number of optimized kernels but a huge number of variants(hence the term software lottery).  So, the need for a solution that allows researchers to implement attention variants without having to deal with writing optimized kernels was dire, and that is where our main star of the blog comes in - **FlexAttention**(not to be confused with the [paper](https://vis-www.cs.umass.edu/flexattention/) on FlexAttention for VLMs).  
 
@@ -39,7 +39,7 @@ FlexAttention is available as an API by Pytorch through which researchers can im
 
 Generally, FlexAttention is nearly as performant as a handwritten Trition kernel. If we talk about numbers, FlexAttention achieves **90% of FlashAttention2's performance** in the forward pass and **85% in the backward pass**. Interestingly, FlexAttention also **accelerated torchtune's sample packing throughput by 71%**.  FlexAttention has replaced the need for researchers to implement their own custom kernel(something that can take over a week) into a useful API that solved one of the main challenges of using attention in production.
 
-### FlexAttention Code Example
+#### FlexAttention Code Example
 
 This section will demonstrate the use of FlexAttention through the Pytorch API(currently not available in the stable release, but it is there in the nightly releases). We'll go through one of the attention variants and see how Pytorch optimizes it.
 
@@ -81,13 +81,13 @@ Yes. It is that easy to get significant performance gains for a popular attentio
 
 ![Pasted image 20250107222623](https://github.com/user-attachments/assets/ed3a8e6a-48ad-43df-b245-6be52b6f24d4)
 
-### Conclusion
+#### Conclusion
 
 FlexAttention for me, is one of the best examples of software engineering I've seen in recent times, as it demonstrated how difficult de-bottlenecking a complex problem is. The title is clickbait-ey as told, but I'm pretty sure, with the work that Pytorch team is doing, FlexAttention can help serve attention to a billion users efficiently.
 
 **P.S** Compiler are really interesting(and hard)
 
-##### Resources:
+###### Resources:
 1.  [FlexAttention: The Flexibility of PyTorch with the Performance of FlashAttention](https://pytorch.org/blog/flexattention/)
 2. [Building Machine Learning Systems for a Trillion Trillion Floating Point Operations](https://youtu.be/139UPjoq7Kw?si=Nz4llma9F3Yf008C)
 3. [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135)
