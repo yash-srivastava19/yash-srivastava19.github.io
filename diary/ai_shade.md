@@ -1,6 +1,6 @@
-**Note:** I wrote this on 17/09/2023 while travelling to my uni on a train.
+**Note:** I wrote this on 17/09/2023 while travelling to uni on a train, and I noticed a family that was sitting beside me which sparked the idea.
 
-### Will AI ever shade their child when they are sleeping ? [Date - 17-09-2023]
+### Will AI ever shade their child when they are sleeping ?
 
 A lot has been said about the capabilities that AI can have in the near future, but can it do what we humans experience everyday? 
 
