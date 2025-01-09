@@ -1,5 +1,3 @@
-### How to Scale Attention Models for Billions Users?
-
 **Foreword:** The title is a clickbait. I don't actually know how to scale attention to serve billion users, as I feel it is a really complicated problem with a lot of moving parts and optimizations to keep in mind, but in this blog I'm going to explore one of the approaches which I find really interesting. I got the idea to write this blog after watching Horace He's [talk](https://youtu.be/139UPjoq7Kw?si=8hoc2s7FZ7SRj4B1) with Jane Street. I hope I was able to do it justice. I've also linked resources which I referred to while piecing together this blog. Get a cup of coffee, sit in a nice place, and enjoy this blog.
 
 #### Why isn't vanilla `self_attention` not used too much in practice?
