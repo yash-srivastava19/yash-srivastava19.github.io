@@ -1,3 +1,5 @@
+Note: This blog is inspired my the Autodiadax blog of JAX - where they implement JAX core from scratch. I found it very confusing, so I made my own thing. Hope I was able to do it justice 
+
 ## JAX - Why is Everyone So Excited About This Framework
 
 ## Introduction
