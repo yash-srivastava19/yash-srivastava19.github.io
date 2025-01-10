@@ -1,3 +1,5 @@
+## Blogs
+
 Note: I love writing technical blogs. This is one of the new ways I've been learning, and honestly it is quite refreshing. I tackle most of the topics that I feel I can realte to other things I've learned, and draw parallels wherever necessary. They are done in breadth-first fashion, with room to go on rabbitholes as well. Enjoy!
 
 
