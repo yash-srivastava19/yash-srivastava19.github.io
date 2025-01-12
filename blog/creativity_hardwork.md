@@ -1,0 +1,14 @@
+**Note:** I wrote this on 12/01/2025 ; The birthday of my roommate who has pushed me harder than anyone else to achieve my goals.
+
+## Creativity and Hardwork
+I'm someone who realized late that creativity is not innate, but rather a muscle. I grew up believing that being a textbook "prodigy" and being instantly good at anything you pick up was the goal.  I was sold the idea that prodigies change the world, and the only way to stand out is by having intrinsic qualities of prodigies. I try to fit myself in whatever way possible, just because I had the insane drive to be the best.
+
+With time, my relationship with curiosity changed, and I got the idea that I can stand out more if I worked hard too. I had the inspiration from my family, as they too are insanely hard working people. They were pragmatic, so it made complete sense to have two peaks - creativity and hardwork in my arsenal. However, being a hard worker also seemed to be forceful in finding something which was not there. 
+
+This is a problem. The more I tried to fit myself in one of those buckets, the more I realized I wasn't made for either. If I am neither hardworking nor creative, then how am I supposed to reach the ambitious goals I set for myself? 
+
+With experience, I came to realize there is no secret ingredient(Kung Fu Panda spoilers), and you optimize for what you want from life. Most of the advice you read anywhere doesn't take into account survivorship bias, and that's why you should take everything with a grain of salt. These two qualities are not mutually exclusive, and in the right amounts, both of these can work in your favour. I would highly recommend reading about Terry Tao - a person with a gift of curiosity, but even he believes that it helps you in the short term, and a lot of work is required to produce something that is novel.
+
+I was listening to a talk by Tomasz Jedrowski, and he mentioned that creativity was healing for him - and I resonated a lot with it. I try to put a part of myself in creative avenues I explore, and that provides me with the drive to do a lot of hardwork. I believe in a sense I try to heal myself from my work, and that's why I try to work hard on problems I care very deeply about. Hardwork just comes naturally to me when I have the drive. With time, I developed new frameworks to think creatively and validate my ideas.
+
+There will be a lot of friction when it comes to working on things you are passionate about, but if you care deeply about a problem, you are already ahead of most people. There's no other hard pill than being passionate about a problem and doing a lot of hardwork to prove just how much you care about it - having a healing factor attached to it is just the cherry on the top(not necessarily needed in my opinion).
