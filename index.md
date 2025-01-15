@@ -1,5 +1,5 @@
 # Home
-I do write a lot of stuff, both technical and non-technical, so do check them out. Here are my [technical blogs](./blogs.html), and here is my unofficial [diary](./diary.html). Apart from that, If you want to contact me, here are my [socials](./contact.html)
+I'm Yashovardhan Srivastava, an engineering undergraduate student. I do write a lot of stuff, both technical and non-technical, so do check them out. Here are my [technical blogs](./blogs.html), and here is my unofficial [diary](./diary.html). Apart from that, If you want to contact me, here are my [socials](./contact.html)
 
 ## Should you hire me?
 The answer is written below. Here's my [resume](https://drive.google.com/file/d/1MMBYq2WtWBbPKZptncy7iOb7gxAUHr03/view?usp=sharing) if you prefer it that way:
