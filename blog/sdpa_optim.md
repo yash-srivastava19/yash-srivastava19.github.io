@@ -1,4 +1,6 @@
-## Introduction
+Note: I wrote this article because I wanted to learn Pytorch internals.
+
+## SDPA Optimization - Introduction
 Scaled Dot Product Attention(abbreviated as SDPA), is a attention mechanism where the dot products between the dynamic vectors(query, key, value) are scaled down by `sqrt(d_k)`. The attention scores are calculated as:
 
 ![image](https://github.com/user-attachments/assets/d6fd19c2-2bd8-4204-b222-64e11ae7bd1e)
