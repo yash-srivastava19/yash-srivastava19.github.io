@@ -1,7 +1,7 @@
 ## Introduction
 Scaled Dot Product Attention(abbreviated as SDPA), is a attention mechanism where the dot products between the dynamic vectors(query, key, value) are scaled down by `sqrt(d_k)`. The attention scores are calculated as:
 
-![[Pasted image 20250122172026.png]]
+![image](https://github.com/user-attachments/assets/d6fd19c2-2bd8-4204-b222-64e11ae7bd1e)
 
 SDPA(or self attention) was a revolutionary discovery, first introduced in the "[Attention Is All You Need](https://arxiv.org/pdf/1706.03762)" paper which formed the backbone of modern NLP applications. SDPA enhanced computation speed and allowed parallel computing of input sequence, allowing to capture meaningful relationship between tokens.
 
@@ -16,7 +16,7 @@ As mentioned in the previous section, I found three axes along which I hypothesi
 
 **Approach 1:** If we think from first principles, the way to reduce memory footprint is to either - **reduce the size of the model**, or **optimize the computation heavy step**. As we know that SDPA scales quadrupedally with sequence length, one trivial axes to explore was **reducing the sequence length**. So, the initial 3 directions I explored can be visualized as:
 
-![[Screenshot 2025-01-17 122513.png]]
+![image](https://github.com/user-attachments/assets/fa410aa3-1768-4ea8-87d4-6019a1b52a00)
 
 1. **KV Cache** approach reduced the memory extensive matrix multiplication step between key and value matrices.
 2. For Precision, we looked into **Quantization** approaches.
@@ -30,21 +30,23 @@ Another crazy idea I had in mind was to optimize along all the three axes groupe
 
 **Approach 2:** Going from approach 1 to approach 2 wasn't easy, and with the added task of finding a model agnostic axes, it took me a lot of time to find a promising direction to explore. **The idea occurred to me while I was going through the Flash Attention paper**, especially the introduction section:
 
-![[Pasted image 20250122180324.png]]
+![image](https://github.com/user-attachments/assets/b2cca6d8-d9da-4cf8-b22f-b5457fd91c24)
 
 The Flash Attention paper argued that initial approaches to reduce compute requirements focused on FLOP reduction, while the techniques introduced in the paper relied on IO aware attention algorithms, which is to say, made use of device specific optimization. However, frameworks such as Pytorch doesn't explicitly provide fine grained control over memory access, so the question was - if we were to explore this axis(device specific optimizations), how do we go about it?
 
 After looking a lot into the void, I found the answer in the most bizarre of place - my own [blog](https://yash-sri.xyz/blog/flex_attention) on FlexAttention. FlexAttention was the missing piece of the puzzle, and it fitted in perfectly. Sometimes, things work out in the most amazing of the ways. The answer was device specific optimization, something which FlexAttention provided fine control over. Now, the axes looked like:
 
-![[Pasted image 20250122181753.png]]
+![image](https://github.com/user-attachments/assets/0de6ea74-8de6-48e9-8477-47391d255bc9)
 
 We'll now move on to how we went about by experimenting each of the axes individually. These are **presented in a worklog type fashion**, so the reader can follow the chain of thoughts. 
+
 ## Timeline Of Events
 To make things easier for us, for this section, I'll be dividing it into 3 subsection, one for each axes. Within each subsection, I'll explain the core concept of the approach, how did we implement it, any problems that we came across, and how did we manage to remedy it, and what parameters we can tune. Code will be provided wherever required. 
+
 ### KV Cache
 To start things off, I started by exploring the KV Cache axes, as it is the most straightforward and easy to optimize. KV cache, like any other cache stores calculations so we don't need to recompute in a given context. In KV Cache, key-value pairs derived from self attention layers is stored. One important point to note that KV cache is only used for decoder only models. This picture summarizes it pretty well:
 
-![[Pasted image 20250124143604.png]]
+![image](https://github.com/user-attachments/assets/af5ca4a4-37d6-4cd1-b5f7-26bd7070689b)
 
 Although HF provides pre-packaged models with KV Cache, the implementation is pretty straightforward. We maintain a cache data structure, and in the attention calculation step, we reuse the values from previous context. Here's the accompanying code, which is sufficient for us to conduct experiments. (Image Courtesy - [HF](https://huggingface.co/blog/kv-cache-quantization))
 
@@ -91,11 +93,12 @@ class CachedSDPA(nn.Module):
 ```
 
 For the given implementation, the only parameters we can optimize for is sequence length, and hidden dimensions. 
+
 ### Quantization
 
 Quantization, in the AI space is a fancy word for reducing the precision of numerical values to save memory. In this, the numerical value is truncated to fit within the required precision format, ideally to a less memory consuming data type. Although this results in loss of information, a careful selection of quantization parameters can minimize the loss while still achieving satisfactory performance. 
 
-![[Pasted image 20250124145334.png]]
+![image](https://github.com/user-attachments/assets/f658582e-f374-4e94-8632-236bb49c0a0f)
 
 Pytorch provides a flexible API to dynamically quantize models, post training into a model of lower "granularity". (Image courtesy - [Maarten Grootendorst](https://www.maartengrootendorst.com/blog/quantization/) ) For the experiment we are performing, I'm using the [Post Training Dynamic Quantization](https://pytorch.org/tutorials/recipes/recipes/dynamic_quantization.html) method. The API is explained in the code given below:
 
@@ -119,10 +122,11 @@ m_q = torch.ao.quantization.quantize_dynamic(m {nn.Linear, nn.Linear, nn.Linear}
 ```
 
 There is a small catch however, the PTDQ step is not currently available for SDPA, so in order to quantize, we had to implement SDPA from scratch using `nn.Linear` layers, for which quantization is available.
+
 ### Flex Attention
 For a gentle introduction to Flex Attention, refer to my previous [blog](https://yash-sri.xyz/blog/flex_attention). For the purpose of this experiment, we'll be testing Flex Attention with a variety of score modifying functions to assess which one of them is memory intensive, which `no_op` function given in the code below the benchmark to measure our performance against.
 
-![[Pasted image 20250124154653.png]]
+![image](https://github.com/user-attachments/assets/f6b10cda-3099-4feb-af3a-522fe64c0017)
 
 The parameters we can tune for this experiment is `batch_size`, `seq_len` and `hid_dims`. The minimal code to use FlexAttention using the Pytorch API is given below. For a more detailed view on how it works under the hood and why is it awesome, refer to my previous [blog](https://yash-sri.xyz/blog/flex_attention), or the original [Jane Street talk](https://youtu.be/139UPjoq7Kw?si=Nz4llma9F3Yf008C).
 
@@ -144,6 +148,7 @@ Say you have a hypothesis is mind, and want to test whether it is true or not. F
 Designing experiments for CS is a little different than basic sciences because here we are **not playing with instruments, but rather instructions** - which is difficult as there is a scope for making a lot of mistakes. In my opinion and practice, thinking about stuff from first principles helps you come up with an hypothesis, and iterating till the end of the world helps you design experiments. The steps to conduct research are pretty straightforward - establish an hypothesis, setup a baseline, add and isolate the feature, test against the baseline and report your result. Depending on your experience and practice, this can take anywhere from a day to years. Along this journey, you learn new things, you understand the bottlenecks, you make tools to make your life easier, and you get used to the scientific method. **That's the red pill of research, it is not fancy, but it is a hell lot of interesting**.
 
 For the purpose of this experiment, I took the same approach. The next few sections describe how I experimented with the different axes, and how do they compare to be baseline. I will be reporting both the memory profile and bottleneck analysis(something which is available from the Pytorch API). Based on the previous sections, where I described what parameters we can tune, a report on those, plus any problems we ran along the way are given as well.    
+
 ### Nugget: `PerformanceAnalysis` 
 I mentioned in the previous paragraph that making tools that improve your iteration speed is crucial for any research project. Again, there's no blue pill, **you make things from scratch that make your life easier**. For the experiments I performed, I found that reporting the results(both memory profile and bottleneck analysis) in a consistent manner was the bottleneck, so I made a class to do exactly that for me - it was the `PerformanceAnalysis` class. Here's the accompanying code for initial version of the class.
 
@@ -241,7 +246,6 @@ class PerformanceAnalysis:
 		"""
 
 ```
-
 The class method `profile` uses the [torch profiler](https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html) to profile the model and analyze the memory bottlenecks(along each layer of the model). The method `benchmark` on the other hand, makes use of the Pytorch built-in [benchmark](https://pytorch.org/tutorials/recipes/recipes/benchmark.html)(similar to `timeit.timer`) to perform speed analysis. The class is not pretty, does not follow the best practices, but as long the experiment is not scaled and it gets the job done, I won't touch it. Remember, in CS, the event loop is - **make it work -> make it right -> make it fast. In that order**. 
 
 ### Nugget: `F.scaled_dot_product_attention`
@@ -338,6 +342,7 @@ for i, (sl, hd) in enumerate(zip(seq_lengths, hidden_dims)):
 ```
 
 Since we are performing the experiments in a loop, after each iteration, especially when we are using CUDA tensors, we need to release the block of memory - otherwise we'll run into CUDA OOM error. While Pytorch provides `torch.cuda.empty_cache()` to clear cache and free the memory, the [right approach](https://discuss.pytorch.org/t/free-all-gpu-memory-used-in-between-runs/168202/2) is to delete all objects and references pointing to objects allocating GPU resources, hence after each iteration, we delete the variables used in the context.
+
 ### Quantization Experiment
 The approach for quantization is similar to the KV Cache, we tune the sequence length and hidden dimensions. Here's the experimentation code:
 
@@ -385,6 +390,7 @@ for i, (sl, hd) in enumerate(zip(seq_lengths, hidden_dims)):
 ```
 
 Since in this experiment also we use CUDA tensors, we need to release memory after each iteration.
+
 ### FlexAttention Experiment
 With FlexAttention, we have the freedom to optimize the approach using different score modifiers. For the baseline, we'll go ahead with `no_op` score modifier - which returns the score. For subsequent versions of FlexAttention, we'll use different modifiers and report the results in the next section. The tunable parameters are batch size, sequence length, and hidden dimensions. The accompanying code is given below:
 
@@ -422,10 +428,12 @@ for i, (bs, sl, hd) in enumerate(zip(batch_sizes, seq_lengths, hidden_dims)):
 ```
 
 The results from all the experiments are given in the next section. Before you go ahead and peek into it, **which method do you reckon would be the best?** Place your bets, and then, move ahead. Here are the results:
+
 ## Results
 In the previous section, we described the experiments and which parameters we can tune for different axes. For the subsequent sections, we have reported the axes, the parameters and options we used and report the CPU/GPU time, benchmark time.
+
 ### KV Cache Test Result
-#### Experiment 1
+
 **Parameters:**
 Sequence Length - 4
 Hidden Dimensions - 16
@@ -434,7 +442,8 @@ Number Threads - 2
 **Results:**
 Memory Profile: CPU Total Time: 338.52 ms
 Benchmark Profile: 504.01 ms
-![[Pasted image 20250127222850.png]]
+
+![image](https://github.com/user-attachments/assets/6876c1f7-d36f-45d6-a696-d4661edb533f)
 
 **Parameters:**
 Sequence Length - 8
@@ -444,7 +453,8 @@ Number Threads - 2
 **Results:**
 Memory Profile: CPU Total Time: 16.041 ms
 Benchmark Profile: 567.59 ms
-![[Pasted image 20250127222859.png]]
+
+![image](https://github.com/user-attachments/assets/6b5490b3-fef6-4391-b7fd-733489192478)
 
 **Parameters:**
 Sequence Length - 10
@@ -454,17 +464,19 @@ Number Threads - 2
 **Results:**
 Memory Profile: CPU Total Time: 4.388 ms
 Benchmark Profile: 1.60 ms
-![[Pasted image 20250127222920.png]]
+
+![image](https://github.com/user-attachments/assets/64ed6da7-4711-4dd5-bbb0-affa5b079514)
 
 **Parameters:**
-Sequence Length - 4
-Hidden Dimensions - 16
+Sequence Length - 12
+Hidden Dimensions - 128
 Number Threads - 2
 
 **Results:**
 Memory Profile: CPU Total Time: 338.52 ms
 Benchmark Profile: 4.96 ms
-![[Pasted image 20250127222925.png]]
+
+![image](https://github.com/user-attachments/assets/a4e310e9-7eaf-409f-9c28-ce6b9ea673c1)
 
 ### Quantized Test Results
 **Parameters:**
@@ -481,7 +493,7 @@ Benchmark Profile: 243.24 us
 Memory Profile: CPU Total Time: 15.533 ms
 Benchmark Profile: 442.75 us
 
-![[Pasted image 20250127223207.png]]
+![image](https://github.com/user-attachments/assets/e1c14c8f-6789-4d63-a16e-8aab3c09a1bd)
 
 **Parameters:**
 Sequence Length - 8
@@ -497,7 +509,7 @@ Benchmark Profile: 347.22 us
 Memory Profile: CPU Total Time: 1.266 ms
 Benchmark Profile: 552.11 us
 
-![[Pasted image 20250127223245.png]]
+![image](https://github.com/user-attachments/assets/cf58d707-6a48-48a5-8e8f-a99ce324a5a8)
 
 **Parameters:**
 Sequence Length - 10
@@ -513,7 +525,7 @@ Benchmark Profile: 664.73 us
 Memory Profile: CPU Total Time: 1.469 ms
 Benchmark Profile: 901.69 us
 
-![[Pasted image 20250127223400.png]]
+![image](https://github.com/user-attachments/assets/eb82c941-e1b0-4bdb-bb57-5679a1e761f8)
 
 **Parameters:**
 Sequence Length - 12
@@ -529,7 +541,7 @@ Benchmark Profile: 664.73 us
 Memory Profile: CPU Total Time: 4.222 ms
 Benchmark Profile: 2.90 ms
 
-![[Pasted image 20250127223438.png]]
+![image](https://github.com/user-attachments/assets/debcf5f0-0ac9-432d-9c67-4f42ed3aa816)
 
 ### FlexAttention Test Results 
 
@@ -544,7 +556,7 @@ Memory Profile: CPU Total Time: 516.692 ms
 Benchmark Profile: 8.45 ms
 
 
-![[Pasted image 20250127223539.png]]
+![image](https://github.com/user-attachments/assets/d97a8aa0-21ae-4b94-8338-91c51bc2997c)
 
 **Parameters:**
 Batch Size - 16
@@ -556,7 +568,7 @@ Number Threads - 2
 Memory Profile: CPU Total Time: 348.271 ms
 Benchmark Profile: 9.60 ms
 
-![[Pasted image 20250127223612.png]]
+![image](https://github.com/user-attachments/assets/0187a934-1f02-4416-8cc2-a38190b08f03)
 
 **Parameters:**
 Batch Size - 32
@@ -568,17 +580,13 @@ Number Threads - 2
 Memory Profile: CPU Total Time: 180.934 ms
 Benchmark Profile: 48.30 ms
 
-![[Pasted image 20250127223709.png]]
+![image](https://github.com/user-attachments/assets/e1ae1bd7-e95c-4e39-acdb-89e09786a0b5)
 
 Based on the experiments performed, we can clearly see the advantages of FlexAttention. The total CPU memory usage is very less, and the speed is also justified given the limits to which we pushed the model. Other methods also compare well with to it, but the task now is to understand the tradeoffs between all of them, and find the "goldilocks" zone. 
 
-From what I can see, I think one way to approach the said problem is to perform a sensitivity analysis over the input space, and move towards the direction which performs well given the tradeoffs and requirements of the "memory efficient" model. While we can formulate this as an optimization problem, I'm running out of ways to perform efficient search of input parameters. The problem more complex problem is combining different approaches, for which I'm not particularly sure how to proceed.
+From what I can see, I think one way to approach the said problem is to perform a [sensitivity analysis](https://en.wikipedia.org/wiki/Sensitivity_analysis) over the input space, and move towards the direction which performs well given the tradeoffs and requirements of the "memory efficient" model. While we can formulate this as an optimization problem, I'm running out of ways to perform efficient search of input parameters. The problem more complex problem is combining different approaches, for which I'm not particularly sure how to proceed.
 
 This feels like a search problem. The question is, how can I do that? If you have any ideas, DM me on Twitter or mail me here. I find this problem really interesting, and feel can learn a lot from this experiment.
-
-TODO:
-2. Add stuff to the Github repo.
-3. Improve the Kaggle notebook and add reproducible scripts(with CLI?).
 
 ## Additional Materials
 1. [Kaggle Notebook](https://www.kaggle.com/code/yashsrivastava51213/sdpabenchmarking) - SDPA Optimization.
