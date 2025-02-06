@@ -2,19 +2,19 @@
 I'm Yashovardhan Srivastava, an engineering undergraduate student. I do write a lot of stuff, both technical and non-technical, so do check them out. Here are my [technical blogs](./blogs.html), and here is my unofficial [diary](./diary.html). Apart from that, If you want to contact me, here are my [socials](./contact.html)
 
 ## Should you hire me?
-The answer is written below. Here's my [resume](https://drive.google.com/file/d/1MMBYq2WtWBbPKZptncy7iOb7gxAUHr03/view?usp=sharing) if you prefer it that way:
+The answer is written below. Here's my [resume](https://drive.google.com/file/d/1zxuTbpiDlq41xqs_D4I5FMVJOj7KxsUo/view?usp=sharing) if you prefer it that way:
 
-- **High Agency :** This is the most important skill for me. If I am working on a project that I like, chances are I'm going to anything to make it happen(no one ever teaches this!). I have a great blend of both research and engineering skills, so if I'm invested in a project, you can bet on me that I'm going to complete it by any means.   
+- **High Agency :** This is the most important skill for me. If I am working on a project that I like, chances are I'm going to anything to make it happen(no one ever teaches this!). I have a great blend of both research and engineering skills, so if I'm invested in a project, you can bet on me that I'm going to complete it by any means.
 
 - **Team Player :** I have been part of, and lead teams at college level in ML/AI domain. I have successfully conducted various workshops, and hosted events(details in this page). Apart from that, I've also been part of teams at industrial level(see next point). I know the power of teamwork, and know how to use it to my full advantage.
     
 - **Experience :** I have experience in both academia and research setting, and I'm pretty comfortable with conducting independent research(with little pushes in the right direction working best). I've worked in a startup to make a RAG system for financial data and I've also built a machine translation system(Transformer based, from scratch) for low-resourced languages as a part of a research internship - which demonstrates that I'm well versed in programming and have experience to back that up as well.
 
-- **Thinking Fast and Slow :** I've worked on various projects independently, both research and engineering(references in this page itself, so scroll down) and my work has been appereciated by the open source community as well(see next point). I'm someone who is great both in zero shot and chain of thought abilities, so you can bet on me.
+- **Thinking Fast and Slow :** I've worked on various projects independently(short term and long term), both research and engineering(references in this page itself, so scroll down) and my work has been appereciated by the open source community as well(see next point). I'm someone who is great both in zero shot and chain of thought abilities, so you can bet on me.
 
 - **Quantifiable work :** I have achieved [2x Kaggle Expert](https://www.kaggle.com/yashsrivastava51213), created popular Python packages and kernels( which have received appreciation from [Kaggle](https://twitter.com/Yaaaaaashhh/status/1676593869931126786) as well). I have also made open-source projects that have been praised on [HN](https://news.ycombinator.com/item?id=38697922), [GitHub](https://github.com/yash-srivastava19), [Twitter](https://x.com/tailwiinder/status/1759527294287356177?s=20) (multiple instances on Twitter).   
 
-Here's my [resume](https://drive.google.com/file/d/1MMBYq2WtWBbPKZptncy7iOb7gxAUHr03/view?usp=sharing) if you don't want me to yap about my projects lol. 
+Here's my [resume](https://drive.google.com/file/d/1zxuTbpiDlq41xqs_D4I5FMVJOj7KxsUo/view?usp=sharing) if you don't want me to yap about my projects lol.  
 
 ## Projects 🧰
 Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
@@ -40,8 +40,10 @@ Here I'll pin some of my favorite projects, more on the research 👨‍🔬 sid
 
   -  [**P-GLAm**](https://github.com/yash-srivastava19/P-GLAm) : P-GLAm is a random thought experiment on Infinite Monkey Theorem. In this, I developed a GPT-2 inspired Large Language Model which aims to test the arithmetic correctness.
 
-Here I'll pin some of my favorite projects, more on the development 💻 side. Feedback is always appreciated for projects like these.:
+Here I'll pin some of my favorite projects, more on the development 💻 side. Feedback is always appreciated for projects like these.: 
 
+  - [**Snappyr**](https://github.com/yash-srivastava19/snappyr) : Setup Python Projects Blazingly Fast, and work on things that matter. No External Dependencies. 
+     
   - [**Dynamo**](https://github.com/yash-srivastava19/Dynamo) : Dynamo is a Python/Rust implementation of a load balancer and autoscaler for MySQL web tier. 
   
   - [**Safe SQL**](https://github.com/yash-srivastava19/safe_sql) : Safe SQL provides sanity checks for common DB pitfalls(so you don't delete prod DB) ; available as a python package(CLI included). 220+ monthly PyPI Downloads.
