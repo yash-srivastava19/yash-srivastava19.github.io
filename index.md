@@ -52,7 +52,7 @@ Here I'll pin some of my favorite projects, more on the development 💻 side. F
   
   - [**Gym Tunes**](https://github.com/yash-srivastava19/gym_tunes) : GymTunes is a simple AI agent that schedules a random playlist into your GCalendar based on your vibe. 
   
-  - [**AI GF**]((https://github.com/yash-srivastava19/ai_gf)) : A small weekend project that through which you can create a virtual girlfriend(not made for imitation, but for learning)
+  - [**AI GF**](https://github.com/yash-srivastava19/ai_gf) : A small weekend project that through which you can create a virtual girlfriend(not made for imitation, but for learning)
   
   - [**Synapse**](https://github.com/yash-srivastava19/Synapse) : Synapse is hackernews-type platform that can be used by any community as a forum. Tried making this for my college, but need more inspiration.
   
