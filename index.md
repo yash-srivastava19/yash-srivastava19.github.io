@@ -1,20 +1,22 @@
 # Home
-I'm Yashovardhan Srivastava, an engineering undergraduate student. I do write a lot of stuff, both technical and non-technical, so do check them out. Here are my [technical blogs](./blogs.html), and here is my unofficial [diary](./diary.html). Apart from that, If you want to contact me, here are my [socials](./contact.html)
+I'm Yashovardhan Srivastava, an engineering undergraduate with a strong passion for building, researching and sharing knowledge. I write extensively, both technical and non-technical, so do check them out. Here are my [technical blogs](./blogs.html), and here is my unofficial [diary](./diary.html). 
+
+Beyond that, If you want to contact me, here are my [socials](./contact.html)
 
 ## Should you hire me?
-The answer is written below. Here's my [resume](https://drive.google.com/file/d/1zxuTbpiDlq41xqs_D4I5FMVJOj7KxsUo/view?usp=sharing) if you prefer it that way:
+Short Answer: Yes. If you need convincing, here's why. Here's my [resume](https://drive.google.com/file/d/1zxuTbpiDlq41xqs_D4I5FMVJOj7KxsUo/view?usp=sharing) if you prefer it that way:
 
-- **High Agency :** This is the most important skill for me. If I am working on a project that I like, chances are I'm going to anything to make it happen(no one ever teaches this!). I have a great blend of both research and engineering skills, so if I'm invested in a project, you can bet on me that I'm going to complete it by any means.
+- **High Agency :** This is the most important skill for me. I take ownership of everything I work on, and can go great lengths to make it happen if I believe in the project. I have a great blend of both research and engineering skills, so if I commit to a project, I see it through.
 
-- **Team Player :** I have been part of, and lead teams at college level in ML/AI domain. I have successfully conducted various workshops, and hosted events(details in this page). Apart from that, I've also been part of teams at industrial level(see next point). I know the power of teamwork, and know how to use it to my full advantage.
+- **Team Player :** I have been part of, and lead teams at college level in ML/AI domain. I have successfully conducted various workshops, and hosted events(details in this page) and collaborated with engineers and researchers. I understand teamwork, and know how to maximize its impact.
     
-- **Experience :** I have experience in both academia and research setting, and I'm pretty comfortable with conducting independent research(with little pushes in the right direction working best). I've worked in a startup to make a RAG system for financial data and I've also built a machine translation system(Transformer based, from scratch) for low-resourced languages as a part of a research internship - which demonstrates that I'm well versed in programming and have experience to back that up as well.
+- **Experience :** I have experience in both academia and research setting, and I'm pretty comfortable with conducting independent research(with little pushes in the right direction working best). I've worked in multiple fintech startups to help build their products from 1 to 100 and I've also built a machine translation system(Transformer based) for low-resourced languages during my research internship. I'm well versed in programming and never shy away from learning things I'm unaware of.
 
-- **Thinking Fast and Slow :** I've worked on various projects independently(short term and long term), both research and engineering(references in this page itself, so scroll down) and my work has been appereciated by the open source community as well(see next point). I'm someone who is great both in zero shot and chain of thought abilities, so you can bet on me.
+- **Thinking Fast and Slow :** I thrive in both "short term high impact projects" and "long term research intensive work". My self-motivated open source projects have been recognized and appreciated by community as well(see next point). I believe I'm effective in tackling complex challenges.
 
-- **Quantifiable work :** I have achieved [2x Kaggle Expert](https://www.kaggle.com/yashsrivastava51213), created popular Python packages and kernels( which have received appreciation from [Kaggle](https://twitter.com/Yaaaaaashhh/status/1676593869931126786) as well). I have also made open-source projects that have been praised on [HN](https://news.ycombinator.com/item?id=38697922), [GitHub](https://github.com/yash-srivastava19), [Twitter](https://x.com/tailwiinder/status/1759527294287356177?s=20) (multiple instances on Twitter).   
+- **Quantifiable work :** I am a [2x Kaggle Expert](https://www.kaggle.com/yashsrivastava51213), created popular Python packages and kernels( which have received appreciation from [Kaggle](https://twitter.com/Yaaaaaashhh/status/1676593869931126786) as well). I have also made open-source projects that have been praised on [HN](https://news.ycombinator.com/item?id=38697922), [GitHub](https://github.com/yash-srivastava19), [Twitter](https://x.com/tailwiinder/status/1759527294287356177?s=20) (multiple instances on Twitter).   
 
-Here's my [resume](https://drive.google.com/file/d/1zxuTbpiDlq41xqs_D4I5FMVJOj7KxsUo/view?usp=sharing) if you don't want me to yap about my projects lol.  
+If you'd rather skip the details, here's my [resume](https://drive.google.com/file/d/1zxuTbpiDlq41xqs_D4I5FMVJOj7KxsUo/view?usp=sharing). Please feel free to reach out to me over my [socials](./contact.html) if you feel I would be good fit for your organization. I would love to connect and chat more! 
 
 ## Projects 🧰
 Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
