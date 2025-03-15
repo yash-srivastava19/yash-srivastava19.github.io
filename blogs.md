@@ -2,7 +2,7 @@
 
 Note: I love writing technical blogs. This is one of the new ways I've been learning, and honestly it is quite refreshing. I tackle most of the topics that I feel I can realte to other things I've learned, and draw parallels wherever necessary. They are done in breadth-first fashion, with room to go on rabbitholes as well. Enjoy!
 
-1. [(Non-Technical)On my experience with hiring and making your career identity](https://yash-sri.xyz/blog/career)
+1. [(Non-Technical) On my experience with hiring and making your career identity](https://yash-sri.xyz/blog/career)
 2. [SDPA Optimization Case Study - Worklog](https://yash-sri.xyz/blog/sdpa_optim)
 3. [Flex Attention - How to Scale Attention Models for Billion Users?](https://yash-sri.xyz/blog/flex_attention) 
 4. [JAX - Why is everyone excited about this framework?](https://yash-sri.xyz/blog/jax_blog)
