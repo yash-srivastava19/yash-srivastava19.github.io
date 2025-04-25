@@ -1,10 +1,21 @@
 # Home
-I'm Yashovardhan Srivastava, an engineering undergraduate with a strong passion for building, researching and sharing knowledge. I write extensively, both technical and non-technical, so do check them out. Here are my [technical blogs](./blogs.html), and here is my unofficial [diary](./diary.html). 
+I'm Yashovardhan Srivastava, a recent engineering undergraduate(2025) with a strong passion for building, researching and sharing knowledge. I write extensively, both technical and non-technical, so do check them out. Here are my [technical blogs](./blogs.html), and here is my unofficial [diary](./diary.html). 
 
 Beyond that, If you want to contact me, here are my [socials](./contact.html)
 
+## What do I look for in a workplace?
+I've been workin in AI from some time, and after giving countless interviews and havin chats with founders, here's my few requirements that I look for in a workplace:
+
+- **Innovation over bureaucracy:** In most organization, great ideas get tossed into the bin due to bureaucracy. I feel in a good org, ideas flow freely, and innovation is valued more highly.
+  
+- **Mission over projects:** An org with a clear mission works in a calculated fashion than an org that hops from project to project. People with high agency tend to thrive in environments where there contributions serve a greater mission.
+  
+- **Teamwork over individuality:** A talented team, that ships fast and adapts to requirements is invaluable to any organization, and is something I look for positively. It offers both learning and growth opportunities.    
+
+Other than that, basic requirements such as good and timely pay, flexibility in working hours, and a sense of respect from the organization would be ideal. 
+
 ## Should you hire me?
-Short Answer: Yes. If you need convincing, here's why. Here's my [resume](https://drive.google.com/file/d/1zxuTbpiDlq41xqs_D4I5FMVJOj7KxsUo/view?usp=sharing) if you prefer it that way:
+Short Answer: Yes. If you need convincing, read the small blurb below about me. Here's my [resume](https://drive.google.com/file/d/1lH9E7mD-rP0Qi73ufAQQKIh5qsLr05lu/view?usp=sharing) if you prefer it that way:
 
 - **High Agency :** This is the most important skill for me. I take ownership of everything I work on, and can go great lengths to make it happen if I believe in the project. I have a great blend of both research and engineering skills, so if I commit to a project, I see it through.
 
@@ -16,7 +27,7 @@ Short Answer: Yes. If you need convincing, here's why. Here's my [resume](https:
 
 - **Quantifiable work :** I am a [2x Kaggle Expert](https://www.kaggle.com/yashsrivastava51213), created popular Python packages and kernels( which have received appreciation from [Kaggle](https://twitter.com/Yaaaaaashhh/status/1676593869931126786) as well). I have also made open-source projects that have been praised on [HN](https://news.ycombinator.com/item?id=38697922), [GitHub](https://github.com/yash-srivastava19), [Twitter](https://x.com/tailwiinder/status/1759527294287356177?s=20) (multiple instances on Twitter).   
 
-If you'd rather skip the details, here's my [resume](https://drive.google.com/file/d/1zxuTbpiDlq41xqs_D4I5FMVJOj7KxsUo/view?usp=sharing). Please feel free to reach out to me over my [socials](./contact.html) if you feel I would be good fit for your organization. I would love to connect and chat more! 
+If you'd rather skip the details, here's my [resume](https://drive.google.com/file/d/1lH9E7mD-rP0Qi73ufAQQKIh5qsLr05lu/view?usp=sharing). Please feel free to reach out to me over my [socials](./contact.html) if you feel I would be good fit for your organization. I would love to connect and chat more! 
 
 ## Projects 🧰
 Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
@@ -84,6 +95,10 @@ Here are some of the awesome notebooks 📓 I've made on Kaggle(I'm a 2x Kaggle 
 
 ## Experience 👷 : 
 
+- **AI Engineer, TurboML**: (Upcoming) Working on building foundational models in India.
+
+- **DevOps Engineer, Strykr.ai**: Primary Backend Engineer of Strykr.ai, where I worked on implementing request caching, response streaming, and async API call which reduced latency by 6 seconds and facilitated deployment migration of the said application from Render to Railway.
+
 - **Project Intern, Solvendo India Private Limited**: Worked with the Machine Learning Team on : a) A production LLM RAG application b) developing time series machine learning models for predict volatility of a stock(Deep Learning Based, GluonTS).
   
 - **Research Intern, Indian Institute of Technology-Banaras Hindi University**: Worked under Prof. A.K. Singh on a research project on developing a machine translation system for low resource languages such as Hindi, Bhojpuri, Magahi, Maithali.
@@ -93,26 +108,26 @@ Here are some of the awesome notebooks 📓 I've made on Kaggle(I'm a 2x Kaggle 
 - **Executive Member, Research and Development Cell(National Institute of Technolgy, Warangal)**: Part of Undergraduate Research Association team of NIT Warangal which actively takes part in educating and fostering academic growth among undergraduate students.
 
 ## About Me 🙇‍♂️: 
-I am Yashovardhan Srivastava(quite a mouthful, so Yash is good) an undergraduate engineering student in National Institute of Technology, Warangal. From a young age, I have been fascinated by computers. As I grew older, this fascination turned into crush and crush turned into love - and from that moment, I haven't looked back. I believe open source projects has played a significant role in that. They made me fall in love with research, development and much more. Since now I believe I am capable enough to produce some original work, I want to be a part of this beautiful journey, in which all of you play an important role.
+I am Yashovardhan Srivastava(quite a mouthful, so Yash is good) a paased out undergraduate engineering student from National Institute of Technology, Warangal(2025). From a young age, I have been fascinated by computers. As I grew older, this fascination turned into crush and crush turned into love - and from that moment, I haven't looked back. I believe open source projects has played a significant role in that. They made me fall in love with research, development and much more. Since now I believe I am capable enough to produce some original work, I try to do so from time to time, producing projects that help me deepen my understanding of something I'm interested in. That, for me is the definition of luxury - working on things you like.
 
-All of projects are a result of extreme dedication, meticulousness, and hardwork. Most of them are just random thoughts that I once had, and thought-I can build that.
+All of projects are a result of extreme dedication, meticulousness, and hardwork. Most of them are just random thoughts that I once had, and I thought to myself - **I can build that**.
 They do not need recognition, they need discussions. I might have reached a dead end with some of those - but their cycle isn't complete. I have plenty of projects in pipeline, which I hope will be just beautiful as the ones which are already there.
 
 ## Career Goals 🥅: 
-Wooh. That's a tough one. There are many things that I like and I feel it is difficult to commit to something. But, there comes a time when we need commit to a field. Balance between exploration and exploitation needs to be made-and for me, that comes from working on research problems. I want to study more, to do things that make me happy.
+Woah. That's a tough one. There are many things that I like and I feel it is difficult to commit to something. But, there comes a time when we need commit to a field. Balance between exploration and exploitation needs to be made-and for me, that comes from working on research problems. I want to study more, to do things that make me happy.
 
-The place where I come from, this is NOT a trend. We are hard-working, talented people-but we realise very later in life what matters to us. True satisfaction comes from happiness-and that is the purpose of life. I choose to take the road not taken.
+The place where I come from, this is NOT a trend. We are hard-working, talented people-but we realise very later in life what matters to us. True satisfaction comes from happiness-and that is the purpose of life.
 
 I see myself as a research scientist/research engineer in the near future-specifically in the field of AI, an I want to highlight why this field speaks to me a lot.
 
-Anyone who has studied Engineering(especially in India) will tell how "academically challenging" and "rigorous" the degree is - an I believe it is somewhat justified. Engineers are responsible for building the "lego blocks" on which society stands, and when you work for the greater good of society, you better be the best. I always say, Engineering is a great profession in theory, but(especially here), the adaptation is really not good. I guess my love for engineering did not fade away even after going through this system, so I guess working on "scale up" is something I can see myself working in. It is really fascinating once you get the hold of it.
+Anyone who has studied Engineering(especially in India) will tell how "academically challenging" and "rigorous" the degree is - an I believe it is somewhat justified. Engineers are responsible for building the "lego blocks" on which society stands, and when you work for the greater good of society, you better be the best. I always say, Engineering is a great profession in theory, but(especially here, in India), the adaptation is really not good. I guess my love for engineering did not fade away even after going through this system, so working on "scale up" is something I can see myself working in. It is really fascinating once you get the hold of it.
 
 Another interesting thing that I like is coming up with ideas and test them using the scientific method. The joy of discovering really speaks to the creative side of me, and I would really love if I can make a career in this.   
 
 Those are some of the reasons why I want to be a researcher + engineer. That is, coming up with new ideas, and testing them at various scales of production. This is something that I dream of as of now, but let's see where life takes me.
 
 ## Proficiency and Interests ⭐ :
-- Research Interests : Natural Language Processing, Mechanistic Interpretability.
+- Research Interests : Natural Language Processing, Mechanistic Interpretability, AI.
 - Building in : Artificial Intelligence Research, Data Science, Natural Language Processing and Machine Learning Research.
 - Languages :  Spoken(Hindi, English, Very Basic Spanish), Programming(C, C++,Python, R, Julia)
 - Frameworks: Tensorflow, Pytorch, Keras(and anything if given enough time)
