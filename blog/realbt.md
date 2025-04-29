@@ -80,7 +80,7 @@ def create_new_project(project_name, directory):
         data.to_csv(output_file, index=False)
 ```
     
-4. **Visualization** REALBT integrates with Plotly for interactive visualizations. For example, portfolio performance over time can be visualized using the `_generate_report` function in `cli.py` . The inspiration for the plot is taken from the `backtesting.py` ,but the implementation is in Plotly(`backtesting.py` uses bokeh for plotting). This is the backtesting.py plot :
+4. **Visualization** REALBT integrates with Plotly for interactive visualizations. For example, portfolio performance over time can be visualized using the `_generate_report` function in `cli.py` . The inspiration for the plot is taken from the `backtesting.py` ,but the implementation is in Plotly(`backtesting.py` uses bokeh for plotting). This is an example `backtesting.py` plot, and REALBT has similar plot to this:
 
 ![bokeh_plot](https://github.com/user-attachments/assets/264b140d-68da-49c2-a8f0-d9396d932929)
 
@@ -167,16 +167,15 @@ Edit the `sample_strategy.py` file in the `strategies` folder to define your
 
 ```python
 
-from realbt.src.engine import BacktestEngine
-def my_strategy(data):
+from realbt.src.engine import BacktestEngine
+def my_strategy(data):
+    # Example: Moving Average Crossover Strategy
+    data['SMA_50'] = data['Close'].rolling(window=50).mean()
+    data['SMA_200'] = data['Close'].rolling(window=200).mean()
+    signals = data['SMA_50'] > data['SMA_200']
+    return signals
 
-    # Example: Moving Average Crossover Strategy
-    data['SMA_50'] = data['Close'].rolling(window=50).mean()
-    data['SMA_200'] = data['Close'].rolling(window=200).mean()
-    signals = data['SMA_50'] > data['SMA_200']
-    return signals
-
-engine = BacktestEngine()
+engine = BacktestEngine()
 engine.run(data_path="data/apple.csv", strategy=my_strategy)
 ```
 
@@ -207,20 +206,20 @@ REALBT is modular and extensible. You can:
 For example, to add a custom transaction cost model:
 
 ```python
-def custom_transaction_cost(volume, price):
-    return 0.001 * volume * price  # Example: 0.1% transaction cost
+def custom_transaction_cost(volume, price):
+    return 0.001 * volume * price  # Example: 0.1% transaction cost
 ```
 
 Integrate it into your strategy:
 
 ```python
-from realbt.costs.custom_transaction_cost import custom_transaction_cost
-def my_strategy_with_costs(data):
-    # Define strategy logic
-    ...
-    # Apply custom transaction costs
-    costs = custom_transaction_cost(volume, price)
-    ...
+from realbt.costs.custom_transaction_cost import custom_transaction_cost
+def my_strategy_with_costs(data):
+    # Define strategy logic
+    ...
+    # Apply custom transaction costs
+    costs = custom_transaction_cost(volume, price)
+    ...
 ```
 
 **With your support and contributions, REALBT can be made better! Make a PR today and get in [touch](mailto:ysrivastava82@gmail.com).**
