@@ -57,13 +57,13 @@ python realbt/cli.py new my_project -d /path/to/directory
 ```python
 @cli.command("new")
 @click.argument("project_name")
-@click.option("--directory", "-d", default=".", help="Target directory")
-def create_new_project(project_name, directory):
+@click.option("--directory", "-d", default=".", help="Target directory")
+def create_new_project(project_name, directory):
     project_dir = os.path.join(directory, project_name)
     os.makedirs(os.path.join(project_dir, "data"), exist_ok=True)
     os.makedirs(os.path.join(project_dir, "results"), exist_ok=True)
     os.makedirs(os.path.join(project_dir, "strategies"), exist_ok=True)
-    with open(os.path.join(project_dir, "strategies", "sample_strategy.py"), "w") as f:
+    with open(os.path.join(project_dir, "strategies", "sample_strategy.py"), "w") as f:
         f.write("from realbt.src.engine import BacktestEngine\n\n# Define your strategy here")
 
 ```
