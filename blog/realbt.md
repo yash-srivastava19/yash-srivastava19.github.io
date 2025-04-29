@@ -23,7 +23,7 @@ REALBT (REAListic BackTesting) is made exactly for the reasons highlighted above
 
 REALBT is modular, extensible, written fully in python and user-friendly, with a command-line interface (CLI) for ease of use. It also includes tools for data fetching, strategy creation, and result visualization - similar to existing solutions for backtesting. Here are some of the unique features of REALBT:
 
-1. **Realistic Market Friction Modeling** REALBT incorporates modules to simulate market frictions:
+- **Realistic Market Friction Modeling** REALBT incorporates modules to simulate market frictions:
     
     - **Slippage**: Defined in `costs/liquidity.py`
     - **Market Impact**: Defined in `costs/market_impact.py`
@@ -33,14 +33,14 @@ REALBT is modular, extensible, written fully in python and user-friendly, with a
    
 ```python
 # Example: Calculating transaction costs    
-from costs.transaction_cost import calculate_transaction_cost
-trade_volume = 1000
-price_per_unit = 150
-transaction_cost = calculate_transaction_cost(trade_volume, price_per_unit) 
+from costs.transaction_cost import calculate_transaction_cost
+trade_volume = 1000
+price_per_unit = 150
+transaction_cost = calculate_transaction_cost(trade_volume, price_per_unit) 
 print(f"Transaction Cost: ${transaction_cost}")
 ```
 
-2. **Command-Line Interface (CLI)** The CLI, implemented in `cli.py`, Key commands include:
+- **Command-Line Interface (CLI)** The CLI, implemented in `cli.py`, Key commands include:
     - `new`: Creates a new project with sample files.
     - `fetch-data`: Fetches historical stock data.
     - `run`: Executes a backtest based on a configuration file.
@@ -57,57 +57,58 @@ python realbt/cli.py new my_project -d /path/to/directory
 ```python
 @cli.command("new")
 @click.argument("project_name")
-@click.option("--directory", "-d", default=".", help="Target directory")
-def create_new_project(project_name, directory):
-	project_dir = os.path.join(directory, project_name)
-	os.makedirs(os.path.join(project_dir, "data"), exist_ok=True)
-	os.makedirs(os.path.join(project_dir, "results"), exist_ok=True)
-	os.makedirs(os.path.join(project_dir, "strategies"), exist_ok=True)
-	 with open(os.path.join(project_dir, "strategies", "sample_strategy.py"), "w") as f:        f.write("from realbt.src.engine import BacktestEngine\n\n# Define your strategy here")
+@click.option("--directory", "-d", default=".", help="Target directory")
+def create_new_project(project_name, directory):
+    project_dir = os.path.join(directory, project_name)
+    os.makedirs(os.path.join(project_dir, "data"), exist_ok=True)
+    os.makedirs(os.path.join(project_dir, "results"), exist_ok=True)
+    os.makedirs(os.path.join(project_dir, "strategies"), exist_ok=True)
+    with open(os.path.join(project_dir, "strategies", "sample_strategy.py"), "w") as f:
+        f.write("from realbt.src.engine import BacktestEngine\n\n# Define your strategy here")
 
 ```
 
-3. **Data Fetching** The `fetch-data` command, implemented in `cli.py`, uses the `fetch_stock_data` function to retrieve historical stock data. This data is stored in CSV format for easy access. The data is provided by `yfinance` , and uses few parameters from the OHLCV to run the backtest engine.
+- **Data Fetching** The `fetch-data` command, implemented in `cli.py`, uses the `fetch_stock_data` function to retrieve historical stock data. This data is stored in CSV format for easy access. The data is provided by `yfinance` , and uses few parameters from the OHLCV to run the backtest engine.
 
 ```python
-    @cli.command("fetch-data")
-    @click.argument("ticker")
-    @click.argument("start_date")
-    @click.argument("end_date")
-    @click.argument("output_file", type=click.Path())
-    def fetch_data(ticker, start_date, end_date, output_file):
-        data = fetch_stock_data(ticker, start_date, end_date)
-        data.to_csv(output_file, index=False)
+@cli.command("fetch-data")
+@click.argument("ticker")
+@click.argument("start_date")
+@click.argument("end_date")
+@click.argument("output_file", type=click.Path())
+def fetch_data(ticker, start_date, end_date, output_file):
+    data = fetch_stock_data(ticker, start_date, end_date)
+    data.to_csv(output_file, index=False)
 ```
     
-4. **Visualization** REALBT integrates with Plotly for interactive visualizations. For example, portfolio performance over time can be visualized using the `_generate_report` function in `cli.py` . The inspiration for the plot is taken from the `backtesting.py` ,but the implementation is in Plotly(`backtesting.py` uses bokeh for plotting). This is an example `backtesting.py` plot, and REALBT has similar plot to this:
+- **Visualization** REALBT integrates with Plotly for interactive visualizations. For example, portfolio performance over time can be visualized using the `_generate_report` function in `cli.py` . The inspiration for the plot is taken from the `backtesting.py` ,but the implementation is in Plotly(`backtesting.py` uses bokeh for plotting). This is an example `backtesting.py` plot, and REALBT has similar plot to this:
 
 ![bokeh_plot](https://github.com/user-attachments/assets/264b140d-68da-49c2-a8f0-d9396d932929)
 
 ```python
-fig = px.line(data_frame=portfolio_data,x="time",y="value",title="Portfolio Value")
+fig = px.line(data_frame=portfolio_data, x="time", y="value", title="Portfolio Value")
 fig.show()
 ```
     
-5. **Extensibility** The modular design allows users to extend the framework by adding custom cost models, strategies, or data sources. For instance, a new cost model can be added by creating a Python file in the `costs` directory and integrating it into the backtesting engine. The core idea behind REALBT is for researchers and traders to extend this framework and make it more useful for the community. Contributions and suggestions are always welcome.
+- **Extensibility** The modular design allows users to extend the framework by adding custom cost models, strategies, or data sources. For instance, a new cost model can be added by creating a Python file in the `costs` directory and integrating it into the backtesting engine. The core idea behind REALBT is for researchers and traders to extend this framework and make it more useful for the community. Contributions and suggestions are always welcome. Raise a PR and get in [touch](mailto:ysrivastava82@gmail.com)
 
 ## How to use REALBT?
 
-1. **Clone the Repository:** First, clone the repository to your local machine using Git.
+- **Clone the Repository:** First, clone the repository to your local machine using Git.
 ```bash
-git clone https://github.com/username/realbt.git && cd realbt
+git clone https://github.com/username/realbt.git && cd realbt
 ```
 
-2. **Set Up the Environment**
+- **Set Up the Environment**
 
 REALBT has dependencies that need to be installed. It is recommended to use a virtual environment to avoid conflicts with other Python packages.
 
-2.1 **Create a Virtual Environment**:
+- **Create a Virtual Environment**:
 ```python
-python -m venv venv
+python -m venv venv
 ```
 
-2.2 **Activate the Virtual Environment**:
+- **Activate the Virtual Environment**:
 - On Windows:
 ```bash
 venv\Scripts\activate
@@ -118,12 +119,12 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-2.3 **Install Dependencies**
+- **Install Dependencies**
 ```bash
 pip install -r requirements.txt
 ```
     
-3. **Verify Installation**
+- **Verify Installation**
 Run the CLI help command to ensure the package is installed and working correctly:
 
 ```bash
@@ -132,7 +133,7 @@ python realbt/cli.py --help
 
 You should see a list of available commands, such as `new`, `fetch-data`, and `run`.
 
-4. **Create a New Project:** Use the `new` command to create a new backtesting project:
+- **Create a New Project:** Use the `new` command to create a new backtesting project:
 
 ```bash
 python realbt/cli.py new my_project -d /path/to/directory
@@ -161,7 +162,7 @@ python realbt/cli.py fetch-data AAPL 2024-01-01 2024-12-31 my_project/data
 
 ---
 
-6. **Define a Strategy**
+- **Define a Strategy**
 
 Edit the `sample_strategy.py` file in the `strategies` folder to define your trading strategy. For example:
 
@@ -172,8 +173,8 @@ def my_strategy(data):
     # Example: Moving Average Crossover Strategy
     data['SMA_50'] = data['Close'].rolling(window=50).mean()
     data['SMA_200'] = data['Close'].rolling(window=200).mean()
-    signals = data['SMA_50'] > data['SMA_200']
-    return signals
+    signals = data['SMA_50'] > data['SMA_200']
+    return signals
 
 engine = BacktestEngine()
 engine.run(data_path="data/apple.csv", strategy=my_strategy)
@@ -182,7 +183,7 @@ engine.run(data_path="data/apple.csv", strategy=my_strategy)
 
 ---
 
-7. **Run the Backtest**
+- **Run the Backtest**
 
 Run the Backtest using the `run` command:
 
@@ -195,7 +196,7 @@ The results will be saved in the `results` folder, and you can visualize them 
 
 ---
 
-8. **Extend the Framework**
+- **Extend the Framework**
 
 REALBT is modular and extensible. You can:
 
