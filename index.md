@@ -32,7 +32,9 @@ If you'd rather skip the details, here's my [resume](https://drive.google.com/fi
 ## Projects 🧰
 Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
 
-  - [**Arrakis**](https://github.com/yash-srivastava19/arrakis) (Looking for contributors) : Arrakis is a library to conduct, track and visualize mechanistic interpretability experiments. 17+ stars on Github ; 150+ monthly PyPi downloads.
+  - [**REALBT**](https://github.com/yash-srivastava19/REALBT) (Looking for contributors) : REALBT is a simple, effective backtesting engine written in pure python.
+    
+  - [**Arrakis**](https://github.com/yash-srivastava19/arrakis) (Looking for contributors) : Arrakis is a library to conduct, track and visualize mechanistic interpretability experiments. 28+ stars on Github ; 250+ monthly PyPi downloads.
     
   - [**Deeprobe**](https://github.com/yash-srivastava19/deeprobe) (Looking for ideas) : Deeprobe is a study to understand feature importance and pattern undderstaing in Sparse Autoencoders using Monte Carlo Tree Search.
        
@@ -43,7 +45,7 @@ Here I'll pin some of my favorite projects, more on the research 👨‍🔬 sid
   - [**Collaborative Debating**](https://github.com/yash-srivastava19/collaborative-debating) (Work in Progress) : A hacky implementation of the paper "Improving Factuality and Reasoning in Language Models through Multiagent Debate".
     
   - [**NEAT-JAX**](https://github.com/yash-srivastava19/NEAT-JAX) (Working 
- on PR) : An implementation of Neuroevolution of Augmented Topologies Algorithm in JAX which is compatible with EvoJAX. 10+ Github stars ; PRs
+ on PR) : An implementation of Neuroevolution of Augmented Topologies Algorithm in JAX which is compatible with EvoJAX. 14+ Github stars ; Multiple PRs
      
   - [**Nexus Theory**](https://github.com/yash-srivastava19/nexus-theory) : Can we really trust our human-ness for the messages that we send into the cosmos? Nexus theory is a gamified version to understand machine learning interpretability using Large Language Models.
 
@@ -59,7 +61,7 @@ Here I'll pin some of my favorite projects, more on the development 💻 side. F
      
   - [**Dynamo**](https://github.com/yash-srivastava19/Dynamo) : Dynamo is a Python/Rust implementation of a load balancer and autoscaler for MySQL web tier. 
   
-  - [**Safe SQL**](https://github.com/yash-srivastava19/safe_sql) : Safe SQL provides sanity checks for common DB pitfalls(so you don't delete prod DB) ; available as a python package(CLI included). 220+ monthly PyPI Downloads.
+  - [**Safe SQL**](https://github.com/yash-srivastava19/safe_sql) : Safe SQL provides sanity checks for common DB pitfalls(so you don't delete prod DB) ; available as a python package(CLI included). 300+ monthly PyPI Downloads.
   
   - [**Stock Tank**](https://github.com/yash-srivastava19/stock-tank) : End to End ML pipeline to predict stock prices(upto 30 days). Automate retraining, evals and more(Github Actions). Streamlit Web App available as well.  
   
