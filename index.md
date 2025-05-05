@@ -57,6 +57,8 @@ Here I'll pin some of my favorite projects, more on the research 👨‍🔬 sid
 
 Here I'll pin some of my favorite projects, more on the development 💻 side. Feedback is always appreciated for projects like these.: 
 
+  - [**Devsidian**](https://github.com/yash-srivastava19/devsidian-a2c05a04)(Lovable Project) : Log your developement journey using Devsidian. Made using Lovable for personal use.
+     
   - [**Snappyr**](https://github.com/yash-srivastava19/snappyr) : Setup Python Projects Blazingly Fast, and work on things that matter. No External Dependencies. 
      
   - [**Dynamo**](https://github.com/yash-srivastava19/Dynamo) : Dynamo is a Python/Rust implementation of a load balancer and autoscaler for MySQL web tier. 
