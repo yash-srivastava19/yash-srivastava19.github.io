@@ -16,18 +16,7 @@ Short Answer: Yes. If you need convincing, read the small blurb below about me. 
 
 - **Quantifiable work :** I am a [2x Kaggle Expert](https://www.kaggle.com/yashsrivastava51213), created popular Python packages and kernels( which have received appreciation from [Kaggle](https://twitter.com/Yaaaaaashhh/status/1676593869931126786) as well). I have also made open-source projects that have been praised on [HN](https://news.ycombinator.com/item?id=38697922), [GitHub](https://github.com/yash-srivastava19), [Twitter](https://x.com/tailwiinder/status/1759527294287356177?s=20) (multiple instances on Twitter).   
 
-If you'd rather skip the details, here's my [resume](https://drive.google.com/file/d/1lH9E7mD-rP0Qi73ufAQQKIh5qsLr05lu/view?usp=sharing). Please feel free to reach out to me over my [socials](./contact.html) if you feel I would be good fit for your organization. I would love to connect and chat more!
-
-## What do I look for in a workplace?
-I've been workin in AI from some time, and after giving countless interviews and havin chats with founders, here's my few requirements that I look for in a workplace:
-
-- **Innovation over bureaucracy:** In most organization, great ideas get tossed into the bin due to bureaucracy. I feel in a good org, ideas flow freely, and innovation is valued more highly.
-  
-- **Mission over projects:** An org with a clear mission works in a calculated fashion than an org that hops from project to project. People with high agency tend to thrive in environments where there contributions serve a greater mission.
-  
-- **Teamwork over individuality:** A talented team, that ships fast and adapts to requirements is invaluable to any organization, and is something I look for positively. It offers both learning and growth opportunities.    
-
-Other than that, basic requirements such as good and timely pay, flexibility in working hours, and a sense of respect from the organization would be ideal. 
+If you'd rather skip the details, here's my [resume](https://drive.google.com/file/d/1lH9E7mD-rP0Qi73ufAQQKIh5qsLr05lu/view?usp=sharing). Please feel free to reach out to me over my [socials](./contact.html) if you feel I would be good fit for your organization. I would love to connect and chat more! 
 
 ## Projects 🧰
 Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
@@ -131,6 +120,17 @@ Anyone who has studied Engineering(especially in India) will tell how "academica
 Another interesting thing that I like is coming up with ideas and test them using the scientific method. The joy of discovering really speaks to the creative side of me, and I would really love if I can make a career in this.   
 
 Those are some of the reasons why I want to be a researcher + engineer. That is, coming up with new ideas, and testing them at various scales of production. This is something that I dream of as of now, but let's see where life takes me.
+
+## What do I look for in a workplace?
+I've been workin in AI from some time, and after giving countless interviews and havin chats with founders, here's my few requirements that I look for in a workplace:
+
+- **Innovation over bureaucracy:** In most organization, great ideas get tossed into the bin due to bureaucracy. I feel in a good org, ideas flow freely, and innovation is valued more highly.
+  
+- **Mission over projects:** An org with a clear mission works in a calculated fashion than an org that hops from project to project. People with high agency tend to thrive in environments where there contributions serve a greater mission.
+  
+- **Teamwork over individuality:** A talented team, that ships fast and adapts to requirements is invaluable to any organization, and is something I look for positively. It offers both learning and growth opportunities.    
+
+Other than that, basic requirements such as good and timely pay, flexibility in working hours, and a sense of respect from the organization would be ideal.
 
 ## Proficiency and Interests ⭐ :
 - Research Interests : Natural Language Processing, Mechanistic Interpretability, AI.
