@@ -145,7 +145,7 @@ Other than that, basic requirements such as good and timely pay, flexibility in 
   
 - Personal Interests : Football, badminton, avid reader, philosophy connoisseur and writing. 
 
-## Reseach Papers I Love 📎
+## Research Papers I Love 📎
 In no particular order, I am listing some really awesome research papers that in one way or other have helped me think outside of the box.
 
  - **[Interpretability in the Wild - IOI Circuit Identification](https://arxiv.org/pdf/2211.00593)** : A very detailed and understandable paper on circuit identification for mechanistic interpretability. Highly recommended if you want to understand how to design your own experiments.
