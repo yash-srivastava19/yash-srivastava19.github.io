@@ -5,6 +5,8 @@ This is my scratchpad, where I'll try to include stuff that I'm currently workin
 ## Investigating: Can Language Models Evolve Better Solutions Over Generations?
 I want to explore whether LLMs can iteratively improve program quality over multiple generations(like AlphaEvolve), particularly in math/cs/science domain. By designing a feedback loop where each generation builds on the best-performing programs from the past—measured via a cost function - I can track how the model-generated solutions evolved. We could also enforce strict prompt controls, log metrics, and analyze trends across generations to test if LLMs can learn to generate increasingly efficient code under evolutionary pressure.
 
+- update: can we do RL + GA/Evolution both? Let us find out.
+
 ## SDPA Optimization Package.
 I've been looking into ways to optimize SDPA with less memory overhead. I'm trying to understand how can we use less space in the KV Cache of SDPA to boost performance. For decoder only models, KV cache can give faster matrix multiplication times, but the ever growing size for KV cache is a problem. I've identified 3 axes on which we can reduce the memory footprint of models calculating SDPA, which are: precision, batch_size/seq_len, and KV_cache size. I think optimizing SDPA on these 3 axes and finding the Goldilocks zone is a good starting point. For starting, I'm running benchmarking tests with fused attention functions and quantization(and testing with Flex Attention too). The idea is to make a all bateries included pytorch package that optimizes SDPA. I need to understand the tradeoffs between these techniques, but I need some sanity check on whether I'm going in the right direction. If you have any ideas, hit me up.
 
