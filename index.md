@@ -128,7 +128,7 @@ I've been workin in AI from some time, and after giving countless interviews and
   
 - **Mission over projects:** An org with a clear mission works in a calculated fashion than an org that hops from project to project. People with high agency tend to thrive in environments where there contributions serve a greater mission.
   
-- **Teamwork over individuality:** A talented team, that ships fast and adapts to requirements is invaluable to any organization, and is something I look for positively. It offers both learning and growth opportunities.    
+- **Teamwork over individuality:** A talented team from which I can learn is the best, and is something I look for positively. I am by no means expert, and with a talented team I try to learn how to effectively communicate, solve problems and basically manage tasks that are given to me.
 
 Other than that, basic requirements such as good and timely pay, flexibility in working hours, and a sense of respect from the organization would be ideal.
 
