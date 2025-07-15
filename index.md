@@ -4,7 +4,7 @@ I'm Yashovardhan Srivastava, a recent engineering undergraduate(2025) with a str
 Beyond that, If you want to contact me, here are my [socials](./contact.html)
 
 ## Should you hire me?
-Short Answer: Yes. If you need convincing, read the small blurb below about me. Here's my [resume](https://drive.google.com/file/d/1lH9E7mD-rP0Qi73ufAQQKIh5qsLr05lu/view?usp=sharing) if you prefer it that way:
+Short Answer: Yes. If you need convincing, read the small blurb below about me. Here's my [resume](https://drive.google.com/file/d/1bNr6AnwhdpTzGN70d7f6UWe5uxsjeVYz/view?usp=sharing) if you prefer it that way:
 
 - **High Agency :** This is the most important skill for me. I take ownership of everything I work on, and can go great lengths to make it happen if I believe in the project. I have a great blend of both research and engineering skills, so if I commit to a project, I see it through.
 
@@ -16,7 +16,7 @@ Short Answer: Yes. If you need convincing, read the small blurb below about me. 
 
 - **Quantifiable work :** I am a [2x Kaggle Expert](https://www.kaggle.com/yashsrivastava51213), created popular Python packages and kernels( which have received appreciation from [Kaggle](https://twitter.com/Yaaaaaashhh/status/1676593869931126786) as well). I have also made open-source projects that have been praised on [HN](https://news.ycombinator.com/item?id=38697922), [GitHub](https://github.com/yash-srivastava19), [Twitter](https://x.com/tailwiinder/status/1759527294287356177?s=20) (multiple instances on Twitter).   
 
-If you'd rather skip the details, here's my [resume](https://drive.google.com/file/d/1lH9E7mD-rP0Qi73ufAQQKIh5qsLr05lu/view?usp=sharing). Please feel free to reach out to me over my [socials](./contact.html) if you feel I would be good fit for your organization. I would love to connect and chat more! 
+If you'd rather skip the details, here's my [resume](https://drive.google.com/file/d/1bNr6AnwhdpTzGN70d7f6UWe5uxsjeVYz/view?usp=sharing). Please feel free to reach out to me over my [socials](./contact.html) if you feel I would be good fit for your organization. I would love to connect and chat more!
 
 ## Projects 🧰
 Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
