@@ -90,7 +90,7 @@ Here are some of the awesome notebooks 📓 I've made on Kaggle(I'm a 2x Kaggle 
 
 ## Experience 👷 : 
 
-- **AI Engineer, TurboML**: (Upcoming) Working on building foundational models in India.
+- **AI Engineer, TurboML**: Shipped end to end self hosted video generation(700K+ impressions), image generation/editing(2.7M+ impressions), and customized meme generation to Whatsapp, utilizing state of the art diffusion models. Facilitated resolution of STT server memory outage, leading to 63% decrease in memory usage
 
 - **DevOps Engineer, Strykr.ai**: Primary Backend Engineer of Strykr.ai, where I worked on implementing request caching, response streaming, and async API call which reduced latency by 6 seconds and facilitated deployment migration of the said application from Render to Railway.
 
