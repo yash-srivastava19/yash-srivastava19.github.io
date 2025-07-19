@@ -42,16 +42,8 @@ Before moving forward with what I found, let us look into the architectural desi
 **Cadence** implements an evolutionary system that uses large language models (LLMs) to iteratively generate, mutate, and improve programs for solving computational problems. The current implementation focuses on optimizing solutions to the Traveling Salesman Problem (TSP).
 At its core, Cadence operates on a continuous feedback loop, where programs are treated as evolving entities. The system maintains a population of programs, each representing a potential solution to the target computational problem. The evolutionary process is driven by the performance of these programs on a fixed test suite, with better-performing programs being favored for reproduction and further refinement. The unique aspect of Cadence lies in its use of LLMs as the primary mechanism for generating new program variations and mutations, guided by explicit instructions and the context of previous program generations.
 
-flowchart TD
-    A[Sample Parent Program] --> B[Build Prompt + Lesson]
-    B --> C[LLM Generation of Code Diffs]
-    C --> D[Apply Diff to Parent]
-    D --> E[Evaluate on Test Suite]
-    E --> F[Log to Database]
-    F --> G{Generation Complete}
-    G -->|Not Final| A
-    G -->|Final| H[Extract Lesson]
-    H --> B
+<img width="395" height="752" alt="image" src="https://github.com/user-attachments/assets/bcbc507a-c65e-4da2-982c-1c58128b93f7" />
+
 
 The system evolves programs over generations using the following loop:
 
@@ -302,7 +294,7 @@ ax2.plot(cfg.SIZES, rels, marker="o", color="purple")
 
 #### **Key Observations:**
 
-![C:\Users\yashs\OneDrive\Desktop\Programming\2025_Q2_Projects\cadence\cadence\outputs\2025-07-19\14-21-47\h2_scaling_analysis.png](file:///c%3A/Users/yashs/OneDrive/Desktop/Programming/2025_Q2_Projects/cadence/cadence/outputs/2025-07-19/14-21-47/h2_scaling_analysis.png)
+<img width="512" height="512" alt="h2_scaling_analysis" src="https://github.com/user-attachments/assets/d1df0b73-2f05-4bcc-937d-79ffef4fa344" />
 
 
 Scaling Summary:
