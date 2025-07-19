@@ -66,11 +66,11 @@ Here's a more detailed overview of the steps involved in it:
 6. **Program Promotion:** Periodically, programs that demonstrate superior performance are promoted within the population. These 'elite' programs are given higher priority for selection as parents in subsequent generations, thereby guiding the evolutionary process towards more optimal solutions. These can be set using ELITISM_INTERVAL from the config file.
 7. **Meta-prompting (Optional Instruction Mutation):** To foster diversity and prevent premature convergence, Cadence incorporates an optional metaprompting mechanism. This involves periodically mutating the instructions provided to the LLM. This self-adaptive instruction evolution allows Cadence to explore different problem-solving strategies and potentially discover novel approaches that might not be evident with static instructions. We extract lessons from after every set number of instructions, and then give it as a feedback to the LLM. 
 
-## Experimental and Results for Hypothesis 1
+## Experiment and Results for Hypothesis 1
 
 The **Travelling Salesman Problem (TSP)** is a classic combinatorial optimization problem: given a list of cities and their pairwise distances, what is the shortest tour that visits each city exactly once and returns to the starting point?
 
-While TSP is known to be computationally hard, **approximate solutions** and **heuristic methods** are widely used in real-world settings. Our central question for this hypothesis is:
+While TSP is known to be computationally hard, **approximate solutions** and **heuristic methods** are widely used in real-world settings. My central question for this hypothesis is:
 
 > _Can Large Language Models (LLMs), guided through structured prompting and iterative feedback, learn to generate effective heuristic solutions to the TSP problem?_
 
@@ -222,7 +222,7 @@ However, performance plateaus without stronger meta-reasoning or curriculum. Thi
 
 ---
 
-## Experimental and Results for Hypothesis 2
+## Experiment and Results for Hypothesis 2
 
 The **Travelling Salesman Problem (TSP)** becomes increasingly difficult as the number of cities increases. Classic heuristics like **Nearest Neighbor (NN)** scale poorly, often producing suboptimal solutions for large instances.
 
@@ -313,7 +313,7 @@ Scaling Summary:
 - Periodic **lesson extraction** helps the system retain and reuse successful strategies, which contributed to the increase in relative improvement.
 
 ### Conclusion
-This validates our hypothesis — **LLMs evolution follows scaling laws**, and given the right lessons, actually improve the solutions over baselines.
+This validates my hypothesis - **LLMs evolution follows scaling laws**, and given the right lessons, actually improve the solutions over baselines!!.
 
 ---
 
