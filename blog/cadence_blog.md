@@ -42,7 +42,7 @@ Before moving forward with what I found, let us look into the architectural desi
 **Cadence** implements an evolutionary system that uses large language models (LLMs) to iteratively generate, mutate, and improve programs for solving computational problems. The current implementation focuses on optimizing solutions to the Traveling Salesman Problem (TSP).
 At its core, Cadence operates on a continuous feedback loop, where programs are treated as evolving entities. The system maintains a population of programs, each representing a potential solution to the target computational problem. The evolutionary process is driven by the performance of these programs on a fixed test suite, with better-performing programs being favored for reproduction and further refinement. The unique aspect of Cadence lies in its use of LLMs as the primary mechanism for generating new program variations and mutations, guided by explicit instructions and the context of previous program generations.
 
-<img width="1535" height="3842" alt="Untitled diagram _ Mermaid Chart-2025-07-19-152929" src="https://github.com/user-attachments/assets/5f680fad-426d-4757-af2c-27515df82e31" />
+<img width="512" height="512" alt="Untitled diagram _ Mermaid Chart-2025-07-19-152929" src="https://github.com/user-attachments/assets/5f680fad-426d-4757-af2c-27515df82e31" />
 
 
 The system evolves programs over generations using the following loop:
