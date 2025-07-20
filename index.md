@@ -21,6 +21,8 @@ If you'd rather skip the details, here's my [resume](https://drive.google.com/fi
 ## Projects 🧰
 Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
 
+  - [**Cadence**](https://github.com/yash-srivastava19/cadence) : Cadence implements an evolutionary system that uses LLMs to iteratively generate, mutate, and improve programs for solving computational problems such as the Traveling Salesman Problem (TSP).
+
   - [**REALBT**](https://github.com/yash-srivastava19/REALBT) (Looking for contributors) : REALBT is a simple, effective backtesting engine written in pure python.
     
   - [**Arrakis**](https://github.com/yash-srivastava19/arrakis) (Looking for contributors) : Arrakis is a library to conduct, track and visualize mechanistic interpretability experiments. 28+ stars on Github ; 250+ monthly PyPi downloads.
