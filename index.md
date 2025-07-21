@@ -1,7 +1,7 @@
 # Home
 I'm Yashovardhan Srivastava, a recent engineering undergraduate(2025) with a strong passion for building, researching and sharing knowledge. I write blogs extensively, both technical and non-technical, so do check them out. Here are my [technical blogs](./blogs.html), and here are my non technical [blogs](./diary.html). 
 
-Beyond that, If you want to contact me, reach out to me at *ysrivastava82 <at> gmail <dot> com*. Connect with me on my [socials](./contact.html)
+Beyond that, If you want to contact me, reach out to me at *ysrivastava82(at)gmail(dot)com*. Connect with me on my [socials](./contact.html)
 
 ## Should you hire me?
 Read the small blurb below about me. Here's my [resume](https://drive.google.com/file/d/1bNr6AnwhdpTzGN70d7f6UWe5uxsjeVYz/view?usp=sharing) if you prefer it that way:
@@ -12,7 +12,7 @@ Read the small blurb below about me. Here's my [resume](https://drive.google.com
     
 - **Experience :** I've worked with 2 D2C(AI and AI+Finance) startups, 1 B2B startup(Finance), and once with a leading research instituion of India, and over 70 public open source projects. I'm comfortable in programming and never shy away from learning things I'm unaware of.
 
-If you'd rather skip the details, here's my [resume](https://drive.google.com/file/d/1bNr6AnwhdpTzGN70d7f6UWe5uxsjeVYz/view?usp=sharing). Please feel free to reach out to me at *ysrivastava82 <at> gmail <dot> com* or over my [socials](./contact.html) if you feel I would be good fit for your organization. I would love to connect and chat more!
+If you'd rather skip the details, here's my [resume](https://drive.google.com/file/d/1bNr6AnwhdpTzGN70d7f6UWe5uxsjeVYz/view?usp=sharing). Please feel free to reach out to me at *ysrivastava82(at)gmail(dot)com* or over my [socials](./contact.html) if you feel I would be good fit for your organization. I would love to connect and chat more!
 
 ## Projects 🧰
 Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
