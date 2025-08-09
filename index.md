@@ -4,7 +4,7 @@ I'm Yashovardhan Srivastava, a recent engineering undergraduate(2025) with a str
 Beyond that, If you want to contact me, reach out to me at *ysrivastava82(at)gmail(dot)com*. Connect with me on my [socials](./contact.html)
 
 ## Should you hire me?
-Read the small blurb below about me. Here's my [resume](https://drive.google.com/file/d/1bNr6AnwhdpTzGN70d7f6UWe5uxsjeVYz/view?usp=sharing) if you prefer it that way:
+Read the small blurb below about me. Here's my [resume](https://drive.google.com/file/d/1dwMRU17av7PteRix3BOeSGLDyCi0KfDp/view?usp=sharing) if you prefer it that way:
 
 - **Notable work :** I am a [2x Kaggle Expert](https://www.kaggle.com/yashsrivastava51213), created popular Python packages and kernels( which have received appreciation from [Kaggle](https://twitter.com/Yaaaaaashhh/status/1676593869931126786) as well). I have 70+ public of open-source projects, some of which have been praised on [HN](https://news.ycombinator.com/item?id=38697922), [GitHub](https://github.com/yash-srivastava19), and on multiple instances on [Twitter](https://x.com/tailwiinder/status/1759527294287356177?s=20).   
 
@@ -12,7 +12,7 @@ Read the small blurb below about me. Here's my [resume](https://drive.google.com
     
 - **Experience :** I've worked with 2 D2C(AI and AI+Finance) startups, 1 B2B startup(Finance), and once with a leading research instituion of India, and over 70 public open source projects. I'm comfortable in programming and never shy away from learning things I'm unaware of.
 
-If you'd rather skip the details, here's my [resume](https://drive.google.com/file/d/1bNr6AnwhdpTzGN70d7f6UWe5uxsjeVYz/view?usp=sharing). Please feel free to reach out to me at *ysrivastava82(at)gmail(dot)com* or over my [socials](./contact.html) if you feel I would be good fit for your organization. I would love to connect and chat more!
+If you'd rather skip the details, here's my [resume](https://drive.google.com/file/d/1dwMRU17av7PteRix3BOeSGLDyCi0KfDp/view?usp=sharing). Please feel free to reach out to me at *ysrivastava82(at)gmail(dot)com* or over my [socials](./contact.html) if you feel I would be good fit for your organization. I would love to connect and chat more!
 
 ## Projects 🧰
 Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
@@ -88,7 +88,7 @@ Here are some of the awesome notebooks 📓 I've made on Kaggle(I'm a 2x Kaggle 
 
 ## Experience 👷 : 
 
-- **AI Engineer, TurboML**: Shipped end to end self hosted video generation(700K+ impressions), image generation/editing(2.7M+ impressions), and customized meme generation to Whatsapp, utilizing state of the art diffusion models. Facilitated resolution of STT server memory outage, leading to 63% decrease in memory usage
+- **AI Engineer Intern, TurboML**: Shipped end to end self hosted video generation(700K+ impressions), image generation/editing(2.7M+ impressions), and customized meme generation to Whatsapp, utilizing state of the art diffusion models. Facilitated resolution of STT server memory outage, leading to 63% decrease in memory usage
 
 - **DevOps Engineer, Strykr.ai**: Primary Backend Engineer of Strykr.ai, where I worked on implementing request caching, response streaming, and async API call which reduced latency by 6 seconds and facilitated deployment migration of the said application from Render to Railway.
 
