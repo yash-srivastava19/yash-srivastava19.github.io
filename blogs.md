@@ -1,7 +1,8 @@
 ## Blogs
 
 Note: I love writing technical blogs. This is one of the new ways I've been learning, and honestly it is quite refreshing. I tackle most of the topics that I feel I can realte to other things I've learned, and draw parallels wherever necessary. They are done in breadth-first fashion, with room to go on rabbitholes as well. Enjoy!
-
+sport_hacking
+1. [(Non Technical) On the Ancient Sport of Hacking](https://yash-sri.xyz/blog/sport_hacking)
 1. [Cadence: Program Evolution via Large Language Models](https://yash-sri.xyz/blog/cadence_blog)
 2. [(Non-Technical) I'm a Tool Guy](https://yash-sri.xyz/blog/tool_guy)
 3. [REALBT - A Simple Backtesting Engine in Pure Python ](https://yash-sri.xyz/blog/realbt)
