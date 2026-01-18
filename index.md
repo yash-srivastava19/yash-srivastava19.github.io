@@ -88,6 +88,8 @@ Here are some of the awesome notebooks 📓 I've made on Kaggle(I'm a 2x Kaggle 
 
 ## Experience 👷 : 
 
+- **Product Engineer, Glomopay**: Part of Cards and Subscription Team, handling cross border payments and solving business critical problems daily.
+
 - **AI Engineer Intern, TurboML**: Shipped end to end self hosted video generation(700K+ impressions), image generation/editing(2.7M+ impressions), and customized meme generation to Whatsapp, utilizing state of the art diffusion models. Facilitated resolution of STT server memory outage, leading to 63% decrease in memory usage
 
 - **DevOps Engineer, Strykr.ai**: Primary Backend Engineer of Strykr.ai, where I worked on implementing request caching, response streaming, and async API call which reduced latency by 6 seconds and facilitated deployment migration of the said application from Render to Railway.
@@ -127,8 +129,8 @@ Other than that, basic requirements such as good and timely pay, flexibility in 
 
 ## Proficiency and Interests ⭐ :
 - Research Interests : Natural Language Processing, AI.
-- Languages : Programming(C, C++,Python, R, Julia)
-- Frameworks: Tensorflow, Pytorch, Keras(and anything if given enough time)
+- Languages : Programming(C, C++,Python, R, Julia, Ruby)
+- Frameworks: Tensorflow, Pytorch, Keras, Ruby on Rails(and anything if given enough time)
 
 ## Achievements 🥇
 #### Honours
