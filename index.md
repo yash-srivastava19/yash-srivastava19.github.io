@@ -23,7 +23,7 @@ Here I'll pin some of my favorite projects, more on the research 👨‍🔬 sid
     
   - [**Arrakis**](https://github.com/yash-srivastava19/arrakis) (Looking for contributors) : Arrakis is a library to conduct, track and visualize mechanistic interpretability experiments. 28+ stars on Github ; 250+ monthly PyPi downloads.
     
-  - [**Deeprobe**](https://github.com/yash-srivastava19/deeprobe) (Looking for ideas) : Deeprobe is a study to understand feature importance and pattern undderstaing in Sparse Autoencoders using Monte Carlo Tree Search.
+  - [**Deeprobe**](https://github.com/yash-srivastava19/deeprobe) (Looking for ideas) : Deeprobe is a study to understand feature importance and pattern understanding in Sparse Autoencoders using Monte Carlo Tree Search.
        
   - [**SAE Macaronic Languages**](https://github.com/yash-srivastava19/sae-macaronic-analysis) : Understand whether language models learn words beyond language barriers, a study in Mechanistic Interpretability.
 
@@ -61,7 +61,11 @@ Here I'll pin some of my favorite projects, more on the development 💻 side. F
   - [**AI GF**](https://github.com/yash-srivastava19/ai_gf) : A small weekend project that through which you can create a virtual girlfriend(not made for imitation, but for learning)
   
   - [**Synapse**](https://github.com/yash-srivastava19/Synapse) : Synapse is hackernews-type platform that can be used by any community as a forum. Tried making this for my college, but need more inspiration.
-  
+
+  - [**grove**](https://github.com/yash-srivastava19/grove) : Terminal knowledge garden — Obsidian-style note-taking for the CLI, built in Go with Bubble Tea. Features wiki-links `[[]]`, vault-wide AI search, note templates, and a full TUI with vim keybindings.
+
+  - [**pairy**](https://github.com/yash-srivastava19/pairy) : Neovim AI pair programmer. Uses Gemini directly inside Neovim for code completion, explanation, and refactoring — no API proxy, no bloat.
+
   - [**Pandora**](https://github.com/yash-srivastava19/pandora) : Pandora is domain agnostic framework for case study generation and solving.
     
   - [**Verizon**](https://github.com/yash-srivastava19/verizon) : A Git like version control system, from scratch, in Python, spelled out.
@@ -103,7 +107,7 @@ Here are some of the awesome notebooks 📓 I've made on Kaggle(I'm a 2x Kaggle 
 - **Executive Member, Research and Development Cell(National Institute of Technolgy, Warangal)**: Part of Undergraduate Research Association team of NIT Warangal which actively takes part in educating and fostering academic growth among undergraduate students.
 
 ## About Me 🙇‍♂️: 
-I am Yashovardhan Srivastava(quite a mouthful, so Yash is good) a passed out undergraduate engineering student from National Institute of Technology, Warangal(2025). From a young age, I have been fascinated by computers. As I grew older, this fascination turned into crush and crush turned into love - and from that moment, I haven't looked back. I am obsessed with programming. My obsesison has made me someone who likes to build a lot - and that has had a huge ROI for me. I believe I am capable enough to produce some original work, I try to do so from time to time, producing projects that help me deepen my understanding of something I'm interested in. That, for me is the definition of luxury - working on things you like.
+I am Yashovardhan Srivastava(quite a mouthful, so Yash is good) a passed out undergraduate engineering student from National Institute of Technology, Warangal(2025). From a young age, I have been fascinated by computers. As I grew older, this fascination turned into crush and crush turned into love - and from that moment, I haven't looked back. I am obsessed with programming. My obsession has made me someone who likes to build a lot - and that has had a huge ROI for me. I believe I am capable enough to produce some original work, I try to do so from time to time, producing projects that help me deepen my understanding of something I'm interested in. That, for me is the definition of luxury - working on things you like.
 
 All of projects are a result of extreme dedication, meticulousness, and hardwork. Most of them are just random thoughts that I once had, and I thought echoing in my brain that - **I can build that**. The journey from there to actually making something worth checking out has made me a somewhat decent programmer.
 
@@ -117,7 +121,7 @@ Anyone who has studied Engineering(especially in India) will tell how "academica
 This is the reason why I'm a researcher in free time, and an engineer full time. That is, I come up with new ideas, and try testing them at various scales.
 
 ## What do I look for in a workplace?
-I've been workin in startups from some time, and after giving countless interviews and havin chats with founders, here's my few requirements that I look for in a workplace:
+I've been workin in startups from some time, and after giving countless interviews and having chats with founders, here's my few requirements that I look for in a workplace:
 
 - **Innovation over bureaucracy:** In most organization, great ideas get tossed into the bin due to bureaucracy. I feel in a good org, ideas flow freely, and innovation is valued more highly - regardless of your position.
   

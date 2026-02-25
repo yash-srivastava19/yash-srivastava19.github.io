@@ -1,4 +1,4 @@
-Note: Get nerd sniped for the love of god! Also, if you like this kind of work, and your organization does something similar, consider hiring me? I'm looking aggresively looking for a job. Would love to [chat](mailto:ysrivastava82@gmail.com) 
+Note: Get nerd sniped for the love of god! Also, if you like this kind of work, and your organization does something similar, consider hiring me? I'm aggressively looking for a job. Would love to [chat](mailto:ysrivastava82@gmail.com) 
 
 # Cadence - Evolving Code with LLMs for NP-Hard Problems
 
