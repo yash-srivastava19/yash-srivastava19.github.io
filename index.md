@@ -1,12 +1,12 @@
 # Home
-I'm Yash. I build things in the terminal, write about ML internals, and publish most of it. My work sits at the intersection of systems programming and AI research - I've shipped a terminal note-taking app in Go, a Neovim AI plugin, interpretability experiments on SAEs, and a Git implementation from scratch. Here are my [technical blogs](./blogs.html) and [personal writing](./diary.html).
+I'm Yashovardhan Srivastava (Yash is fine), a recent engineering graduate from NIT Warangal (2025) with a strong passion for building, researching, and sharing knowledge. I'm obsessed with programming - most of my 70+ projects started as a random thought and ended up teaching me something I didn't expect. I write about what I build, both [technically](./blogs.html) and [otherwise](./diary.html).
 
 Reach me at *ysrivastava82(at)gmail(dot)com* or on [Twitter](https://twitter.com/Yaaaaaashhh).
 
 ## Quick take
 
 - **70+ public projects**, some featured on [HN](https://news.ycombinator.com/item?id=38697922), [GitHub](https://github.com/yash-srivastava19), and [Twitter](https://x.com/tailwiinder/status/1759527294287356177?s=20). 2x Kaggle Expert with [popular notebooks](https://www.kaggle.com/yashsrivastava51213).
-- **4 years of startup experience** across AI, fintech, and infra - shipped real products with real users.
+- **Interned at 3 startups and 1 research lab** across AI, fintech, and infra - shipped products with real users and co-authored research at IIT-BHU.
 - **I don't rely on talent. I rely on obsession.** I take ownership of what I build and go unreasonably far to make it work.
 
 [Resume](https://drive.google.com/file/d/1dwMRU17av7PteRix3BOeSGLDyCi0KfDp/view?usp=sharing) if you prefer that format.
@@ -59,9 +59,9 @@ Here I'll pin some of my favorite projects, more on the development 💻 side. F
   
   - [**Synapse**](https://github.com/yash-srivastava19/Synapse) : Synapse is hackernews-type platform that can be used by any community as a forum. Tried making this for my college, but need more inspiration.
 
-  - [**grove**](https://github.com/yash-srivastava19/grove) : Terminal knowledge garden — Obsidian-style note-taking for the CLI, built in Go with Bubble Tea. Features wiki-links `[[]]`, vault-wide AI search, note templates, and a full TUI with vim keybindings.
+  - [**grove**](https://github.com/yash-srivastava19/grove) : Terminal knowledge garden - Obsidian-style note-taking for the CLI, built in Go with Bubble Tea. Features wiki-links `[[]]`, vault-wide AI search, note templates, and a full TUI with vim keybindings.
 
-  - [**pairy**](https://github.com/yash-srivastava19/pairy) : Neovim AI pair programmer. Uses Gemini directly inside Neovim for code completion, explanation, and refactoring — no API proxy, no bloat.
+  - [**pairy**](https://github.com/yash-srivastava19/pairy) : Neovim AI pair programmer. Uses Gemini directly inside Neovim for code completion, explanation, and refactoring - no API proxy, no bloat.
 
   - [**Pandora**](https://github.com/yash-srivastava19/pandora) : Pandora is domain agnostic framework for case study generation and solving.
     
@@ -104,17 +104,20 @@ Here are some of the awesome notebooks 📓 I've made on Kaggle(I'm a 2x Kaggle 
 - **Executive Member, Research and Development Cell(National Institute of Technolgy, Warangal)**: Part of Undergraduate Research Association team of NIT Warangal which actively takes part in educating and fostering academic growth among undergraduate students.
 
 ## About Me 🙇‍♂️:
-I'm Yashovardhan Srivastava (Yash is fine), NIT Warangal CS grad, 2025. I've been fascinated by computers for as long as I can remember, and that fascination compounded into obsession. Most of my projects started as a random thought - "I wonder if that works" or "I should just build that" - and went from there. That loop has made me a decent programmer.
+I'm Yashovardhan Srivastava (Yash is fine), engineering graduate from NIT Warangal, 2025. I've been fascinated by computers for as long as I can remember, and that fascination compounded into obsession. Most of my projects started as a random thought - "I wonder if that works" or "I should just build that" - and went from there. That loop has made me a decent programmer.
 
 I'm a researcher in my free time and an engineer full time. I come up with ideas, test them, write about them, ship them.
 
 ## Career Goals 🥅:
 I want to work on things that are genuinely hard and worth doing - research-quality problems with engineering-quality standards. I'm not looking for a title; I'm looking for a problem worth being obsessed about.
 
+## What I look for:
+Ideas flowing freely regardless of where they come from, a clear mission to orient work around, and a team good enough that I'm learning from them. I'm early in my career and care more about the environment than the perks.
+
 ## Proficiency and Interests ⭐ :
 - **Research Interests:** Mechanistic interpretability, NLP, neuroevolution, systems for ML
-- **Languages:** Python, Go, Lua, C/C++
-- **Frameworks:** PyTorch, JAX, Bubble Tea, Neovim plugin APIs
+- **Languages:** Python, Ruby, C/C++, Lua, Go (picking it up)
+- **Frameworks:** PyTorch, JAX, TensorFlow, Ruby on Rails, Keras
 - **Personal Interests:** Football, badminton, reading (a lot), writing
 
 ## Achievements 🥇
