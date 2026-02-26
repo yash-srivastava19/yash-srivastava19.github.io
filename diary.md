@@ -16,3 +16,4 @@
 12. [The Life in Review Interview](https://yash-sri.xyz/diary/life_interview)
 13. [Letter to Myself on my 21 Birthday](https://yash-sri.xyz/diary/birthday_21)
 14. [Will AI Ever Shade Their Child When They Are Sleeping?](https://yash-sri.xyz/diary/ai_shade)
+15. [Love](https://yash-sri.xyz/diary/love)

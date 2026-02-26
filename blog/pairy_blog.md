@@ -1,7 +1,3 @@
----
-layout: post
-title: "pairy: AI pair programming the way I like it"
----
 
 Note: I got a GitHub Copilot invoice and realized a Gemini API key was sitting unused in a .env file. Two days later I had a Neovim plugin that does most of what Copilot does, costs nothing, and I can read every line of it. Sometimes the best motivation is a bill you didn't expect.
 

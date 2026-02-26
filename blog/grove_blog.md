@@ -1,7 +1,3 @@
----
-layout: post
-title: "grove: I built Obsidian for the terminal"
----
 
 Note: I had Obsidian open next to my terminal for a year. Every time I needed to write something down, I'd leave the terminal, wait for Electron, write two sentences, and come back. One day I got annoyed enough to just build what I wanted. This is that.
 

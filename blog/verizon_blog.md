@@ -1,7 +1,3 @@
----
-layout: post
-title: "I built Git from scratch. Here's what I learned."
----
 
 Note: Someone told me once that you don't really understand Git until you've built it. I spent a weekend finding out if that was true. It is. If you've ever stared at a detached HEAD state at 11pm and felt genuinely confused, this project is for you.
 

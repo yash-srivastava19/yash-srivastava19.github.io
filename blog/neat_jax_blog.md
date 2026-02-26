@@ -1,7 +1,3 @@
----
-layout: post
-title: "Shoving NEAT into JAX: When Evolving Topologies Meet Static Computation Graphs"
----
 
 Note: This started as a passion project. It remains a passion project. I have made peace with this.
 

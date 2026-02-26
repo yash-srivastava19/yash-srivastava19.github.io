@@ -3,10 +3,10 @@ I'm Yashovardhan Srivastava (Yash is fine), a recent engineering graduate from N
 
 Reach me at *ysrivastava82(at)gmail(dot)com* or on [Twitter](https://twitter.com/Yaaaaaashhh).
 
-## Quick take
+## By the numbers
 
 - **70+ public projects**, some featured on [HN](https://news.ycombinator.com/item?id=38697922), [GitHub](https://github.com/yash-srivastava19), and [Twitter](https://x.com/tailwiinder/status/1759527294287356177?s=20). 2x Kaggle Expert with [popular notebooks](https://www.kaggle.com/yashsrivastava51213).
-- **Interned at 3 startups and 1 research lab** across AI, fintech, and infra - shipped products with real users and co-authored research at IIT-BHU.
+- **Worked at 3 startups and 1 research lab** across AI, fintech, and infra - shipped products with real users and co-authored research at IIT-BHU.
 - **I don't rely on talent. I rely on obsession.** I take ownership of what I build and go unreasonably far to make it work.
 
 [Resume](https://drive.google.com/file/d/1dwMRU17av7PteRix3BOeSGLDyCi0KfDp/view?usp=sharing) if you prefer that format.
