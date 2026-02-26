@@ -17,7 +17,7 @@ NEAT is from 2002. JAX is from 2018. Making them talk to each other taught me mo
 
 ## What is NEAT, and why should you care?
 
-**NEAT** — Neuroevolution of Augmenting Topologies — is a genetic algorithm for evolving neural networks, introduced by Stanley and Miikkulainen in 2002. What makes it interesting, and what makes it hard, is that it doesn't just evolve *weights*. It evolves *topology*. The structure of the network itself — how many nodes, how they're connected — changes over generations.
+**NEAT** - Neuroevolution of Augmenting Topologies - is a genetic algorithm for evolving neural networks, introduced by Stanley and Miikkulainen in 2002. What makes it interesting, and what makes it hard, is that it doesn't just evolve *weights*. It evolves *topology*. The structure of the network itself - how many nodes, how they're connected - changes over generations.
 
 The life cycle of a NEAT population looks like this:
 
@@ -37,7 +37,7 @@ Over time:
   Networks grow more complex, accumulating structure that helps them survive
 ```
 
-The "augmenting topologies" part is the key innovation. Networks *start* simple — just inputs wired directly to outputs — and grow structure only when that structure earns its keep. Innovations are protected by **speciation**: networks that look structurally similar compete with each other, giving new mutations time to develop before they have to fight against well-optimized mature networks.
+The "augmenting topologies" part is the key innovation. Networks *start* simple - just inputs wired directly to outputs - and grow structure only when that structure earns its keep. Innovations are protected by **speciation**: networks that look structurally similar compete with each other, giving new mutations time to develop before they have to fight against well-optimized mature networks.
 
 This is elegant. It's also the source of every headache I ran into.
 
@@ -45,9 +45,9 @@ This is elegant. It's also the source of every headache I ran into.
 
 ## What is EvoJAX, and why did I want to use it?
 
-[EvoJAX](https://github.com/google/evojax), from Tang, Tian, and Ha at Google Brain, is a hardware-accelerated neuroevolution toolkit built on JAX. The pitch is straightforward: if your neuroevolution algorithm can be expressed in JAX, you get TPU and GPU acceleration essentially for free. Evolution strategies, CMA-ES, population-based training — all of it running in parallel across accelerators.
+[EvoJAX](https://github.com/google/evojax), from Tang, Tian, and Ha at Google Brain, is a hardware-accelerated neuroevolution toolkit built on JAX. The pitch is straightforward: if your neuroevolution algorithm can be expressed in JAX, you get TPU and GPU acceleration essentially for free. Evolution strategies, CMA-ES, population-based training - all of it running in parallel across accelerators.
 
-The canonical benchmark task in the EvoJAX repo is **neural slime volleyball**: a two-player physics game where each side controls a "slime" that must hit a ball over a net. The observation space is simple (ball position and velocity, self position), the action space is small (move left, right, jump), but the task requires reactive, competitive behavior that makes it a surprisingly rich benchmark for evolved controllers. If you haven't seen the GIF in the EvoJAX README of two slimes evolved entirely by gradient-free methods vollying back and forth, go look at it — it's a better argument for neuroevolution than any paper abstract.
+The canonical benchmark task in the EvoJAX repo is **neural slime volleyball**: a two-player physics game where each side controls a "slime" that must hit a ball over a net. The observation space is simple (ball position and velocity, self position), the action space is small (move left, right, jump), but the task requires reactive, competitive behavior that makes it a surprisingly rich benchmark for evolved controllers. If you haven't seen the GIF in the EvoJAX README of two slimes evolved entirely by gradient-free methods vollying back and forth, go look at it - it's a better argument for neuroevolution than any paper abstract.
 
 EvoJAX works beautifully for fixed-topology neuroevolution. You define a network architecture once. The entire population shares that architecture with different weights. You vectorize the fitness evaluation across the population. Everything stays in JAX arrays. Everything is JIT-compilable. It's fast.
 
@@ -119,7 +119,7 @@ def evaluate_genome(genome_arrays, obs):
 # This works fine for individual 0 (2 nodes, 3 connections)
 evaluate_genome(to_jax(population[0]), obs)
 
-# This triggers a recompilation — shape changed
+# This triggers a recompilation - shape changed
 # With large populations this becomes catastrophically slow
 evaluate_genome(to_jax(population[1]), obs)  # different topology
 ```
@@ -154,7 +154,7 @@ def genome_to_fixed_arrays(genome):
 @jax.jit
 def forward(arrays, obs):
     W = arrays["weights"] * arrays["mask"]  # zero out disabled connections
-    # Fixed shape (MAX_NODES,) throughout — JAX is happy
+    # Fixed shape (MAX_NODES,) throughout - JAX is happy
     activations = jnp.zeros(MAX_NODES)
     activations = activations.at[:obs.shape[0]].set(obs)
     # Simplified: one-pass propagation
@@ -164,7 +164,7 @@ def forward(arrays, obs):
 
 This actually works. The shapes are static. `jax.jit` compiles once. The mask suppresses disabled connections at runtime without changing the graph structure at compile time.
 
-The cost: you're paying for `MAX_NODES x MAX_NODES` memory for every individual in your population, even the tiny ones. With a population of 500 and `MAX_NODES = 32`, that's 500 × 32 × 32 = 512,000 floats for the weight matrices alone. That's fine. The harder problem is crossover — matching parents by innovation number when the genome is a dense matrix rather than a list of (innovation_number, weight) pairs requires careful bookkeeping, and the natural NEAT crossover logic doesn't map cleanly to array operations.
+The cost: you're paying for `MAX_NODES x MAX_NODES` memory for every individual in your population, even the tiny ones. With a population of 500 and `MAX_NODES = 32`, that's 500 × 32 × 32 = 512,000 floats for the weight matrices alone. That's fine. The harder problem is crossover - matching parents by innovation number when the genome is a dense matrix rather than a list of (innovation_number, weight) pairs requires careful bookkeeping, and the natural NEAT crossover logic doesn't map cleanly to array operations.
 
 ### 2. Python-side evolution, JAX-side evaluation
 
@@ -198,19 +198,19 @@ def mutate_connection(genome, rng):
     return genome
 ```
 
-This is JIT-friendly and fast. It's also not really NEAT anymore — the whole point of NEAT is that structure grows from nothing. This is closer to a topology-search version of a fixed network, which is interesting but different.
+This is JIT-friendly and fast. It's also not really NEAT anymore - the whole point of NEAT is that structure grows from nothing. This is closer to a topology-search version of a fixed network, which is interesting but different.
 
 ---
 
 ## Current status: honest accounting
 
-The training notebook (`neat_jax.ipynb`) exists. The max-topology padding approach gets far enough to run experiments — populations evolve, fitness improves, slimes learn to jump. The architecture is there.
+The training notebook (`neat_jax.ipynb`) exists. The max-topology padding approach gets far enough to run experiments - populations evolve, fitness improves, slimes learn to jump. The architecture is there.
 
 But there's a known bug that blocks the full NEAT topology evolution loop: **mixing Python lists and JAX arrays in the genome representation causes shape mismatches that break JIT compilation mid-run**. This happens specifically in the crossover step, where child genomes can end up with a connection count that differs from what the JIT-compiled function was traced with, even after padding, because the padding logic has a case where innovation numbers don't align as expected.
 
 This is documented in the README. I have not fixed it. Here's why it's hard:
 
-The real fix isn't a patch to the crossover code. It's a different genome representation altogether. The Python list of `(innovation_number, weight, enabled)` tuples is the natural structure for NEAT, and it's fundamentally at odds with JAX's requirement for fixed-shape arrays. You can work around this with padding and masks, but you're always fighting the representation. The deeper solution is probably something like **learnable topology masks** — where the topology is itself a continuous variable that can be optimized or evolved in a JAX-friendly way — rather than explicit graph mutations over discrete structures.
+The real fix isn't a patch to the crossover code. It's a different genome representation altogether. The Python list of `(innovation_number, weight, enabled)` tuples is the natural structure for NEAT, and it's fundamentally at odds with JAX's requirement for fixed-shape arrays. You can work around this with padding and masks, but you're always fighting the representation. The deeper solution is probably something like **learnable topology masks** - where the topology is itself a continuous variable that can be optimized or evolved in a JAX-friendly way - rather than explicit graph mutations over discrete structures.
 
 That's a research problem, not an engineering one. People are working on it. Some relevant directions: differentiable graph neural architecture search, continuous relaxations of discrete graph structures, and the line of work on neural architecture search via gradient methods. None of them are NEAT, but they're trying to solve the adjacent problem: topology as something you optimize rather than enumerate.
 
@@ -218,13 +218,13 @@ That's a research problem, not an engineering one. People are working on it. Som
 
 ## What this collision taught me
 
-**JAX's constraints are load-bearing.** The requirement for static shapes isn't an arbitrary restriction — it's what makes XLA compilation possible, which is what makes JAX fast on TPUs. When you fight it, you're not finding a loophole; you're opting out of the thing that makes JAX worth using. The right response is to redesign your representation to fit JAX's model, not to bolt a workaround onto the data structure you already have.
+**JAX's constraints are load-bearing.** The requirement for static shapes isn't an arbitrary restriction - it's what makes XLA compilation possible, which is what makes JAX fast on TPUs. When you fight it, you're not finding a loophole; you're opting out of the thing that makes JAX worth using. The right response is to redesign your representation to fit JAX's model, not to bolt a workaround onto the data structure you already have.
 
-**NEAT was designed for CPUs in 2002.** This isn't a criticism of the algorithm — it's genuinely elegant for what it does. But "add a node" is a Python list append. "Add a connection" is another append. The entire algorithm assumes mutable, variable-length data structures because that's what you have in sequential, single-threaded computation on a CPU. Retrofitting it for hardware-accelerated parallel evaluation is a genuine research problem, not just an engineering challenge.
+**NEAT was designed for CPUs in 2002.** This isn't a criticism of the algorithm - it's genuinely elegant for what it does. But "add a node" is a Python list append. "Add a connection" is another append. The entire algorithm assumes mutable, variable-length data structures because that's what you have in sequential, single-threaded computation on a CPU. Retrofitting it for hardware-accelerated parallel evaluation is a genuine research problem, not just an engineering challenge.
 
 **The "eager Python, accelerated JAX" split is a real pattern.** It's not unique to NEAT. PyTorch Lightning separates training loop logic (Python) from compute-heavy operations (tensor ops). TensorFlow's `tf.function` has the same static-shape requirement as JAX's `jit`. The architectural pattern of "do the dynamic coordination in Python, do the compute in the accelerated framework" is something you encounter anywhere you're trying to apply modern ML infrastructure to algorithms with dynamic structure. Understanding where that boundary is, and how expensive crossing it is, matters.
 
-**18 GitHub stars.** Some PRs have come in. People are interested in this problem. The tension between evolutionary algorithms (which are inherently dynamic and population-based) and hardware-accelerated ML frameworks (which want fixed, vectorizable computation) is real, and NEAT-JAX hits it about as directly as possible. If you've thought about this problem — if you have a cleaner genome representation, a better way to express topology evolution in JAX, or a pointer to work I should know about — I genuinely want to hear it.
+**18 GitHub stars.** Some PRs have come in. People are interested in this problem. The tension between evolutionary algorithms (which are inherently dynamic and population-based) and hardware-accelerated ML frameworks (which want fixed, vectorizable computation) is real, and NEAT-JAX hits it about as directly as possible. If you've thought about this problem - if you have a cleaner genome representation, a better way to express topology evolution in JAX, or a pointer to work I should know about - I genuinely want to hear it.
 
 ---
 
@@ -232,7 +232,7 @@ That's a research problem, not an engineering one. People are working on it. Som
 
 - Stanley, K.O. & Miikkulainen, R. (2002). *Evolving Neural Networks through Augmenting Topologies.* Evolutionary Computation, 10(2), 99–127.
 - Tang, Y., Tian, Y., & Ha, D. (2022). *EvoJAX: Hardware-Accelerated Neuroevolution.* [arXiv:2202.05008](https://arxiv.org/abs/2202.05008)
-- JAX documentation: [Ahead-of-time lowering and compilation](https://jax.readthedocs.io/en/latest/aot.html) — specifically the section on why static shapes are required for `jit`
+- JAX documentation: [Ahead-of-time lowering and compilation](https://jax.readthedocs.io/en/latest/aot.html) - specifically the section on why static shapes are required for `jit`
 
 ---
 

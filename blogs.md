@@ -2,12 +2,12 @@
 
 Note: I love writing technical blogs. This is one of the new ways I've been learning, and honestly it is quite refreshing. I tackle most of the topics that I feel I can relate to other things I've learned, and draw parallels wherever necessary. They are done in breadth-first fashion, with room to go on rabbitholes as well. Enjoy!
 
-1. [grove — I built Obsidian for the terminal](https://yash-sri.xyz/blog/grove_blog)
+1. [grove: I built Obsidian for the terminal](https://yash-sri.xyz/blog/grove_blog)
 2. [Do LLMs Have a Secret Interlingua? Testing GPT-2's Hinglish Comprehension with Sparse Autoencoders](https://yash-sri.xyz/blog/sae_macaronic_blog)
 3. [What Happens When You Run BPE on Encrypted Text?](https://yash-sri.xyz/blog/sec_bpe_blog)
 4. [Using MCTS to Navigate Sparse Autoencoder Feature Space](https://yash-sri.xyz/blog/deeprobe_blog)
 5. [Shoving NEAT into JAX: When Evolving Topologies Meet Static Computation Graphs](https://yash-sri.xyz/blog/neat_jax_blog)
-6. [pairy — AI pair programming the way I like it](https://yash-sri.xyz/blog/pairy_blog)
+6. [pairy: AI pair programming the way I like it](https://yash-sri.xyz/blog/pairy_blog)
 7. [I built Git from scratch. Here's what I learned.](https://yash-sri.xyz/blog/verizon_blog)
 8. [(Non Technical) Building and Maintaining Software is an Art](https://yash-sri.xyz/diary/art_software)
 9. [(Non Technical) On the Ancient Sport of Hacking](https://yash-sri.xyz/blog/sport_hacking)

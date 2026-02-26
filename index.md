@@ -1,18 +1,15 @@
 # Home
-I'm Yashovardhan Srivastava, a recent engineering undergraduate(2025) with a strong passion for building, researching and sharing knowledge. I write blogs extensively, both technical and non-technical, so do check them out. Here are my [technical blogs](./blogs.html), and here are my non technical [blogs](./diary.html). 
+I'm Yash. I build things in the terminal, write about ML internals, and publish most of it. My work sits at the intersection of systems programming and AI research - I've shipped a terminal note-taking app in Go, a Neovim AI plugin, interpretability experiments on SAEs, and a Git implementation from scratch. Here are my [technical blogs](./blogs.html) and [personal writing](./diary.html).
 
-Beyond that, If you want to contact me, reach out to me at *ysrivastava82(at)gmail(dot)com*. Connect with me on my [socials](./contact.html)
+Reach me at *ysrivastava82(at)gmail(dot)com* or on [Twitter](https://twitter.com/Yaaaaaashhh).
 
-## Should you hire me?
-Read the small blurb below about me. Here's my [resume](https://drive.google.com/file/d/1dwMRU17av7PteRix3BOeSGLDyCi0KfDp/view?usp=sharing) if you prefer it that way:
+## Quick take
 
-- **Notable work :** I am a [2x Kaggle Expert](https://www.kaggle.com/yashsrivastava51213), created popular Python packages and kernels( which have received appreciation from [Kaggle](https://twitter.com/Yaaaaaashhh/status/1676593869931126786) as well). I have 70+ public of open-source projects, some of which have been praised on [HN](https://news.ycombinator.com/item?id=38697922), [GitHub](https://github.com/yash-srivastava19), and on multiple instances on [Twitter](https://x.com/tailwiinder/status/1759527294287356177?s=20).   
+- **70+ public projects**, some featured on [HN](https://news.ycombinator.com/item?id=38697922), [GitHub](https://github.com/yash-srivastava19), and [Twitter](https://x.com/tailwiinder/status/1759527294287356177?s=20). 2x Kaggle Expert with [popular notebooks](https://www.kaggle.com/yashsrivastava51213).
+- **4 years of startup experience** across AI, fintech, and infra - shipped real products with real users.
+- **I don't rely on talent. I rely on obsession.** I take ownership of what I build and go unreasonably far to make it work.
 
-- **High Agency :** I am obsessed with programming, so much so that I forget everything when I'm in the zone, and agency is the thing that keeps me in it. I take ownership of everything I work on, and can go great lengths to make it happen. I don't rely on talent - I rely on obsession.
-    
-- **Experience :** I've worked with 2 D2C(AI and AI+Finance) startups, 1 B2B startup(Finance), and once with a leading research instituion of India, and over 70 public open source projects. I'm comfortable in programming and never shy away from learning things I'm unaware of.
-
-If you'd rather skip the details, here's my [resume](https://drive.google.com/file/d/1dwMRU17av7PteRix3BOeSGLDyCi0KfDp/view?usp=sharing). Please feel free to reach out to me at *ysrivastava82(at)gmail(dot)com* or over my [socials](./contact.html) if you feel I would be good fit for your organization. I would love to connect and chat more!
+[Resume](https://drive.google.com/file/d/1dwMRU17av7PteRix3BOeSGLDyCi0KfDp/view?usp=sharing) if you prefer that format.
 
 ## Projects 🧰
 Here I'll pin some of my favorite projects, more on the research 👨‍🔬 side(Feel free to critique me on this(and try to contribute if possible :) ) :
@@ -106,42 +103,23 @@ Here are some of the awesome notebooks 📓 I've made on Kaggle(I'm a 2x Kaggle 
   
 - **Executive Member, Research and Development Cell(National Institute of Technolgy, Warangal)**: Part of Undergraduate Research Association team of NIT Warangal which actively takes part in educating and fostering academic growth among undergraduate students.
 
-## About Me 🙇‍♂️: 
-I am Yashovardhan Srivastava(quite a mouthful, so Yash is good) a passed out undergraduate engineering student from National Institute of Technology, Warangal(2025). From a young age, I have been fascinated by computers. As I grew older, this fascination turned into crush and crush turned into love - and from that moment, I haven't looked back. I am obsessed with programming. My obsession has made me someone who likes to build a lot - and that has had a huge ROI for me. I believe I am capable enough to produce some original work, I try to do so from time to time, producing projects that help me deepen my understanding of something I'm interested in. That, for me is the definition of luxury - working on things you like.
+## About Me 🙇‍♂️:
+I'm Yashovardhan Srivastava (Yash is fine), NIT Warangal CS grad, 2025. I've been fascinated by computers for as long as I can remember, and that fascination compounded into obsession. Most of my projects started as a random thought - "I wonder if that works" or "I should just build that" - and went from there. That loop has made me a decent programmer.
 
-All of projects are a result of extreme dedication, meticulousness, and hardwork. Most of them are just random thoughts that I once had, and I thought echoing in my brain that - **I can build that**. The journey from there to actually making something worth checking out has made me a somewhat decent programmer.
+I'm a researcher in my free time and an engineer full time. I come up with ideas, test them, write about them, ship them.
 
-## Career Goals 🥅: 
-I try to practice the luxury I talked about - I want to study things that fascinate me, and build things that make me happy.
-
-The place where I come from, this is NOT a trend. We are hard-working, talented people-but we realise very later in life what matters to us. True satisfaction comes from happiness-and that is the purpose of life.
-
-Anyone who has studied Engineering(especially in India) will tell how "academically challenging" and "rigorous" the degree is - an I believe it is somewhat justified. Engineers are responsible for building the "lego blocks" on which society stands, and when you work for the greater good of society, you better be the best. I always say, *Engineering is a great profession in theory, but(especially here, in India), really bad in practice*. I guess my love for engineering did not fade away even after going through this system, so doing this art of "scale up" is something I can see myself working in.
-
-This is the reason why I'm a researcher in free time, and an engineer full time. That is, I come up with new ideas, and try testing them at various scales.
-
-## What do I look for in a workplace?
-I've been workin in startups from some time, and after giving countless interviews and having chats with founders, here's my few requirements that I look for in a workplace:
-
-- **Innovation over bureaucracy:** In most organization, great ideas get tossed into the bin due to bureaucracy. I feel in a good org, ideas flow freely, and innovation is valued more highly - regardless of your position.
-  
-- **Mission over projects:** An org with a clear mission works in a calculated fashion than an org that hops from project to project. Engineers thrive in environments where there contributions serve a greater mission.
-  
-- **Teamwork over individuality:** A talented team from which I can learn is the best, and is something I look for positively. I am by no means expert, and with a talented team I try to learn how to effectively communicate, solve problems and basically manage tasks that are given to me.
-
-Other than that, basic requirements such as good and timely pay, flexibility in working hours, and a sense of respect from the organization would be ideal.
+## Career Goals 🥅:
+I want to work on things that are genuinely hard and worth doing - research-quality problems with engineering-quality standards. I'm not looking for a title; I'm looking for a problem worth being obsessed about.
 
 ## Proficiency and Interests ⭐ :
-- Research Interests : Natural Language Processing, AI.
-- Languages : Programming(C, C++,Python, R, Julia, Ruby)
-- Frameworks: Tensorflow, Pytorch, Keras, Ruby on Rails(and anything if given enough time)
+- **Research Interests:** Mechanistic interpretability, NLP, neuroevolution, systems for ML
+- **Languages:** Python, Go, Lua, C/C++
+- **Frameworks:** PyTorch, JAX, Bubble Tea, Neovim plugin APIs
+- **Personal Interests:** Football, badminton, reading (a lot), writing
 
 ## Achievements 🥇
-#### Honours
-- Promoted as the President of Big Data Analytics and Consulting Cell(National Institute of Technology, Warangal) for the year 2024-2025.
-- Received Kaggle Notebook and Dataset Expert with an overall rank of 699 and 573 respectively.
-  
-- Personal Interests : Football, badminton, avid reader, philosophy connoisseur and writing. 
+- President, Big Data Analytics and Consulting Cell, NIT Warangal (2024-2025)
+- 2x Kaggle Expert - Notebook rank 699, Dataset rank 573
 
 ## Research Papers I Love 📎
 In no particular order, I am listing some really awesome research papers that in one way or other have helped me think outside of the box.
@@ -161,3 +139,7 @@ In no particular order, I am listing some really awesome research papers that in
   - **[Recsim-A configurable platform for recommender systems](https://arxiv.org/pdf/1909.04847.pdf)** : This opened my eyes. I was in awe when I found out we can use reinforcement learning in recommendation setting. I even emailed the author of the paper thanking and asking him what he thinks whether this will be used in future recommendation systems. Google Research for the WIN.
     
   - **[Improving Low-Resource NMT through Relevance Based Linguistic Features Incorporation](https://aclanthology.org/2020.coling-main.376.pdf)**: This was a really well written and structured paper, which I was able to understand easily, and even used for testing in my internship project.
+
+---
+
+If something here caught your eye - a project, a blog post, an idea - feel free to reach out. [ysrivastava82@gmail.com](mailto:ysrivastava82@gmail.com) or [Twitter](https://twitter.com/Yaaaaaashhh). I reply.
