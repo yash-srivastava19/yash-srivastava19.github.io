@@ -13,32 +13,9 @@ permalink: /films/
   <a class="films-lb-link" href="{{ site.letterboxd.profile_url }}" target="_blank" rel="noopener">Letterboxd ↗</a>
 </div>
 
+I watch a lot of films — mostly late at night, mostly alone, mostly with no plan. It started as something to do and became something I genuinely look forward to. I'm not a cinephile in the snobbish sense. I don't have a Letterboxd essay for every film. But I have opinions, and they're honest. Some of these have a review, most don't. The rating is gut feeling, not analysis. Hover over any poster to see what I thought.
+
 {% if films.size > 0 %}
-{% assign rated = films | where_exp: "f", "f.rating_numeric != nil" %}
-{% assign rewatch_count = films | where: "rewatch", true | size %}
-{% assign total_rating = 0 %}
-{% for f in rated %}{% assign total_rating = total_rating | plus: f.rating_numeric %}{% endfor %}
-{% assign avg_rating = total_rating | divided_by: rated.size | round: 1 %}
-
-<div class="films-stats">
-  <div class="films-stat">
-    <span class="films-stat-value">{{ films.size }}</span>
-    <span class="films-stat-label">Watched</span>
-  </div>
-  <div class="films-stat">
-    <span class="films-stat-value">{{ avg_rating }}</span>
-    <span class="films-stat-label">Avg rating</span>
-  </div>
-  <div class="films-stat">
-    <span class="films-stat-value">{{ rewatch_count }}</span>
-    <span class="films-stat-label">Rewatches</span>
-  </div>
-  <div class="films-stat">
-    <span class="films-stat-value">{{ films[0].watched_date | date: "%b %Y" }}</span>
-    <span class="films-stat-label">Last watched</span>
-  </div>
-</div>
-
 <div class="films-grid">
   {% for film in films %}
   <a class="film-card" href="{{ film.link }}" target="_blank" rel="noopener">

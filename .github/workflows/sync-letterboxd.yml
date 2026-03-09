@@ -19,7 +19,9 @@ jobs:
         run: pip install feedparser pyyaml
 
       - name: Fetch Letterboxd data
-        run: python scripts/fetch_letterboxd.py
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/yash-srivastava19/letterboxd-widget/master/jekyll/fetch_letterboxd.py -o fetch_letterboxd.py
+          python fetch_letterboxd.py
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:

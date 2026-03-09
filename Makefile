@@ -13,6 +13,7 @@ install:
 	bundle install
 
 # Fetch fresh Letterboxd data locally before serving
+# Uses the canonical script from the letterboxd-widget package
 sync:
 	pip install -q feedparser pyyaml
-	python scripts/fetch_letterboxd.py
+	curl -fsSL https://raw.githubusercontent.com/yash-srivastava19/letterboxd-widget/master/jekyll/fetch_letterboxd.py | python
