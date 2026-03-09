@@ -1,0 +1,27 @@
+name: Sync Letterboxd
+
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install feedparser pyyaml
+
+      - name: Fetch Letterboxd data
+        run: python scripts/fetch_letterboxd.py
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: sync Letterboxd film diary [skip ci]"
+          file_pattern: "_data/letterboxd.yml"

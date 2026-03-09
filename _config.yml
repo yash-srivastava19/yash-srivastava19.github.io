@@ -10,3 +10,18 @@ footer_icons:
 - username: yash-srivastava19
   url: https://github.com/yash-srivastava19
   icon: icon-github.svg
+
+# Letterboxd integration — change username here to point at any profile
+letterboxd:
+  username: yash_sri19
+  profile_url: https://letterboxd.com/yash_sri19/
+
+header_pages:
+  - blogs.md
+  - films.md
+  - diary.md
+  - projects.md
+  - contact.md
+
+plugins:
+  - jekyll-feed
