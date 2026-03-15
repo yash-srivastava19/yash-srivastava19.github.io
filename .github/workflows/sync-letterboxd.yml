@@ -20,8 +20,9 @@ jobs:
 
       - name: Fetch Letterboxd data
         run: |
-          curl -fsSL https://raw.githubusercontent.com/yash-srivastava19/letterboxd-widget/master/jekyll/fetch_letterboxd.py -o fetch_letterboxd.py
-          python fetch_letterboxd.py
+          mkdir -p _scripts
+          curl -fsSL https://raw.githubusercontent.com/yash-srivastava19/letterboxd-widget/master/jekyll/fetch_letterboxd.py -o _scripts/fetch_letterboxd.py
+          python _scripts/fetch_letterboxd.py
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
