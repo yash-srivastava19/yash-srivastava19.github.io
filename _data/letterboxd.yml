@@ -1,5 +1,14 @@
-last_updated: '2026-03-27T09:56:32'
+last_updated: '2026-03-28T09:41:11'
 films:
+- title: Something Very Bad Is Going to Happen
+  year: '2026'
+  rating_numeric: 3.5
+  rating_stars: ★★★½
+  watched_date: '2026-03-28'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/5/2/1/7/8/6/1521786-something-very-bad-is-going-to-happen-0-600-0-900-crop.jpg?v=0d4f8e3ae9
+  review: What's a soulmate?
+  link: https://letterboxd.com/yash_sri19/film/something-very-bad-is-going-to-happen/
 - title: Khoobsurat
   year: '2014'
   rating_numeric: 1.0
