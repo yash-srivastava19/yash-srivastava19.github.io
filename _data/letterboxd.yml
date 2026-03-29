@@ -1,5 +1,14 @@
-last_updated: '2026-03-28T09:41:11'
+last_updated: '2026-03-29T09:39:35'
 films:
+- title: Project Hail Mary
+  year: '2026'
+  rating_numeric: 3.0
+  rating_stars: ★★★
+  watched_date: '2026-03-28'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/6/1/1/2/8/8/611288-project-hail-mary-0-600-0-900-crop.jpg?v=ac31b6ec03
+  review: Dare I say Koi Mil Gaya was better?
+  link: https://letterboxd.com/yash_sri19/film/project-hail-mary/
 - title: Something Very Bad Is Going to Happen
   year: '2026'
   rating_numeric: 3.5
