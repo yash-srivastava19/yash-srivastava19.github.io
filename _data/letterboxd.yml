@@ -1,5 +1,14 @@
-last_updated: '2026-04-05T09:40:50'
+last_updated: '2026-04-06T10:11:10'
 films:
+- title: The Drama
+  year: '2026'
+  rating_numeric: 4.0
+  rating_stars: ★★★★
+  watched_date: '2026-04-05'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/2/0/5/4/9/4/1205494-the-drama-0-600-0-900-crop.jpg?v=2320acafd5
+  review: My god I love some drama.
+  link: https://letterboxd.com/yash_sri19/film/the-drama/
 - title: Project Hail Mary
   year: '2026'
   rating_numeric: 3.0
