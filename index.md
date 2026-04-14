@@ -1,11 +1,11 @@
 # Home
-I'm Yashovardhan Srivastava (Yash is fine), a recent engineering graduate from NIT Warangal (2025) with a strong passion for building, researching, and sharing knowledge. I'm obsessed with programming - most of my 70+ projects started as a random thought and ended up teaching me something I didn't expect. I write about what I build, both [technically](./blogs.html) and [otherwise](./diary.html).
+I'm Yashovardhan Srivastava (Yash is fine), a recent engineering graduate from NIT Warangal (2025). I build developer tools, research systems, and practical machine learning projects, then write about what I learn along the way, both [technically](./blogs.html) and [otherwise](./diary.html).
 
 Reach me at *ysrivastava82(at)gmail(dot)com* or on [Twitter](https://twitter.com/Yaaaaaashhh).
 
 ## By the numbers
 
-- **70+ public projects**, some featured on [HN](https://news.ycombinator.com/item?id=38697922), [GitHub](https://github.com/yash-srivastava19), and [Twitter](https://x.com/tailwiinder/status/1759527294287356177?s=20). 2x Kaggle Expert with [popular notebooks](https://www.kaggle.com/yashsrivastava51213).
+- **70+ public projects** across research, developer tools, and experiments, with some featured on [HN](https://news.ycombinator.com/item?id=38697922), [GitHub](https://github.com/yash-srivastava19), and [Twitter](https://x.com/tailwiinder/status/1759527294287356177?s=20). 2x Kaggle Expert with [popular notebooks](https://www.kaggle.com/yashsrivastava51213).
 - **Worked at 3 startups and 1 research lab** across AI, fintech, and infra - shipped products with real users and co-authored research at IIT-BHU.
 - **I don't rely on talent. I rely on obsession.** I take ownership of what I build and go unreasonably far to make it work.
 
