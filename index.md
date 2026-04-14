@@ -16,20 +16,19 @@ Here I'll pin some of my favorite projects, more on the research 👨‍🔬 sid
 
   - [**Cadence**](https://github.com/yash-srivastava19/cadence) : Cadence implements an evolutionary system that uses LLMs to iteratively generate, mutate, and improve programs for solving computational problems such as the Traveling Salesman Problem (TSP).
 
-  - [**REALBT**](https://github.com/yash-srivastava19/REALBT) (Looking for contributors) : REALBT is a simple, effective backtesting engine written in pure python.
+  - [**REALBT**](https://github.com/yash-srivastava19/REALBT) : REALBT is a simple, effective backtesting engine written in pure Python.
     
-  - [**Arrakis**](https://github.com/yash-srivastava19/arrakis) (Looking for contributors) : Arrakis is a library to conduct, track and visualize mechanistic interpretability experiments. 28+ stars on Github ; 250+ monthly PyPi downloads.
+  - [**Arrakis**](https://github.com/yash-srivastava19/arrakis) : Arrakis is a library to conduct, track, and visualize mechanistic interpretability experiments. 28+ stars on GitHub ; 250+ monthly PyPI downloads.
     
-  - [**Deeprobe**](https://github.com/yash-srivastava19/deeprobe) (Looking for ideas) : Deeprobe is a study to understand feature importance and pattern understanding in Sparse Autoencoders using Monte Carlo Tree Search.
+  - [**Deeprobe**](https://github.com/yash-srivastava19/deeprobe) : Deeprobe studies feature importance and pattern understanding in Sparse Autoencoders using Monte Carlo Tree Search.
        
-  - [**SAE Macaronic Languages**](https://github.com/yash-srivastava19/sae-macaronic-analysis) : Understand whether language models learn words beyond language barriers, a study in Mechanistic Interpretability.
+  - [**SAE Macaronic Languages**](https://github.com/yash-srivastava19/sae-macaronic-analysis) : Understand whether language models learn words beyond language barriers, a study in mechanistic interpretability.
 
-  - [**Secure BPE**](https://github.com/yash-srivastava19/sec_bpe) (Work in Progress) : A modified, secure version of Byte Pair Encoding algorithm.
+  - [**Secure BPE**](https://github.com/yash-srivastava19/sec_bpe) : Research prototype exploring a modified, security-aware Byte Pair Encoding algorithm.
     
-  - [**Collaborative Debating**](https://github.com/yash-srivastava19/collaborative-debating) (Work in Progress) : A hacky implementation of the paper "Improving Factuality and Reasoning in Language Models through Multiagent Debate".
+  - [**Collaborative Debating**](https://github.com/yash-srivastava19/collaborative-debating) : Experimental implementation of multi-agent debate for improving LLM reasoning and factuality.
     
-  - [**NEAT-JAX**](https://github.com/yash-srivastava19/NEAT-JAX) (Working 
- on PR) : An implementation of Neuroevolution of Augmented Topologies Algorithm in JAX which is compatible with EvoJAX. 14+ Github stars ; Multiple PRs
+  - [**NEAT-JAX**](https://github.com/yash-srivastava19/NEAT-JAX) : An implementation of Neuroevolution of Augmented Topologies Algorithm in JAX which is compatible with EvoJAX. 14+ GitHub stars ; multiple PRs.
      
   - [**Nexus Theory**](https://github.com/yash-srivastava19/nexus-theory) : Can we really trust our human-ness for the messages that we send into the cosmos? Nexus theory is a gamified version to understand machine learning interpretability using Large Language Models.
 
@@ -43,7 +42,7 @@ Here I'll pin some of my favorite projects, more on the development 💻 side. F
 
   - [**PySlides**](https://github.com/yash-srivastava19/py_slides): PySlides is terminal based application that converts markdown into slides that can be presented from the terminal.
   
-  - [**Devsidian**](https://github.com/yash-srivastava19/devsidian-a2c05a04)(Lovable Project) : Log your developement journey using Devsidian. Made using Lovable for personal use.
+  - [**Devsidian**](https://github.com/yash-srivastava19/devsidian-a2c05a04) : Personal developer journal for logging your development journey, built with Lovable for personal use.
      
   - [**Snappyr**](https://github.com/yash-srivastava19/snappyr) : Setup Python Projects Blazingly Fast, and work on things that matter. No External Dependencies. 
      
@@ -57,7 +56,7 @@ Here I'll pin some of my favorite projects, more on the development 💻 side. F
   
   - [**AI GF**](https://github.com/yash-srivastava19/ai_gf) : A small weekend project that through which you can create a virtual girlfriend(not made for imitation, but for learning)
   
-  - [**Synapse**](https://github.com/yash-srivastava19/Synapse) : Synapse is hackernews-type platform that can be used by any community as a forum. Tried making this for my college, but need more inspiration.
+  - [**Synapse**](https://github.com/yash-srivastava19/Synapse) : Synapse is a Hacker News style forum platform for communities.
 
   - [**grove**](https://github.com/yash-srivastava19/grove) : Terminal knowledge garden - Obsidian-style note-taking for the CLI, built in Go with Bubble Tea. Features wiki-links `[[]]`, vault-wide AI search, note templates, and a full TUI with vim keybindings.
 
@@ -69,7 +68,7 @@ Here I'll pin some of my favorite projects, more on the development 💻 side. F
     
   - [**YeetCode**](https://github.com/yash-srivastava19/yeetcode) : YeetCode is a sassy version of Python made for all GenZ people. The aim is to create a new programming language which is bussin'.
 
-  - [**Blaze**](https://github.com/yash-srivastava19/blaze) : Developed a RAG(Retrieval Augmentation Generation) system by using Cohere LLM and Metaphor as a part of recruitement process for Metaphor, which is made using Langchain, Chainlit and deployed on Huggingface. 8+ Github stars.
+  - [**Blaze**](https://github.com/yash-srivastava19/blaze) : RAG system built with Cohere, Metaphor, LangChain, and Chainlit, originally created during a recruitment process and deployed on Hugging Face. 8+ GitHub stars.
   
   - [**CodeSmith**](https://github.com/yash-srivastava19/CodeSmith) : Developed a ChatGPT-inspired chatbot trained on a Python programming problems on custom created dataset, made using Langchain, and deployed on Huggingface.
 
