@@ -1,4 +1,4 @@
-last_updated: '2026-04-13T10:47:57'
+last_updated: '2026-04-14T10:16:54'
 films:
 - title: The Drama
   year: '2026'
@@ -92,6 +92,15 @@ films:
   review: This review may contain spoilers.   Where's the Shanaya to my Flow...? RIP
     Popo
   link: https://letterboxd.com/yash_sri19/film/tu-yaa-main/
+- title: O'romeo
+  year: '2026'
+  rating_numeric: 2.0
+  rating_stars: ★★
+  watched_date: '2026-02-14'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/1/5/9/1/0/3/1159103-o-romeo-0-600-0-900-crop.jpg?v=54b489ebb6
+  review: Pyaar me jeete toh romeo, warna chutiya
+  link: https://letterboxd.com/yash_sri19/film/oromeo/
 - title: O' Romeo
   year: '2026'
   rating_numeric: 2.0
