@@ -1,5 +1,14 @@
-last_updated: '2026-04-16T10:17:08'
+last_updated: '2026-04-17T10:15:09'
 films:
+- title: 'Happy Patel: Khatarnak Jasoos'
+  year: '2026'
+  rating_numeric: 2.0
+  rating_stars: ★★
+  watched_date: '2026-04-16'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/1/6/6/2/7/0/1166270-happy-patel-khatarnak-jasoos-0-600-0-900-crop.jpg?v=97198ae102
+  review: Absolutely love some cringe
+  link: https://letterboxd.com/yash_sri19/film/happy-patel-khatarnak-jasoos/
 - title: The Drama
   year: '2026'
   rating_numeric: 4.0
