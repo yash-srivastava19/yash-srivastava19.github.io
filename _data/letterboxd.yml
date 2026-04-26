@@ -1,5 +1,14 @@
-last_updated: '2026-04-25T09:55:09'
+last_updated: '2026-04-26T09:54:40'
 films:
+- title: Dev.D
+  year: '2009'
+  rating_numeric: 3.5
+  rating_stars: ★★★½
+  watched_date: '2026-04-26'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/4/1/9/3/5/41935-dev-d-0-600-0-900-crop.jpg?v=7bde7a54e4
+  review: Peak Cinema Experience
+  link: https://letterboxd.com/yash_sri19/film/devd/
 - title: Do Deewane Seher Mein
   year: '2026'
   rating_numeric: 2.0
