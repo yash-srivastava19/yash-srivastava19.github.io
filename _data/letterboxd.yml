@@ -1,5 +1,14 @@
-last_updated: '2026-05-01T10:24:01'
+last_updated: '2026-05-02T09:59:18'
 films:
+- title: Primal
+  year: '2019'
+  rating_numeric: 3.0
+  rating_stars: ★★★
+  watched_date: '2026-05-02'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/5/6/5/6/0/2/565602-primal-0-600-0-900-crop.jpg?v=cc67813feb
+  review: them movies of that time were nice
+  link: https://letterboxd.com/yash_sri19/film/primal-2019-1/
 - title: Dev.D
   year: '2009'
   rating_numeric: 3.5
