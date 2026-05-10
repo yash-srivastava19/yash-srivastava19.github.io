@@ -1,5 +1,14 @@
-last_updated: '2026-05-09T10:06:44'
+last_updated: '2026-05-10T10:17:10'
 films:
+- title: Mindhunters
+  year: '2004'
+  rating_numeric: 1.0
+  rating_stars: ★
+  watched_date: '2026-05-10'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/4/1/4/7/6/41476-mindhunters-0-600-0-900-crop.jpg?v=40189b61cf
+  review: I have seen yt videos better than this
+  link: https://letterboxd.com/yash_sri19/film/mindhunters/
 - title: Primal
   year: '2019'
   rating_numeric: 3.0
