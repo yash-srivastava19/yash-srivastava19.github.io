@@ -1,5 +1,14 @@
-last_updated: '2026-05-16T10:17:38'
+last_updated: '2026-05-17T10:23:23'
 films:
+- title: Thoda Pyaar Thoda Magic
+  year: '2008'
+  rating_numeric: 1.0
+  rating_stars: ★
+  watched_date: '2026-05-17'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/4/3/2/5/8/43258-thoda-pyaar-thoda-magic-0-600-0-900-crop.jpg?v=2f600cb107
+  review: So bad ; I only watched for Lazy Lahme
+  link: https://letterboxd.com/yash_sri19/film/thoda-pyaar-thoda-magic/
 - title: Mindhunters
   year: '2004'
   rating_numeric: 1.0
