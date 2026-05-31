@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Scratchpad
-sitemap: false
 ---
 
 # Scratchpad
@@ -29,3 +28,14 @@ I'll soon graduate and the idea to connect with my friends even when they are aw
 
 ## LSP
 I just want to build a LSP and see it in action.
+
+## LLMs Playing Games
+LLM performance on games = scaffold, not model. Want to test this properly. Don't know what metric captures "actually understanding the game" vs "scaffold doing the work." No answer yet.
+
+## Problems I want to work on
+- scaling laws for RL
+- evolving LLMs without RL (working on this)
+- verifiable CoT in a DSL
+- text diffusion models
+- what generalises from o1's test-time compute
+- ~~reward hacking~~ ~~scalable oversight~~ ~~weak reasoning model mixtures~~

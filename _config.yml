@@ -21,6 +21,7 @@ header_pages:
   - films.md
   - diary.md
   - projects.md
+  - scratchpad.md
   - contact.md
 
 plugins:
