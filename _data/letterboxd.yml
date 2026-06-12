@@ -1,5 +1,23 @@
-last_updated: '2026-06-11T12:47:25'
+last_updated: '2026-06-12T12:20:26'
 films:
+- title: Backrooms
+  year: '2026'
+  rating_numeric: 3.0
+  rating_stars: ★★★
+  watched_date: '2026-06-11'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/9/7/6/4/1/9/976419-backrooms-2026-0-600-0-900-crop.jpg?v=f7a99e3fc8
+  review: I also need a therapist like her
+  link: https://letterboxd.com/yash_sri19/film/backrooms-2026/
+- title: Obsession
+  year: '2025'
+  rating_numeric: 4.5
+  rating_stars: ★★★★½
+  watched_date: '2026-05-28'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/2/3/4/4/7/2/1234472-obsession-2025-2-0-600-0-900-crop.jpg?v=cff6fc00b6
+  review: Best of 2026. So good.
+  link: https://letterboxd.com/yash_sri19/film/obsession-2025/
 - title: Obsession
   year: '2025'
   rating_numeric: 4.5
