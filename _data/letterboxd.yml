@@ -1,5 +1,14 @@
-last_updated: '2026-06-16T13:28:00'
+last_updated: '2026-06-17T12:52:11'
 films:
+- title: Maa Behen
+  year: '2026'
+  rating_numeric: 0.5
+  rating_stars: ½
+  watched_date: '2026-06-16'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/4/9/5/9/6/4/1495964-maa-behen-0-600-0-900-crop.jpg?v=ecfa3d2803
+  review: I'm ashamed to even log this here.
+  link: https://letterboxd.com/yash_sri19/film/maa-behen/
 - title: Backrooms
   year: '2026'
   rating_numeric: 3.0
