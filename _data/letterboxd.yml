@@ -1,5 +1,14 @@
-last_updated: '2026-06-27T10:58:20'
+last_updated: '2026-06-28T11:08:36'
 films:
+- title: The Call
+  year: '2020'
+  rating_numeric: 3.0
+  rating_stars: ★★★
+  watched_date: '2026-06-27'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/5/0/3/9/7/9/503979-the-call-2020-3-0-600-0-900-crop.jpg?v=2aae3415c4
+  review: That's why I don't pickup calls
+  link: https://letterboxd.com/yash_sri19/film/the-call-2020-3/
 - title: Voicemails for Isabelle
   year: '2026'
   rating_numeric: 3.5
