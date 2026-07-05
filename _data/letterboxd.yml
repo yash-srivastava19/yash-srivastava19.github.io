@@ -1,5 +1,14 @@
-last_updated: '2026-07-04T10:54:54'
+last_updated: '2026-07-05T11:04:51'
 films:
+- title: Balan - The Boy
+  year: '2026'
+  rating_numeric: 3.5
+  rating_stars: ★★★½
+  watched_date: '2026-07-04'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/2/9/3/0/7/9/1293079-balan-1-0-600-0-900-crop.jpg?v=8e81e14385
+  review: Enna monne
+  link: https://letterboxd.com/yash_sri19/film/balan-the-boy/
 - title: The Call
   year: '2020'
   rating_numeric: 3.0
