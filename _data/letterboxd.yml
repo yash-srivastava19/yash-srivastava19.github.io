@@ -1,5 +1,14 @@
-last_updated: '2026-07-17T10:48:01'
+last_updated: '2026-07-18T10:19:11'
 films:
+- title: The Odyssey
+  year: '2026'
+  rating_numeric: 4.0
+  rating_stars: ★★★★
+  watched_date: '2026-07-18'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c
+  review: Let that guy just act in spiderman istg
+  link: https://letterboxd.com/yash_sri19/film/the-odyssey-2026/
 - title: My Love Will Make You Disappear
   year: '2025'
   rating_numeric: 3.0
