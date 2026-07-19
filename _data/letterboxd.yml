@@ -1,5 +1,14 @@
-last_updated: '2026-07-18T10:19:11'
+last_updated: '2026-07-19T10:36:05'
 films:
+- title: Love Aaj Kal
+  year: '2009'
+  rating_numeric: 3.0
+  rating_stars: ★★★
+  watched_date: '2026-07-18'
+  rewatch: true
+  poster: https://a.ltrbxd.com/resized/film-poster/3/9/4/8/9/39489-love-aaj-kal-0-600-0-900-crop.jpg?v=510a134487
+  review: Major need
+  link: https://letterboxd.com/yash_sri19/film/love-aaj-kal/
 - title: The Odyssey
   year: '2026'
   rating_numeric: 4.0
