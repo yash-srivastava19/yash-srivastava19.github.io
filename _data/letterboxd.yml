@@ -1,5 +1,14 @@
-last_updated: '2026-07-19T10:36:05'
+last_updated: '2026-07-20T11:46:04'
 films:
+- title: FIFA World Cup 2026 Finals - Spain Vs. Argentina
+  year: '2026'
+  rating_numeric: 4.0
+  rating_stars: ★★★★
+  watched_date: '2026-07-20'
+  rewatch: false
+  poster: ''
+  review: I don't think we're even going to see a final like Argentina France 2022
+  link: https://letterboxd.com/yash_sri19/film/fifa-world-cup-2026-finals-spain-vs-argentina/
 - title: Love Aaj Kal
   year: '2009'
   rating_numeric: 3.0
