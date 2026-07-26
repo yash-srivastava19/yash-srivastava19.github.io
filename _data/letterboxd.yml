@@ -1,5 +1,23 @@
-last_updated: '2026-07-25T10:27:38'
+last_updated: '2026-07-26T10:45:15'
 films:
+- title: The Invite
+  year: '2026'
+  rating_numeric: 4.0
+  rating_stars: ★★★★
+  watched_date: '2026-07-25'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/8/5/4/8/3/1/854831-the-invite-2026-0-600-0-900-crop.jpg?v=ee72905e48
+  review: I think women should direct more...
+  link: https://letterboxd.com/yash_sri19/film/the-invite-2026/
+- title: Remarkably Bright Creatures
+  year: '2026'
+  rating_numeric: 3.5
+  rating_stars: ★★★½
+  watched_date: '2026-07-25'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/2/1/5/3/7/0/1215370-remarkably-bright-creatures-0-600-0-900-crop.jpg?v=32466d1508
+  review: Moth sausage aa a band name slaps
+  link: https://letterboxd.com/yash_sri19/film/remarkably-bright-creatures/
 - title: FIFA World Cup 2026 Finals - Spain Vs. Argentina
   year: '2026'
   rating_numeric: 4.0
