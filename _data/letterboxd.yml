@@ -1,5 +1,14 @@
-last_updated: '2026-08-02T10:41:27'
+last_updated: '2026-08-03T12:25:40'
 films:
+- title: Set It Up
+  year: '2018'
+  rating_numeric: 2.5
+  rating_stars: ★★½
+  watched_date: '2026-08-02'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/3/1/9/5/5/0/319550-set-it-up-0-600-0-900-crop.jpg?v=ed5f6e4d77
+  review: bring back cheesy rom-coms
+  link: https://letterboxd.com/yash_sri19/film/set-it-up/
 - title: The Invite
   year: '2026'
   rating_numeric: 4.0
