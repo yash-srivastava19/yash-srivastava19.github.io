@@ -1,0 +1,43 @@
+/* JetBrains Mono site-wide. Loaded after the theme's main.css so these win. */
+
+body {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.8125rem;
+  line-height: 1.7;
+}
+
+/* The theme hardcodes Bootstrap's .text-justify on post bodies, the home
+   body, and the footer. Justified mono can only stretch word-spaces, which
+   opens rivers. !important is needed to beat the Bootstrap utility. */
+.text-justify {
+  text-align: left !important;
+}
+
+/* Bootstrap sizes headings in absolute rem (h1 = 2.5rem), so they don't
+   follow the body down. Restate the scale against a 13px body. */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+h1, .h1 { font-size: 1.375rem; }
+h2, .h2 { font-size: 1.125rem; }
+h3, .h3 { font-size: 1rem; }
+h4, .h4 { font-size: 0.9375rem; }
+h5, .h5 { font-size: 0.875rem; }
+h6, .h6 { font-size: 0.8125rem; }
+
+/* Body is already mono, so there's no reason to shrink code relative to it —
+   Bootstrap's default would land these around 12px. */
+code, kbd, pre, samp {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 1em;
+}
+
+/* Cap the measure — mono runs wide and Bootstrap's container is built for
+   app layouts, not prose. */
+#content-container {
+  max-width: 46rem;
+}
