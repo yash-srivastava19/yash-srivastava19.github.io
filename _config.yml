@@ -24,5 +24,11 @@ header_pages:
   - scratchpad.md
   - contact.md
 
+# jekyll-readme-index (bundled with github-pages) turns a directory's
+# README.md into that directory's index.html. That made /diary/ serve the
+# placeholder instead of diary.md. Excluded from the build; still on GitHub.
+exclude:
+  - diary/README.md
+
 plugins:
   - jekyll-feed
