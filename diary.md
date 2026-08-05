@@ -1,3 +1,8 @@
+---
+title: Diary
+permalink: /diary/
+---
+
 ## Diary
 
 **Note:** I love writing about life and the lessons it has given me. It helps me clear my mind, and sometimes give me avenues on how to deal with tough life situations. Some are written in moments of sadness, some in happiness, and some in yearning.
