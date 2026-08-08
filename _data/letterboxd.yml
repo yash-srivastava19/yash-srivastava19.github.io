@@ -1,5 +1,14 @@
-last_updated: '2026-08-07T10:02:02'
+last_updated: '2026-08-08T09:38:36'
 films:
+- title: Mickey 17
+  year: '2025'
+  rating_numeric: 4.0
+  rating_stars: ★★★★
+  watched_date: '2026-08-08'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/6/2/0/2/8/1/620281-mickey-17-0-600-0-900-crop.jpg?v=93e4d2af6d
+  review: can't believe I missed this in theatres... Amazing stuff
+  link: https://letterboxd.com/yash_sri19/film/mickey-17/
 - title: Set It Up
   year: '2018'
   rating_numeric: 2.5
