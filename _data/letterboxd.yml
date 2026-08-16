@@ -1,5 +1,23 @@
-last_updated: '2026-08-15T09:26:45'
+last_updated: '2026-08-16T09:27:56'
 films:
+- title: Cocktail 2
+  year: '2026'
+  rating_numeric: 1.5
+  rating_stars: ★½
+  watched_date: '2026-08-16'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/2/7/6/9/9/0/1276990-cocktail-2-0-600-0-900-crop.jpg?v=2324c1a94e
+  review: my love is also a phatti hui tshirt
+  link: https://letterboxd.com/yash_sri19/film/cocktail-2/
+- title: Awarapan 2
+  year: '2026'
+  rating_numeric: 2.5
+  rating_stars: ★★½
+  watched_date: '2026-08-15'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/3/2/1/8/6/0/1321860-awarapan-2-0-600-0-900-crop.jpg?v=65be4b12f8
+  review: whatever you expect from a bollywood drama.
+  link: https://letterboxd.com/yash_sri19/film/awarapan-2/
 - title: Drop
   year: '2025'
   rating_numeric: 2.0
