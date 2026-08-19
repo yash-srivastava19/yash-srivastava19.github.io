@@ -1,5 +1,14 @@
-last_updated: '2026-08-18T09:34:18'
+last_updated: '2026-08-19T09:34:50'
 films:
+- title: Chand Mera Dil
+  year: '2026'
+  rating_numeric: 0.5
+  rating_stars: ½
+  watched_date: '2026-08-18'
+  rewatch: true
+  poster: https://a.ltrbxd.com/resized/film-poster/1/2/5/8/0/6/8/1258068-chand-mera-dil-0-600-0-900-crop.jpg?v=d3abea4be5
+  review: second time re-watch because I hate myself
+  link: https://letterboxd.com/yash_sri19/film/chand-mera-dil/1/
 - title: Cocktail 2
   year: '2026'
   rating_numeric: 1.5
