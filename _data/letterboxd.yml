@@ -1,5 +1,14 @@
-last_updated: '2026-08-22T09:27:01'
+last_updated: '2026-08-23T09:28:43'
 films:
+- title: Companion
+  year: '2025'
+  rating_numeric: 3.0
+  rating_stars: ★★★
+  watched_date: '2026-08-23'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/9/7/7/1/7/2/977172-companion-2025-0-600-0-900-crop.jpg?v=66c5c946ec
+  review: Deputy Hendricks my goat
+  link: https://letterboxd.com/yash_sri19/film/companion-2025/
 - title: Chand Mera Dil
   year: '2026'
   rating_numeric: 0.5
