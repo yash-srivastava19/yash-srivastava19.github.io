@@ -1,5 +1,14 @@
-last_updated: '2026-08-27T19:39:18'
+last_updated: '2026-08-28T20:44:25'
 films:
+- title: Don't Say Good Luck
+  year: '2026'
+  rating_numeric: 4.0
+  rating_stars: ★★★★
+  watched_date: '2026-08-29'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/3/8/0/6/7/1/1380671-dont-say-good-luck-0-600-0-900-crop.jpg?v=70cba134f2
+  review: yeah obviously i needed to cry...
+  link: https://letterboxd.com/yash_sri19/film/dont-say-good-luck/
 - title: 'Toxic: A Fairy Tale for Grown-ups'
   year: '2026'
   rating_numeric: 0.5
