@@ -1,5 +1,14 @@
-last_updated: '2026-08-29T14:12:24'
+last_updated: '2026-08-30T14:18:36'
 films:
+- title: Tony
+  year: '2026'
+  rating_numeric: 3.5
+  rating_stars: ★★★½
+  watched_date: '2026-08-30'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/2/0/9/0/0/1/1209001-tony-2026-0-600-0-900-crop.jpg?v=63ce7b9234
+  review: Me 🤝 Tony (making promises you can't keep)
+  link: https://letterboxd.com/yash_sri19/film/tony-2026/
 - title: Don't Say Good Luck
   year: '2026'
   rating_numeric: 4.0
