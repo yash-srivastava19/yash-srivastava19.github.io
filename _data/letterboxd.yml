@@ -1,5 +1,14 @@
-last_updated: '2026-09-18T13:28:05'
+last_updated: '2026-09-19T12:56:55'
 films:
+- title: Vibe
+  year: '2026'
+  rating_numeric: 2.0
+  rating_stars: ★★
+  watched_date: '2026-09-19'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/5/1/8/0/0/5/1518005-vibe-2026-0-600-0-900-crop.jpg?v=e58c868baa
+  review: Bring back brainrot films
+  link: https://letterboxd.com/yash_sri19/film/vibe-2026/
 - title: Nocturnal Animals
   year: '2016'
   rating_numeric: 3.5
