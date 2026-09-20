@@ -36,8 +36,86 @@ code, kbd, pre, samp {
   font-size: 1em;
 }
 
+/* One place to tune page width. Everything below derives from these, so a
+   future post inherits the same behaviour without touching its markdown.
+
+   --measure      how wide prose is allowed to run
+   --figure-width how wide a figure may go on a roomy viewport; diagrams carry
+                  small type and read badly squeezed into a prose measure
+   --figure-gutter breathing room kept at the viewport edge when a figure
+                  outgrows the measure */
+:root {
+  --measure: 46rem;
+  --figure-width: 58rem;
+  --figure-gutter: 2rem;
+  --figure-space: 1.75rem;
+}
+
 /* Cap the measure — mono runs wide and Bootstrap's container is built for
    app layouts, not prose. */
 #content-container {
-  max-width: 46rem;
+  max-width: var(--measure);
+}
+
+/* Bootstrap only ships .img-fluid as an opt-in, and markdown cannot add a
+   class, so an image written as `![](…)` renders at its natural size and
+   overflows. This is the floor every figure gets. */
+#content-container img,
+#content-container video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: var(--figure-space) auto;
+}
+
+/* Past the measure, a figure that opens its paragraph may widen, staying
+   centred on the column. kramdown keeps `![](…)` and the italic caption under
+   it in one <p>, so this matches the image rather than an only child. An
+   image used mid-sentence is left alone. */
+@media (min-width: 64em) {
+  #content-container p > img:first-child,
+  #content-container p > video:first-child {
+    max-width: min(var(--figure-width), calc(100vw - var(--figure-gutter) * 2));
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* An italic run straight after a figure is its caption, as is one that stands
+   alone in its own paragraph. */
+#content-container p > img + em,
+#content-container p > em:only-child {
+  display: block;
+  margin-top: calc(var(--figure-space) * -0.4);
+  font-size: 0.86em;
+  line-height: 1.5;
+  opacity: 0.75;
+  text-align: center;
+}
+
+/* Bootstrap only styles tables that opt in with class="table", and markdown
+   cannot add a class, so a `| … |` table rendered borderless and unreadable.
+   This is the floor every content table gets: a quiet grid, generous
+   padding, the same vertical rhythm as figures. */
+#content-container table {
+  border-collapse: collapse;
+  margin: var(--figure-space) auto;
+  border: 1px solid #adb5bd;
+}
+
+#content-container th,
+#content-container td {
+  padding: 0.3rem 0.8rem;
+  border: 1px solid #dee2e6;
+}
+
+#content-container thead th {
+  border-bottom: 2px solid #adb5bd;
+}
+
+/* Every content table so far leads with a label column and numbers after it;
+   right-aligned numbers keep the digits compared down a column. */
+#content-container th:not(:first-child),
+#content-container td:not(:first-child) {
+  text-align: right;
 }
