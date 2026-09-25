@@ -1,5 +1,14 @@
-last_updated: '2026-09-24T14:04:36'
+last_updated: '2026-09-25T14:27:50'
 films:
+- title: The Love Hypothesis
+  year: '2026'
+  rating_numeric: 2.0
+  rating_stars: ★★
+  watched_date: '2026-09-25'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/9/3/1/1/8/1/931181-the-love-hypothesis-0-600-0-900-crop.jpg?v=af3d1729f2
+  review: yeah yeah grumpy + bubbly dynamic
+  link: https://letterboxd.com/yash_sri19/film/the-love-hypothesis/
 - title: Lust Stories 3
   year: '2026'
   rating_numeric: 2.0
