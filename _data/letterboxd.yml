@@ -1,5 +1,14 @@
-last_updated: '2026-09-26T13:38:43'
+last_updated: '2026-09-27T14:35:49'
 films:
+- title: Don't Look Up
+  year: '2021'
+  rating_numeric: 3.0
+  rating_stars: ★★★
+  watched_date: '2026-09-27'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/5/7/2/2/5/5/572255-don-t-look-up-0-600-0-900-crop.jpg?v=a58cc4aba2
+  review: Folks named Leo are the best in whatever career line they are in
+  link: https://letterboxd.com/yash_sri19/film/dont-look-up-2021/
 - title: The Love Hypothesis
   year: '2026'
   rating_numeric: 2.0
