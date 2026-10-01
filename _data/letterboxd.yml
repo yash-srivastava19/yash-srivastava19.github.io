@@ -1,5 +1,14 @@
-last_updated: '2026-09-30T15:42:30'
+last_updated: '2026-10-01T16:04:45'
 films:
+- title: Primetime
+  year: '2026'
+  rating_numeric: 2.5
+  rating_stars: ★★½
+  watched_date: '2026-09-30'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/2/6/2/0/1/9/1262019-primetime-2026-0-600-0-900-crop.jpg?v=41640d6988
+  review: Dare I say, it was mid
+  link: https://letterboxd.com/yash_sri19/film/primetime-2026/
 - title: Best of the Best
   year: '2026'
   rating_numeric: 2.0
