@@ -1,5 +1,14 @@
-last_updated: '2026-10-01T16:04:45'
+last_updated: '2026-10-02T15:28:24'
 films:
+- title: Crazy Rich Asians
+  year: '2018'
+  rating_numeric: 3.0
+  rating_stars: ★★★
+  watched_date: '2026-10-02'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/3/8/7/2/3/8/387238-crazy-rich-asians-0-600-0-900-crop.jpg?v=21695f4b1f
+  review: asians love bullying their children...
+  link: https://letterboxd.com/yash_sri19/film/crazy-rich-asians/
 - title: Primetime
   year: '2026'
   rating_numeric: 2.5
