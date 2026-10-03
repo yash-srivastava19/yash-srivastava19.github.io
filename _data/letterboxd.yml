@@ -1,5 +1,14 @@
-last_updated: '2026-10-02T15:28:24'
+last_updated: '2026-10-03T14:09:55'
 films:
+- title: Verity
+  year: '2026'
+  rating_numeric: 1.0
+  rating_stars: ★
+  watched_date: '2026-10-03'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/1/6/7/1/5/1/1167151-verity-2026-0-600-0-900-crop.jpg?v=3169444893
+  review: Brother what the fuck is this piece of bullshit
+  link: https://letterboxd.com/yash_sri19/film/verity-2026/
 - title: Crazy Rich Asians
   year: '2018'
   rating_numeric: 3.0
@@ -99,6 +108,16 @@ films:
   poster: https://a.ltrbxd.com/resized/film-poster/1/3/8/0/6/7/1/1380671-dont-say-good-luck-0-600-0-900-crop.jpg?v=70cba134f2
   review: yeah obviously i needed to cry...
   link: https://letterboxd.com/yash_sri19/film/dont-say-good-luck/
+- title: Toxic
+  year: '2026'
+  rating_numeric: 0.5
+  rating_stars: ½
+  watched_date: '2026-08-27'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/0/9/7/4/7/4/1097474-toxic-a-fairy-tale-for-grown-ups-0-600-0-900-crop.jpg?v=f0b95d76b9
+  review: Even the gpt model i trained back in college could make better dialogues
+    than this
+  link: https://letterboxd.com/yash_sri19/film/toxic-2026/
 - title: 'Toxic: A Fairy Tale for Grown-ups'
   year: '2026'
   rating_numeric: 0.5
