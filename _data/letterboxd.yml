@@ -1,5 +1,14 @@
-last_updated: '2026-10-03T14:09:55'
+last_updated: '2026-10-04T14:40:08'
 films:
+- title: Good Grief
+  year: '2023'
+  rating_numeric: 2.5
+  rating_stars: ★★½
+  watched_date: '2026-10-04'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/9/3/4/5/1/5/934515-good-grief-0-600-0-900-crop.jpg?v=448b7acc54
+  review: i mean ok ok only
+  link: https://letterboxd.com/yash_sri19/film/good-grief-2023-1/
 - title: Verity
   year: '2026'
   rating_numeric: 1.0
