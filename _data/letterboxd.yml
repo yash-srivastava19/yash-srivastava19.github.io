@@ -1,5 +1,14 @@
-last_updated: '2026-10-09T15:52:44'
+last_updated: '2026-10-10T15:05:27'
 films:
+- title: The Social Reckoning
+  year: '2026'
+  rating_numeric: 4.0
+  rating_stars: ★★★★
+  watched_date: '2026-10-10'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/1/6/4/6/6/9/1164669-the-social-reckoning-0-600-0-900-crop.jpg?v=e880229a7f
+  review: Two Jeremy, One Mikey. Amazing stuff
+  link: https://letterboxd.com/yash_sri19/film/the-social-reckoning/
 - title: Good Grief
   year: '2023'
   rating_numeric: 2.5
