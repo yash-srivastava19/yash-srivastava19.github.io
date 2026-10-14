@@ -1,5 +1,14 @@
-last_updated: '2026-10-13T16:45:47'
+last_updated: '2026-10-14T14:22:33'
 films:
+- title: Finding Emily
+  year: '2026'
+  rating_numeric: 3.5
+  rating_stars: ★★★½
+  watched_date: '2026-10-13'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/2/3/4/3/9/8/1234398-finding-emily-0-600-0-900-crop.jpg?v=1b5859bc03
+  review: all the classic shit i like about romcoms
+  link: https://letterboxd.com/yash_sri19/film/finding-emily/
 - title: The Social Reckoning
   year: '2026'
   rating_numeric: 4.0
