@@ -63,7 +63,7 @@ The core of the plugin is a thin HTTP client that talks directly to the Gemini R
 local function call_gemini(prompt, callback)
   local config = require("pairy.config").load()
   local body = vim.json.encode({
-    contents = {{ parts = {{ text = prompt }} }}
+    contents = {% raw %}{{ parts = {{ text = prompt }} }}{% endraw %}
   })
 
   local handle = vim.loop.new_tcp()
