@@ -1,3 +1,8 @@
+---
+title: "Cadence: Program Evolution via Large Language Models"
+description: "Cadence uses LLMs to evolve programs, generating, mutating, and scoring candidates to solve problems like the Traveling Salesman Problem. Design and results."
+---
+
 Note: Get nerd sniped for the love of god! Also, if you like this kind of work, and your organization does something similar, consider hiring me? I'm aggressively looking for a job. Would love to [chat](mailto:ysrivastava82@gmail.com) 
 
 # Cadence - Evolving Code with LLMs for NP-Hard Problems

@@ -1,3 +1,8 @@
+---
+title: "Using MCTS to Navigate Sparse Autoencoder Feature Space"
+description: "Deeprobe uses Monte Carlo Tree Search to explore sparse autoencoder feature space instead of a game board. What it found and how it works."
+---
+
 Note: I had SAELens open in one tab and an MCTS tutorial in another. At some point I started wondering if you could use tree search to navigate a feature space instead of a game board. This is what came out when I tried.
 
 # Using MCTS to Navigate Sparse Autoencoder Feature Space

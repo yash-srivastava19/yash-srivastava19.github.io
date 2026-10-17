@@ -1,0 +1,23 @@
+---
+layout: null
+sitemap: false
+---
+# {{ site.title }}
+
+> {{ site.description }} Yash writes about program search with LLMs (cadence), mechanistic interpretability, ML systems, and developer tools he builds.
+
+Code: https://github.com/yash-srivastava19
+
+
+## Posts
+{% assign posts = site.pages | where_exp: "p", "p.path contains 'blog/'" | where_exp: "p", "p.description" | sort: "title" %}
+{%- for p in posts %}
+- [{{ p.title }}]({{ p.url | absolute_url }}): {{ p.description }}
+{%- endfor %}
+
+## Pages
+
+- [Home]({{ "/" | absolute_url }}): About Yash, highlights, and pinned projects
+- [All posts]({{ "/blogs" | absolute_url }})
+- [Projects]({{ "/projects" | absolute_url }})
+- [Contact]({{ "/contact" | absolute_url }})

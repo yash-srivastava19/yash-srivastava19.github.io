@@ -1,3 +1,8 @@
+---
+title: "Arrakis - A toolkit to conduct, track and visualize mechanistic interpretability experiments"
+description: "Arrakis is an open-source toolkit to run, track, and visualize mechanistic interpretability experiments on language models. How it works and why I built it."
+---
+
 Note: Arrakis is a work which is really personal and pivotal for me. I worked on it solo during my free time while simultaneously working a co-op and uni. Buildspace was really pivotal in providing the push.
 
 ## Arrakis - A toolkit to conduct, track and visualize mechanistic interpretability experiments.

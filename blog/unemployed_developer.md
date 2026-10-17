@@ -1,3 +1,8 @@
+---
+title: "(Non-Technical) The Unemployed Developer"
+description: "Why can't developers who build and ship every day find jobs? An attempt to make sense of the 2026 developer job market."
+---
+
 Note: I wrote this in March 2026. A lot of developer friends around me were building constantly, staying sharp, committing code daily, and still could not get a job. It kept nagging at me. Why is the most committed group of builders somehow the most locked out? This is my attempt at making sense of that.
 
 ## The Unemployed Developer

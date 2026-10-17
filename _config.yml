@@ -6,6 +6,39 @@ lsi: false
 safe: true
 logo: /profile-pic.png
 google_analytics: G-ERR9VSKKLD
+url: https://yash-sri.xyz
+baseurl: ""
+
+# Read by jekyll-seo-tag for link previews and search engines' structured data
+author:
+  name: Yashovardhan Srivastava
+  url: https://yash-sri.xyz
+twitter:
+  username: Yaaaaaashhh
+social:
+  name: Yashovardhan Srivastava
+  links:
+    - https://github.com/yash-srivastava19
+    - https://twitter.com/Yaaaaaashhh
+
+# Blog posts: own layout (no duplicate h1), and marked as articles for search engines
+defaults:
+  - scope:
+      path: blog
+    values:
+      layout: blog
+      author: Yashovardhan Srivastava
+      seo:
+        type: BlogPosting
+  # Not real content: keep them out of sitemap.xml
+  - scope:
+      path: 404.md
+    values:
+      sitemap: false
+  - scope:
+      path: about
+    values:
+      sitemap: false
 footer_icons:
 - username: yash-srivastava19
   url: https://github.com/yash-srivastava19
@@ -32,3 +65,5 @@ exclude:
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

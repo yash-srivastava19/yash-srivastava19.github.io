@@ -1,3 +1,8 @@
+---
+title: "(Non Technical) On the Ancient Sport of Hacking"
+description: "What programming actually is, and why taste matters: an essay on the ancient sport of hacking."
+---
+
 Note: I wrote this on 30/08/2025 after coming out of a really difficult phase in my life(victorious)  
 
 # On the Ancient Sport of Hacking

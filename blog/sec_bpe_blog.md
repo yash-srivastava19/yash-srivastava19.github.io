@@ -1,3 +1,8 @@
+---
+title: "What Happens When You Run BPE on Encrypted Text?"
+description: "What happens when you run byte pair encoding (BPE) on encrypted text? An experiment inspired by Karpathy's minBPE that became a PyPI package."
+---
+
 Note: I was watching Karpathy's minBPE video for the third time, late at night. The question hit me mid-rewatch: what if the corpus you feed BPE isn't plaintext? I thought it'd be a quick experiment. It became a PyPI package. Karpathy is responsible for a lot of my late nights.
 
 # What Happens When You Run BPE on Encrypted Text?

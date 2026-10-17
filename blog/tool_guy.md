@@ -1,3 +1,8 @@
+---
+title: "(Non-Technical) I'm a Tool Guy"
+description: "On language and tools as what made us human, and why I call myself a tool guy."
+---
+
 **Note:** I wrote this one week before moving to a new city with a bag full of dreams. Hope everything works out. Take a coffee, clear your mind, and give it a read.
 
 Personally, I feel a little icky when someone uses connects some behaviour with our "primal brain instinct". I feel it over-generalizes our actions and give us a free pass to "blame it on evolution". Regardless of my pre-conceived notions about it, I'll use it this time to convey how far we've come so far as a species, and just how significant the role of **language** and **tools** have been in it. Tools are how our ancestors have provided for their families, whether it be using tools to hunt, or to use it for agriculture, or to protect themselves. From the invention of wheel, to the steam engine, to the computer - we can label every invention as a tool that solved a problem that felt unfathomable to our ancestors. While on one hand we have tools that make our lives easier, language is something help us document information to our progeny. Language is how I'm able to convey this very thought through this blog. First we developed the tools, and then used our language to convey to others. Once you go down a deep enough rabbit hole, you'll realize that the world around us is a direct result of eons of tools building and language understanding. 

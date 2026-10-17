@@ -1,3 +1,8 @@
+---
+title: "REALBT - A Simple Backtesting Engine in Pure Python"
+description: "REALBT is a simple backtesting engine for trading strategies, written in pure Python. How it works and what I'd improve."
+---
+
 Note: REALBT is my 101st project, and something I wanted to do from a long time. It is not very polished, and there are scopes of improvement. Contributions and suggestions are always welcome.
 
 # REALBT - A Simple Back-testing Engine in Pure Python

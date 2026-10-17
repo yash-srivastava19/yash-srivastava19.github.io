@@ -1,3 +1,9 @@
+---
+title: "The Harness Was the Experiment: what four benchmark problems taught me about program search"
+description: "A worklog running cadence, an LLM program-search library, on four published benchmarks with 20 model calls a day, and why the harness mattered more than the search."
+image: /assets/img/evolving_problems/loop.gif
+---
+
 Note: This is my attempt on a worklog on running program-search experiments against published benchmarks, using a program-search library called [cadence](https://github.com/yash-srivastava19/cadence) that I wrote.
 
 # The Harness Was the Experiment

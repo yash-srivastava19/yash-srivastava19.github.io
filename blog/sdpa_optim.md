@@ -1,3 +1,8 @@
+---
+title: "SDPA Optimization Case Study - Worklog"
+description: "A worklog optimizing scaled dot-product attention (SDPA) in PyTorch with torch.compile and benchmarks, written to learn PyTorch internals."
+---
+
 Note: I wrote this article because I wanted to learn Pytorch internals.
 
 ## SDPA Optimization - Introduction

@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{%- comment -%}
+The theme's page layout prints page.title as an h1. Posts already open with
+their own heading, so this layout leaves it out; the title still feeds <title>,
+link previews and search results through {% raw %}{% seo %}{% endraw %}.
+{%- endcomment -%}
+<article>
+  <div id="content" class="pt-4">
+    {{ content }}
+  </div>
+</article>

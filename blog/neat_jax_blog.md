@@ -1,3 +1,8 @@
+---
+title: "Shoving NEAT into JAX: When Evolving Topologies Meet Static Computation Graphs"
+description: "Implementing NEAT (NeuroEvolution of Augmenting Topologies) in JAX for EvoJAX: how networks with evolving topologies fit static computation graphs."
+---
+
 
 Note: This started as a passion project. It remains a passion project. I have made peace with this.
 
