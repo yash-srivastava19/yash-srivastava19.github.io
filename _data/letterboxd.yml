@@ -1,5 +1,14 @@
-last_updated: '2026-10-16T13:46:44'
+last_updated: '2026-10-17T12:44:08'
 films:
+- title: 'Spider-Man: Brand New Day'
+  year: '2026'
+  rating_numeric: 2.0
+  rating_stars: ★★
+  watched_date: '2026-10-17'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc
+  review: Meh
+  link: https://letterboxd.com/yash_sri19/film/spider-man-brand-new-day/
 - title: Finding Emily
   year: '2026'
   rating_numeric: 3.5
