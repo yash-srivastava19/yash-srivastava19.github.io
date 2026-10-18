@@ -1,0 +1,31 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {%- comment -%}
+    Overrides the theme's head.html. Bootstrap and JetBrains Mono are served from
+    this site instead of jsdelivr and Google Fonts, so the CSS that blocks the
+    first paint comes from the same connection as the page. The regular face is
+    preloaded because almost every character on the page is set in it.
+  {%- endcomment %}
+  <link rel="preload" href="{{ "/assets/fonts/jetbrains-mono-normal-latin.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ "/assets/vendor/bootstrap-4.6.1.min.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/fonts.css" | relative_url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+  <link rel="alternate" type="text/plain" title="llms.txt" href="{{ "/llms.txt" | relative_url }}">
+
+  {% if page.head_inline %}
+  {{ page.head_inline }}
+  {% endif %}
+
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
+
+  {% seo %}
+
+  {% include head-includes.html %}
+</head>

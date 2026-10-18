@@ -5,9 +5,12 @@ layout: default
 The theme's page layout prints page.title as an h1. Posts already open with
 their own heading, so this layout leaves it out; the title still feeds <title>,
 link previews and search results through {% raw %}{% seo %}{% endraw %}.
+
+Images load lazily: a post's first screen is text, and the charts and GIFs
+further down otherwise compete with the font and CSS for the first paint.
 {%- endcomment -%}
 <article>
   <div id="content" class="pt-4">
-    {{ content }}
+    {{ content | replace: '<img ', '<img loading="lazy" decoding="async" ' }}
   </div>
 </article>
