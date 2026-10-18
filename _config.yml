@@ -63,6 +63,5 @@ exclude:
   - diary/README.md
 
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag

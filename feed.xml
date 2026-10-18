@@ -1,0 +1,30 @@
+---
+layout: null
+sitemap: false
+---
+{%- comment -%}
+  jekyll-feed only reads _posts/, and the posts here are pages under blog/, so
+  its feed.xml was always empty. This lists every blog page that has a
+  description. The posts carry no dates, so items have no pubDate: readers
+  date each item by when they first see it, which is right for new posts.
+{%- endcomment -%}
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <link>{{ "/" | absolute_url }}</link>
+    <atom:link href="{{ page.url | absolute_url }}" rel="self" type="application/rss+xml"/>
+    <description>{{ site.description | xml_escape }}</description>
+    <language>en</language>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    {%- assign posts = site.pages | where_exp: "p", "p.path contains 'blog/'" | where_exp: "p", "p.description" %}
+    {%- for p in posts %}
+    <item>
+      <title>{{ p.title | xml_escape }}</title>
+      <link>{{ p.url | absolute_url }}</link>
+      <guid isPermaLink="true">{{ p.url | absolute_url }}</guid>
+      <description>{{ p.description | xml_escape }}</description>
+    </item>
+    {%- endfor %}
+  </channel>
+</rss>
