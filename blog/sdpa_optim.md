@@ -13,13 +13,13 @@ Scaled Dot Product Attention(abbreviated as SDPA), is a attention mechanism wher
 SDPA(or self attention) was a revolutionary discovery, first introduced in the "[Attention Is All You Need](https://arxiv.org/pdf/1706.03762)" paper which formed the backbone of modern NLP applications. SDPA enhanced computation speed and allowed parallel computing of input sequence, allowing to capture meaningful relationship between tokens.
 
 ## Why SDPA Optimization?
-In my FlexAttention [blog](https://yash-sri.xyz/blog/flex_attention), I explained in detail how the straightforward implementation of SDPA has quadratic compute and memory complexity with respect to sequence length. It is because of these bottlenecks, using optimized version of SDPA such as Flash Attention or Flex Attention are preferred for deployment. 
+In my FlexAttention [blog](/blog/flex_attention), I explained in detail how the straightforward implementation of SDPA has quadratic compute and memory complexity with respect to sequence length. It is because of these bottlenecks, using optimized version of SDPA such as Flash Attention or Flex Attention are preferred for deployment. 
 
 While I was working on the FlexAttention blog, and was beginning to understand how each approach optimized the standard SDPA(or different variants of SDPA), especially from memory constraints, I **found three different directions which I should explore** and experiment which is the most promising amongst them.
 
 Explained in the next section in detail, my approach with this case study is to explore how different approaches stand against each other, and how much memory can we save in comparison to standard SDPA. This case study involves a lot of experiments and testing, and will be supported by code wherever necessary. I've presented the case study as a work log, so you can see how I went from idea X to idea Y, following the initial chain of thought. Results and further directions are discussed in the end. 
 ## Initial Approach
-As mentioned in the previous section, I found three axes along which I hypothesized we can explore(either individually or grouped together) each direction and study how much memory overhead we can reduce. My initial approach is given [here](https://yash-sri.xyz/scratchpad) on my scratchpad.
+As mentioned in the previous section, I found three axes along which I hypothesized we can explore(either individually or grouped together) each direction and study how much memory overhead we can reduce. My initial approach is given [here](/scratchpad) on my scratchpad.
 
 **Approach 1:** If we think from first principles, the way to reduce memory footprint is to either - **reduce the size of the model**, or **optimize the computation heavy step**. As we know that SDPA scales quadrupedally with sequence length, one trivial axes to explore was **reducing the sequence length**. So, the initial 3 directions I explored can be visualized as:
 
@@ -41,7 +41,7 @@ Another crazy idea I had in mind was to optimize along all the three axes groupe
 
 The Flash Attention paper argued that initial approaches to reduce compute requirements focused on FLOP reduction, while the techniques introduced in the paper relied on IO aware attention algorithms, which is to say, made use of device specific optimization. However, frameworks such as Pytorch doesn't explicitly provide fine grained control over memory access, so the question was - if we were to explore this axis(device specific optimizations), how do we go about it?
 
-After looking a lot into the void, I found the answer in the most bizarre of place - my own [blog](https://yash-sri.xyz/blog/flex_attention) on FlexAttention. FlexAttention was the missing piece of the puzzle, and it fitted in perfectly. Sometimes, things work out in the most amazing of the ways. The answer was device specific optimization, something which FlexAttention provided fine control over. Now, the axes looked like:
+After looking a lot into the void, I found the answer in the most bizarre of place - my own [blog](/blog/flex_attention) on FlexAttention. FlexAttention was the missing piece of the puzzle, and it fitted in perfectly. Sometimes, things work out in the most amazing of the ways. The answer was device specific optimization, something which FlexAttention provided fine control over. Now, the axes looked like:
 
 ![image](https://github.com/user-attachments/assets/0de6ea74-8de6-48e9-8477-47391d255bc9)
 
@@ -131,11 +131,11 @@ m_q = torch.ao.quantization.quantize_dynamic(m {nn.Linear, nn.Linear, nn.Linear}
 There is a small catch however, the PTDQ step is not currently available for SDPA, so in order to quantize, we had to implement SDPA from scratch using `nn.Linear` layers, for which quantization is available.
 
 ### Flex Attention
-For a gentle introduction to Flex Attention, refer to my previous [blog](https://yash-sri.xyz/blog/flex_attention). For the purpose of this experiment, we'll be testing Flex Attention with a variety of score modifying functions to assess which one of them is memory intensive, which `no_op` function given in the code below the benchmark to measure our performance against.
+For a gentle introduction to Flex Attention, refer to my previous [blog](/blog/flex_attention). For the purpose of this experiment, we'll be testing Flex Attention with a variety of score modifying functions to assess which one of them is memory intensive, which `no_op` function given in the code below the benchmark to measure our performance against.
 
 ![image](https://github.com/user-attachments/assets/f6b10cda-3099-4feb-af3a-522fe64c0017)
 
-The parameters we can tune for this experiment is `batch_size`, `seq_len` and `hid_dims`. The minimal code to use FlexAttention using the Pytorch API is given below. For a more detailed view on how it works under the hood and why is it awesome, refer to my previous [blog](https://yash-sri.xyz/blog/flex_attention), or the original [Jane Street talk](https://youtu.be/139UPjoq7Kw?si=Nz4llma9F3Yf008C).
+The parameters we can tune for this experiment is `batch_size`, `seq_len` and `hid_dims`. The minimal code to use FlexAttention using the Pytorch API is given below. For a more detailed view on how it works under the hood and why is it awesome, refer to my previous [blog](/blog/flex_attention), or the original [Jane Street talk](https://youtu.be/139UPjoq7Kw?si=Nz4llma9F3Yf008C).
 
 ```python
 import torch
