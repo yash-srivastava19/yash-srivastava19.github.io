@@ -45,8 +45,8 @@ code, kbd, pre, samp {
    --figure-gutter breathing room kept at the viewport edge when a figure
                   outgrows the measure */
 :root {
-  --measure: 46rem;
-  --figure-width: 58rem;
+  --measure: 72rem;
+  --figure-width: 80rem;
   --figure-gutter: 2rem;
   --figure-space: 1.75rem;
 }
@@ -66,6 +66,14 @@ code, kbd, pre, samp {
   max-width: 100%;
   height: auto;
   margin: var(--figure-space) auto;
+}
+
+/* Posts pin figures with width="700", which left them narrow once the measure
+   widened. Natural width, capped by the column, lets the charts (drawn at
+   ~1900px) fill it while GIFs (~900px) stop before they would blur. */
+#content-container p > img:first-child,
+#content-container p > video:first-child {
+  width: auto;
 }
 
 /* Past the measure, a figure that opens its paragraph may widen, staying
@@ -118,4 +126,127 @@ code, kbd, pre, samp {
 #content-container th:not(:first-child),
 #content-container td:not(:first-child) {
   text-align: right;
+}
+
+/* Reading rail (blog and diary pages, see _layouts/blog.html). Hidden until
+   the screen is wide enough to hold it beside the text; rail and text share
+   the same 72rem as every other page, so the edges still line up with the
+   header. Three quiet things: the sections, progress, and a share line. */
+.reading-rail {
+  display: none;
+}
+
+@media (min-width: 75em) {
+  .reading {
+    display: grid;
+    grid-template-columns: 14.5rem minmax(0, 1fr);
+    column-gap: 4.5rem;
+  }
+
+  .reading-rail {
+    display: block;
+    position: sticky;
+    top: 0;
+    align-self: start;
+    max-height: 100vh;
+    overflow-y: auto;
+    padding: 2.25rem 0 2rem;
+    font-size: 0.75rem;
+    line-height: 1.55;
+    color: #6c757d;
+  }
+
+  /* A figure may no longer widen past the text: the rail sits on its left. */
+  .reading #content p > img:first-child,
+  .reading #content p > video:first-child {
+    max-width: 100%;
+    margin-left: auto;
+    transform: none;
+  }
+}
+
+.rail-tree ol {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+}
+
+.rail-tree li {
+  padding-left: 2ch;
+  text-indent: -2ch;
+}
+
+.rail-tree li::before {
+  content: "└ ";
+  color: #ced4da;
+}
+
+.rail-tree a,
+.rail-share a,
+.rail-copy {
+  color: inherit;
+  text-decoration: none;
+}
+
+.rail-tree a:hover,
+.rail-share a:hover,
+.rail-copy:hover,
+.rail-tree a[aria-current] {
+  color: #212529;
+}
+
+.rail-tree a[aria-current] {
+  font-weight: 700;
+}
+
+.rail-share {
+  white-space: nowrap;
+}
+
+.rail-copy {
+  font: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.rail-progress {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.rail-bar {
+  flex: 0 0 9rem;
+  height: 0.5rem;
+  border: 1px solid #adb5bd;
+}
+
+.rail-fill {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: #6c757d;
+}
+
+.rail-pct {
+  font-variant-numeric: tabular-nums;
+}
+
+.rail-time {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.6875rem;
+  margin-bottom: 1.25rem;
+}
+
+/* With room to spare, the rail moves out into the left margin while the text
+   stays where it was, so the two read as separate things. */
+@media (min-width: 85em) {
+  .reading {
+    margin-left: -7rem;
+    column-gap: 10.5rem;
+  }
 }

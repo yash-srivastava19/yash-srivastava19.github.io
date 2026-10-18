@@ -29,6 +29,11 @@ defaults:
       author: Yashovardhan Srivastava
       seo:
         type: BlogPosting
+  # Diary entries are read like posts, so they get the same layout and rail
+  - scope:
+      path: diary
+    values:
+      layout: blog
   # Not real content: keep them out of sitemap.xml
   - scope:
       path: 404.md

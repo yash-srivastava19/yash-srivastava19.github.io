@@ -8,9 +8,36 @@ link previews and search results through {% raw %}{% seo %}{% endraw %}.
 
 Images load lazily: a post's first screen is text, and the charts and GIFs
 further down otherwise compete with the font and CSS for the first paint.
+
+On a wide screen a rail sits left of the text: the post's sections (filled in
+by reading.js from the headings), how far through you are, read time, and
+share links. Below 75em it is hidden and the post reads as a single column.
 {%- endcomment -%}
-<article>
-  <div id="content" class="pt-4">
-    {{ content | replace: '<img ', '<img loading="lazy" decoding="async" ' }}
-  </div>
-</article>
+{%- assign words = content | strip_html | number_of_words -%}
+{%- assign minutes = words | divided_by: 220 | at_least: 1 -%}
+{%- assign share_url = page.url | absolute_url | url_encode -%}
+{%- assign share_title = page.title | default: site.title | url_encode | replace: '+', '%20' -%}
+<div class="reading">
+  <aside class="reading-rail" aria-label="Post outline">
+    <nav class="rail-tree" hidden>
+      <ol></ol>
+    </nav>
+    <div class="rail-progress">
+      <span class="rail-bar" aria-hidden="true"><span class="rail-fill"></span></span>
+      <span class="rail-pct" aria-hidden="true">00%</span>
+    </div>
+    <p class="rail-time">{{ minutes }} min read</p>
+    <p class="rail-share">
+      share
+      <a href="https://twitter.com/intent/tweet?url={{ share_url }}&amp;text={{ share_title }}" target="_blank" rel="noopener">x</a> ·
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url }}" target="_blank" rel="noopener">linkedin</a> ·
+      <button type="button" class="rail-copy" data-url="{{ page.url | absolute_url }}">copy link</button>
+    </p>
+  </aside>
+  <article>
+    <div id="content" class="pt-4">
+      {{ content | replace: '<img ', '<img loading="lazy" decoding="async" ' }}
+    </div>
+  </article>
+</div>
+<script src="{{ "/assets/js/reading.js" | relative_url }}" defer></script>
