@@ -1,3 +1,8 @@
+---
+title: "(Non-Technical) On my experience with hiring and making your career identity"
+description: "Lessons from job hunting as a new graduate: why your career identity shouldn't become your whole identity, and how to find work where you thrive."
+---
+
 **Note:** I'm about to graduate in like 2 weeks, and one of the most challenging problems I faced was that of finding a career where I thrive. I picked up many life-skills along the journey to finding the ideal career. The following blog is very much a collection of learnings that I gathered, so they might not be applicable to your case, but I've made sure to make them as general as possible for all audience to take something with.
 
 ## The Career Identity

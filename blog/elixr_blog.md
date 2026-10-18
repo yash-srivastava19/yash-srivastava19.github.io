@@ -1,3 +1,8 @@
+---
+title: "Elixr: What if PyTorch Used Complex Numbers?"
+description: "Elixr is a micrograd-style autograd engine over complex numbers. What changes about backprop when values are complex, and what I learned building it."
+---
+
 Note: I had just finished Karpathy's micrograd video and understood, for the first time, exactly how backprop works. Then I started wondering: the math works over reals because derivatives are real. What happens if the values are complex? That question took a weekend to start answering, and I'm still not sure I have it right.
 
 # Elixr: What if PyTorch Used Complex Numbers?

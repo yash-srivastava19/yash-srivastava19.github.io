@@ -1,3 +1,8 @@
+---
+title: "(Non-Technical) The Art of Ignoring What Everyone Else Assumes"
+description: "On first-principles thinking: a practical structure for questioning what everyone else assumes, so you save your brain power for decisions that matter."
+---
+
 Note: I wrote this on 18/05/2026 after once again forgetting that this superpower exists.
 
 # The Art of Ignoring What Everyone Else Assumes

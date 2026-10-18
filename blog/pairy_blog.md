@@ -1,3 +1,8 @@
+---
+title: "pairy: AI pair programming the way I like it"
+description: "pairy is a Neovim plugin for AI pair programming on the Gemini API: most of what Copilot does, for free, in code you can read."
+---
+
 
 Note: I got a GitHub Copilot invoice and realized a Gemini API key was sitting unused in a .env file. Two days later I had a Neovim plugin that does most of what Copilot does, costs nothing, and I can read every line of it. Sometimes the best motivation is a bill you didn't expect.
 
@@ -58,7 +63,7 @@ The core of the plugin is a thin HTTP client that talks directly to the Gemini R
 local function call_gemini(prompt, callback)
   local config = require("pairy.config").load()
   local body = vim.json.encode({
-    contents = {{ parts = {{ text = prompt }} }}
+    contents = {% raw %}{{ parts = {{ text = prompt }} }}{% endraw %}
   })
 
   local handle = vim.loop.new_tcp()

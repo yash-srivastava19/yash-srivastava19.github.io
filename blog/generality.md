@@ -1,3 +1,8 @@
+---
+title: "Design for Generality"
+description: "Design is complicated, not complex: a short essay on reducing moving parts without losing generality, with Transformers as the example."
+---
+
 Note: This is a life lesson which in someway or other you'll learn. I'm pretty sure.
 
 ## Design for Generality - Dated(06/04/2024)

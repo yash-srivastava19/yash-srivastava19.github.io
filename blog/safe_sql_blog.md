@@ -1,3 +1,8 @@
+---
+title: "Safe SQL: A Seatbelt for Your Database"
+description: "Safe SQL catches dangerous queries, like an UPDATE without a WHERE clause, before they reach your database. A Python package and CLI."
+---
+
 Note: I once watched someone run an UPDATE without a WHERE clause on a shared staging database. It wasn't intentional. It affected every row in the table. It was not a good afternoon. I built Safe SQL because the tooling around this problem is either "be more careful" or "restore from backup," and neither of those is satisfying.
 
 # Safe SQL: A Seatbelt for Your Database

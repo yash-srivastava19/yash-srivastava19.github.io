@@ -1,3 +1,8 @@
+---
+title: "grove: I built Obsidian for the terminal"
+description: "grove is Obsidian for the terminal: a notes app that lives where you already work. Why I built it after a year of switching windows, and how it works."
+---
+
 
 Note: I had Obsidian open next to my terminal for a year. Every time I needed to write something down, I'd leave the terminal, wait for Electron, write two sentences, and come back. One day I got annoyed enough to just build what I wanted. This is that.
 

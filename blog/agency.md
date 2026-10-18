@@ -1,3 +1,8 @@
+---
+title: "On High Agency and Work Ethic"
+description: "A short essay on high agency and work ethic: why ownership and obsession beat waiting for genius or inspiration."
+---
+
 Note: This is a small blurb of what I know about agency and work ethic, which I feel is true. This is more of a life lesson in my opinion.
 
 ## On High Agency and Work Ethic

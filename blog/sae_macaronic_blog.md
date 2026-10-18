@@ -1,3 +1,8 @@
+---
+title: "Do LLMs Have a Secret Interlingua? Testing GPT-2's Hinglish Comprehension with Sparse Autoencoders"
+description: "Does GPT-2 understand Hinglish? Using sparse autoencoders to test whether a language model shares features across Hindi and English words."
+---
+
 Note: I grew up switching between Hindi and English mid-sentence without thinking about it. One afternoon I started wondering if GPT-2, trained only on English, had any idea what was happening when you dropped a Hindi word in. Two days later I had a GitHub repo. Worth it.
 
 # Do LLMs Have a Secret Interlingua? Testing GPT-2's Hinglish Comprehension with Sparse Autoencoders

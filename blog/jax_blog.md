@@ -1,3 +1,8 @@
+---
+title: "JAX - Why is everyone excited about this framework?"
+description: "What makes JAX different from PyTorch and TensorFlow: a from-scratch walkthrough of JAX's core ideas, simpler than the official Autodidax tutorial."
+---
+
 Note: This blog is inspired my the Autodiadax blog of JAX - where they implement JAX core from scratch. I found it very confusing, so I made my own thing. Hope I was able to do it justice 
 
 ## JAX - Why is Everyone So Excited About This Framework

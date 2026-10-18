@@ -1,12 +1,18 @@
+---
+title: "The Harness Was the Experiment: what four benchmark problems taught me about program search"
+description: "A worklog running cadence, an LLM program-search library, on four published benchmarks with 20 model calls a day, and why the harness mattered more than the search."
+image: /assets/img/evolving_problems/loop.gif
+---
+
 Note: This is my attempt on a worklog on running program-search experiments against published benchmarks, using a program-search library called [cadence](https://github.com/yash-srivastava19/cadence) that I wrote.
 
 # The Harness Was the Experiment
 
-AlphaEvolve gave the world a genuinely powerful general-purpose discovery and optimization agent, and cadence is my attempt to bring that logic to solve real world problems. [cadence](https://github.com/yash-srivastava19/cadence) evolves code you can measure. You bring a program, a scoring verifier, and a sandbox where you can run the candidate. It proposes a change, applies it as a diff, measures the candidate, keeps what improved, and iterates from the best evidence so far. I've [written about the design before on travelling salesman problem](https://yash-sri.xyz/blog/cadence_blog) and now want to extend it to better and harder problems - with huge improvements in the library as well.
+AlphaEvolve gave the world a genuinely powerful general-purpose discovery and optimization agent, and cadence is my attempt to bring that logic to solve real world problems. [cadence](https://github.com/yash-srivastava19/cadence) evolves code you can measure. You bring a program, a scoring verifier, and a sandbox where you can run the candidate. It proposes a change, applies it as a diff, measures the candidate, keeps what improved, and iterates from the best evidence so far. I've [written about the design before on travelling salesman problem](/blog/cadence_blog) and now want to extend it to better and harder problems - with huge improvements in the library as well.
 
 Only constraint here is that I am compute poor, and I am running on a single machine. Local models were too large to run efficiently, and the proprietary models did not have generous free tiers to run the experiments in one long duration, so I did what any sane person would do, work around that constraint and make cadence's design to accommodate for that. Over the course of this blog, I will try to explain the design decisions behind cadence and how it compares to existing tools currently in the market. On a high level, the diagram explains what cadence does.
 
-<img src="../assets/img/evolving_problems/loop.gif" width="700">
+<img src="../assets/img/evolving_problems/loop.gif" alt="Animation of one cadence trial: the model edits only the marked region, score.py stays outside it, and each step is recorded in the journal as it happens" width="700">
 
 *One trial, stepped through. The model only ever sees the marked region; `score.py` sits outside it and is never sent, so a candidate cannot mark its own work. Watch the row along the bottom: each fact is written as it happens, which is what makes the run resumable tomorrow.*
 
@@ -18,10 +24,10 @@ One important design decision here is that cadence doesn't make any assumptions 
 
 The idea with cadence is simple - anyone can conduct experiments on their own and algorithms, store in their own database and benchmark to produce novel solution to hard problems. When you are compute constrained, every model call is precious, and we should not waste it.
 
-<img src="../assets/img/evolving_problems/resume.png" width="700">
+<img src="../assets/img/evolving_problems/resume.png" alt="Diagram of one experiment over two invocations: the first dies on a 503 after two trials, the journal survives, and the second resumes at trial 3 with no paid call repeated" width="700">
 *See the third row: invocation 2 is not a new experiment that happens to start from a good program. It is the same search, with the same measured history, continuing.*
 
-<img src="../assets/img/evolving_problems/levels.gif" width="700">
+<img src="../assets/img/evolving_problems/levels.gif" alt="Animation of what survives a kill at each level of the harness" width="700">
 *What survives a kill, and why each level matters separately.*
 
 One a side note, resume works not only at model call level - but at three different levels, and they all do different jobs. At the **model call** level, a redone trial asking the same question gets handed the recorded answer instead of requesting it again(the model call output is content addressable). At the **trial** level, resume counts settled trials and renumbers from there, so only the one in flight is redone. At the **experiment** level, the full history of measured results comes back, so the search carries on knowing what scored what. Distinction between all the entities and how they contribute to the main runtime of cadence needs a separate blog altogether.
@@ -44,7 +50,7 @@ Coming back, those numbers from the initial run were never measuring the search.
 
 With both limits raised the run started producing, and it has been producing ever since — across three separate days, with a cap of 20 requests a day provided by Gemini free tier.
 
-<img src="../assets/img/evolving_problems/progress.png" width="700">
+<img src="../assets/img/evolving_problems/progress.png" alt="Chart of one run over three sittings: best score so far as a step line, individual trials as grey dots, with day boundaries marked" width="700">
 *One run id, thirty model calls, three sittings. The step line is the best program so far; grey dots are individual trials. The two things to look at are the day boundaries — no single day could have bought this — and the circled trials, which ran longer per seed than the sandbox cap that was in force the day before.*
 
 **2.166667 → 2.631790.** A 21.47% improvement on the seed, and 0.155% short of the best known figure.
@@ -56,7 +62,7 @@ I pulled the winner out of the database with `cadence apply`, scored it in a fre
 
 Here is where that lands against the published work.
 
-<img src="../assets/img/evolving_problems/budget.png" width="700">
+<img src="../assets/img/evolving_problems/budget.png" alt="Chart of sum of radii for 26 circles against model samples, log scale: cadence reaches 2.63179 in 30 samples, 0.155% short of the best known 2.6359, which ShinkaEvolve reached in 150" width="700">
 
 *The y-axis spans five hundredths of a unit; the x-axis spans three orders of magnitude. That asymmetry is the whole picture. The best known value is 2.6359 — AlphaEvolve's 2.63586, then ShinkaEvolve's 2.63598 — and before either of them it was 2.634, found by hand and recorded on [Erich Friedman's packing pages](https://erich-friedman.github.io/packing/), which have been accumulating at Stetson since the nineties.*
 
@@ -87,7 +93,7 @@ The test instances are `binpack1` through `binpack4` from [OR-Library](https://p
 
 Ten trials, ten model calls, gemini-3.6-flash, about twenty minutes.
 
-<img src="../assets/img/evolving_problems/excess.png" width="800">
+<img src="../assets/img/evolving_problems/excess.png" alt="Bar chart of excess bins over the L2 bound on binpack1 to binpack4 for first fit, best fit, cadence and FunSearch; cadence closes 40%, 45%, 69% and 70% of the gap from best fit to FunSearch" width="800">
 *Percentage of bins beyond the L2 bound; lower is better. The two baseline rows are my own reproduction, matching Table 1 to every decimal the paper prints. FunSearch's row is quoted, not reproduced — I checked its binpack2/3/4 figures against secondary literature but not binpack1's 5.30.*
 
 It beats best fit on all four held-out sets, closing 40, 45, 69 and 70 percent of the distance from best fit to FunSearch as instances get larger. On binpack4 it wins all twenty instances.
@@ -98,7 +104,7 @@ Item sizes here run from 20 to 100 and bins hold 150. So a bin with 19 units lef
 
 Best fit doesn't know that. It puts each item in the tightest bin that fits and will happily leave twelve units behind. The winner is built entirely around not doing that:
 
-<img src="../assets/img/evolving_problems/curve.png" width="800">
+<img src="../assets/img/evolving_problems/curve.png" alt="Chart of the evolved rule's score for a bin against the room left after placing an item of size 50" width="800">
 *The winner's score for a bin against the room left after the item goes in, at item size 50. Close the bin tight (1–5 left) or leave room for a real item (20+, rising in steps of 20), but never stop in between. An exact fit scores 100,000, three orders of magnitude off the top.*
 
 ```python
@@ -116,7 +122,7 @@ return [
 
 The mechanism is measurable. Across binpack4's twenty instances the winner uses 8,269 bins to best fit's 8,407 and closes 1,748 bins exactly to best fit's 1,350. The number that explains both: it strands 32,247 units in dead-zone bins where best fit strands 53,760. It does not avoid creating dead-zone bins. It wastes forty percent less inside the ones it creates.
 
-<img src="../assets/img/evolving_problems/deadzone.gif" width="700">
+<img src="../assets/img/evolving_problems/deadzone.gif" alt="Animation of best fit and the evolved rule packing the same 1000 items; best fit wastes 2,757 units and the evolved rule 1,601" width="700">
 *One 1000-item instance, both rules fed the same arrivals in the same order. Best fit ends having thrown away 2,757 units of capacity that can never be used again; the evolved rule throws away 1,601, and uses seven fewer bins. On a 120-item instance this gap is small enough to vanish, which is exactly why the win shows up on the large sets and not the small ones.*
 
 
@@ -132,7 +138,7 @@ But the honest description is that a well-specified problem statement bought mos
 
 It was evolved on generated instances of 120 items and never saw OR-Library.
 
-<img src="../assets/img/evolving_problems/wtl.png" width="700" >
+<img src="../assets/img/evolving_problems/wtl.png" alt="Per-instance record of the evolved rule against best fit: 8 wins, 6 ties, 6 losses on binpack1; 13, 6, 1 on binpack2; 20 wins and no losses on binpack3 and binpack4" width="700" >
 *Per-instance record against best fit. At its training size it is close to a coin flip. At four and eight times that size it does not lose once.*
 
 At 120 items it goes 8-6-6, and the aggregate 5.61% against best fit's 5.81% conceals that completely. At 500 and 1000 items it wins everything. A heuristic overfitting its training size would show the opposite gradient.
@@ -195,7 +201,7 @@ Ten trials later the evolved tactic closes 37 of 60. An 85% improvement on a pub
 
 Then I spent about a minute writing nine standard Mathlib tactics into a flat `first | ...` combinator, by hand, and it closed 39.
 
-<img src="../assets/img/evolving_problems/lean.png" width="700">
+<img src="../assets/img/evolving_problems/lean.png" alt="Chart of ten trials against two reference lines; the search reaches 37 on trial 5 and stays there" width="700">
 *Ten trials against two reference lines. The search arrives at 37 on trial 5 and never moves again. Trial 8 sampled a parent superseded four trials earlier and came back with the seed's score.*
 
 The evolved answer is 38 lines with a nine-tactic preprocessing chain and 23 alternatives. Mine is nine lines. Every one of my nine tactics is named in `IMPROVE.md`, so the model had every ingredient and assembled something four times longer that closed two fewer theorems.
@@ -214,7 +220,7 @@ So the last problem was picked for its measuring stick.
 
 A factory has jobs. Each job is a fixed sequence of operations, each needing a particular machine for a known time. A machine does one thing at a time, and an operation waits for the one before it in its own job. When a machine frees up and several operations are waiting, something has to choose. In real plants that something is almost always a one-line priority rule, because anything cleverer does not survive the shop floor.
 
-<img src="../assets/img/evolving_problems/jobshop.gif" width="700">
+<img src="../assets/img/evolving_problems/jobshop.gif" alt="Animation of a schedule for ft06, 6 jobs on 6 machines, with operations coloured by job and the makespan as a red line" width="700">
 *`ft06`, the smallest classic instance: 6 jobs on 6 machines. Each block is one operation, coloured by the job it belongs to. The red line is the makespan — the moment the last job finishes — and that is the number being minimised. Most work remaining, the standard rule, lands on 61. The proven optimum is 55.*
 
 That priority rule is what cadence evolves, and it has the same shape as bin packing's: one greedy decision, scored by a number. cadence hands it every operation that could start on this machine right now, and it returns one score each. Highest score goes first.
@@ -279,7 +285,7 @@ Excess over the proven optimum falls by 5.09 points, which closes 29% of MWKR's 
 
 And it improves *more* on the families it never saw (−5.72) than on the shape it was tuned on (−4.57). That is the opposite of what bin packing's second lineage did. The check I built after being burned came back clean the first time it was used.
 
-<img src="../assets/img/evolving_problems/jobshop-vs.gif" width="700">
+<img src="../assets/img/evolving_problems/jobshop-vs.gif" alt="Animation comparing the standard rule and the evolved rule on la09: makespan 1015 against 951, the proven optimum" width="700">
 *`la09`, one of the held-out instances: fifteen jobs, five machines, the same factory both times. The standard rule finishes at 1015, the evolved one at 951 — and 951 is the proven optimum, so on this instance it cannot be beaten.*
 
 Verified the same way as the others: the winner, copied into a directory it had never run in, rescores to six decimals.

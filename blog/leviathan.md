@@ -1,3 +1,8 @@
+---
+title: "Leviathan - Let's modify and improve the Transformer model(from scratch)"
+description: "Leviathan replaces the Transformer's attention scores with a correlation score borrowed from signal processing, aiming for a drop-in replacement. Built from scratch."
+---
+
 Note: Leviathan is my take to make a drop in replacement of  Attention models with similar performance. This whole idea occured to me while I was reading from a lot of domains and doing a ton of math.
 
 ## Leviathan - Let's modify and improve the Transformer model(from scratch).
