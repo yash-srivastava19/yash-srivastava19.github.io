@@ -6,12 +6,14 @@
   if (!rail || !article) return;
 
   // Posts differ in heading levels (some open with one h1 and use h2 for
-  // sections, some use h1 throughout). The tree lists the shallowest level
-  // that appears at least twice, so a lone title heading is skipped.
-  var headings = [];
-  for (var level = 1; level <= 3 && headings.length < 2; level++) {
-    headings = Array.prototype.slice.call(article.querySelectorAll("#content h" + level));
-  }
+  // sections, some use h1 throughout). The tree starts at the shallowest level
+  // that appears at least twice, so a lone title heading is skipped, and every
+  // deeper heading is listed under its section, indented by how much deeper.
+  var top = 1;
+  while (top < 6 && article.querySelectorAll("#content h" + top).length < 2) top++;
+  var selector = [];
+  for (var level = top; level <= 6; level++) selector.push("#content h" + level);
+  var headings = Array.prototype.slice.call(article.querySelectorAll(selector.join(",")));
   var links = [];
   if (headings.length >= 2) {
     var list = rail.querySelector(".rail-tree ol");
@@ -21,6 +23,7 @@
       a.href = "#" + h.id;
       a.textContent = h.textContent;
       var li = document.createElement("li");
+      li.style.marginLeft = 2 * (Number(h.tagName[1]) - top) + "ch";
       li.appendChild(a);
       list.appendChild(li);
       links.push({ heading: h, link: a });
