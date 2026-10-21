@@ -1,0 +1,14 @@
+{%- comment -%}
+A YouTube video in a post, sized like the figures around it: full column
+width, 16:9, loaded only when scrolled to, through YouTube's no-cookie player.
+
+  {% include video.html youtube="VIDEO_ID" title="Video title" caption="*Markdown* caption" %}
+
+youtube and title are required. start (seconds) is optional, for a clip.
+{%- endcomment -%}
+<figure class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/{{ include.youtube }}?rel=0{% if include.start %}&amp;start={{ include.start }}{% endif %}" title="{{ include.title | escape }}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  {%- if include.caption %}
+  <figcaption>{{ include.caption | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>
+  {%- endif %}
+</figure>

@@ -1,0 +1,343 @@
+/* Light, dark and reading modes. With no choice saved, the page follows the
+   system setting; a choice from the header menu is stored and set as
+   data-theme on <html> before the first paint (see _includes/head.html).
+   Every colour the site uses goes through these tokens, so a new rule only
+   needs a var() to work in all three. */
+
+:root {
+  color-scheme: light;
+  --bg: #fdfdfd;
+  --text: #212529;
+  --heading: #212529;
+  --muted: #6c757d;
+  --faint: #ced4da;
+  --line: #e9ecef;
+  --line-strong: #adb5bd;
+  --link: #0b63c5;
+  --code-bg: #f8f9fa;
+  --img-filter: none;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #141618;
+  --text: #d4d7da;
+  --heading: #eceef0;
+  --muted: #8a9198;
+  --faint: #3a3f45;
+  --line: #262a2e;
+  --line-strong: #464c53;
+  --link: #8ab4f0;
+  --code-bg: #1b1e21;
+  --img-filter: brightness(0.88);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+    --bg: #141618;
+    --text: #d4d7da;
+    --heading: #eceef0;
+    --muted: #8a9198;
+    --faint: #3a3f45;
+    --line: #262a2e;
+    --line-strong: #464c53;
+    --link: #8ab4f0;
+      --code-bg: #1b1e21;
+    --img-filter: brightness(0.88);
+  }
+}
+
+/* Reading: warm paper and softer ink for long posts. Only the colours
+   change, so the layout is identical in every mode. */
+:root[data-theme="reading"] {
+  color-scheme: light;
+  --bg: #f4eee1;
+  --text: #3b3127;
+  --heading: #2a221a;
+  --muted: #7c6f5f;
+  --faint: #d6cab4;
+  --line: #e2d7c2;
+  --line-strong: #c2b396;
+  --link: #8c4a1c;
+  --code-bg: #ece3d1;
+  --img-filter: sepia(0.08);
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+.text-dark {
+  color: var(--heading) !important;
+}
+
+.text-secondary {
+  color: var(--muted) !important;
+}
+
+a {
+  color: var(--link);
+}
+
+/* One hover colour for the whole site: the mode's accent. Text links are
+   already that colour, so they underline instead; everything else (header,
+   footer, the reading rail, the mode slider) turns accent on hover. */
+a:hover,
+a:focus-visible {
+  color: var(--link);
+}
+
+a.text-dark:hover,
+a.text-dark:focus-visible,
+#site-footer a:hover,
+#site-footer a:hover .text-secondary {
+  color: var(--link) !important;
+  text-decoration: none;
+}
+
+hr {
+  border-top-color: var(--line);
+}
+
+#nav-header {
+  border-top-color: var(--heading) !important;
+  border-bottom-color: var(--line) !important;
+}
+
+@media (max-width: 767px) {
+  #nav-menu-container {
+    border-color: var(--line);
+    background-color: var(--bg);
+  }
+}
+
+#site-footer {
+  border-top-color: var(--line);
+}
+
+#content blockquote {
+  border-left-color: var(--line-strong);
+  color: var(--muted);
+}
+
+.highlight pre,
+pre,
+code {
+  color: inherit;
+}
+
+.highlight pre {
+  background-color: var(--code-bg);
+  border-color: var(--line);
+}
+
+:not(pre) > code {
+  background-color: var(--code-bg);
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+#content-container table {
+  border-color: var(--line-strong);
+}
+
+#content-container th,
+#content-container td {
+  border-color: var(--line);
+}
+
+#content-container thead th {
+  border-bottom-color: var(--line-strong);
+}
+
+#content img,
+#content video {
+  filter: var(--img-filter);
+}
+
+/* The reading rail. */
+.reading-rail {
+  color: var(--muted);
+}
+
+.rail-tree li::before {
+  color: var(--faint);
+}
+
+.rail-tree a[aria-current] {
+  color: var(--heading);
+}
+
+.rail-tree a:hover,
+.rail-share a:hover,
+.rail-copy:hover {
+  color: var(--link);
+}
+
+.rail-bar {
+  border-color: var(--line-strong);
+}
+
+.rail-fill {
+  background: var(--muted);
+}
+
+/* Bootstrap draws the mobile menu icon as a dark SVG. */
+:root[data-theme="dark"] .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .navbar-toggler-icon {
+    filter: invert(1);
+  }
+}
+
+/* Syntax colours for code in dark mode; the theme's set is for a light page. */
+:root[data-theme="dark"] .highlight .c,
+:root[data-theme="dark"] .highlight .c1,
+:root[data-theme="dark"] .highlight .cm { color: #7d858c; }
+:root[data-theme="dark"] .highlight .k,
+:root[data-theme="dark"] .highlight .kd,
+:root[data-theme="dark"] .highlight .kn,
+:root[data-theme="dark"] .highlight .o { color: #d4d7da; }
+:root[data-theme="dark"] .highlight .s,
+:root[data-theme="dark"] .highlight .s1,
+:root[data-theme="dark"] .highlight .s2,
+:root[data-theme="dark"] .highlight .sd { color: #e6a07c; }
+:root[data-theme="dark"] .highlight .nf,
+:root[data-theme="dark"] .highlight .nc,
+:root[data-theme="dark"] .highlight .ne { color: #e8828a; }
+:root[data-theme="dark"] .highlight .m,
+:root[data-theme="dark"] .highlight .mi,
+:root[data-theme="dark"] .highlight .mf { color: #7fd1c7; }
+:root[data-theme="dark"] .highlight .nb,
+:root[data-theme="dark"] .highlight .na,
+:root[data-theme="dark"] .highlight .nv,
+:root[data-theme="dark"] .highlight .no { color: #8ab4f0; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .highlight .c,
+  :root:not([data-theme]) .highlight .c1,
+  :root:not([data-theme]) .highlight .cm { color: #7d858c; }
+  :root:not([data-theme]) .highlight .k,
+  :root:not([data-theme]) .highlight .kd,
+  :root:not([data-theme]) .highlight .kn,
+  :root:not([data-theme]) .highlight .o { color: #d4d7da; }
+  :root:not([data-theme]) .highlight .s,
+  :root:not([data-theme]) .highlight .s1,
+  :root:not([data-theme]) .highlight .s2,
+  :root:not([data-theme]) .highlight .sd { color: #e6a07c; }
+  :root:not([data-theme]) .highlight .nf,
+  :root:not([data-theme]) .highlight .nc,
+  :root:not([data-theme]) .highlight .ne { color: #e8828a; }
+  :root:not([data-theme]) .highlight .m,
+  :root:not([data-theme]) .highlight .mi,
+  :root:not([data-theme]) .highlight .mf { color: #7fd1c7; }
+  :root:not([data-theme]) .highlight .nb,
+  :root:not([data-theme]) .highlight .na,
+  :root:not([data-theme]) .highlight .nv,
+  :root:not([data-theme]) .highlight .no { color: #8ab4f0; }
+}
+
+/* The mode slider in the header: three stops, light, dark and reading, with
+   a thumb that slides to the current one. With nothing saved, the thumb sits
+   on whatever the system gives (light or dark) and nothing is stored. */
+.theme-slider {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1.75rem);
+  height: 1.75rem;
+  margin-left: 0.75rem;
+  padding: 2px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  touch-action: none;
+  user-select: none;
+}
+
+.theme-thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 1.75rem;
+  height: calc(100% - 4px);
+  border-radius: 999px;
+  background: var(--heading);
+  transform: translateX(calc(var(--stop, 0) * 100%));
+  transition: transform 0.18s ease;
+}
+
+.theme-slider[data-mode="light"] { --stop: 0; }
+.theme-slider[data-mode="dark"] { --stop: 1; }
+.theme-slider[data-mode="reading"] { --stop: 2; }
+
+.theme-stop {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  color: var(--muted);
+  background: none;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.theme-stop svg {
+  width: 0.875rem;
+  height: 0.875rem;
+}
+
+.theme-stop:hover {
+  color: var(--link);
+}
+
+.theme-stop[aria-checked="true"],
+.theme-stop[aria-checked="true"]:hover {
+  color: var(--bg);
+}
+
+.theme-stop:focus-visible {
+  outline: 1px solid var(--link);
+  outline-offset: 1px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .theme-thumb {
+    transition: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #nav-menu-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .theme-slider {
+    order: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  #nav-menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .theme-slider {
+    margin-left: 0.5rem;
+  }
+
+  #nav-menu {
+    flex-basis: 100%;
+  }
+}

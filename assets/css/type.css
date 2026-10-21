@@ -250,3 +250,34 @@ code, kbd, pre, samp {
     column-gap: 10.5rem;
   }
 }
+
+/* Videos and other embeds. Any iframe in a post takes the column's full width
+   at 16:9, the width the charts fill, so an embed pasted straight into
+   markdown already looks right. _includes/video.html adds a caption styled
+   like the figure captions. */
+#content iframe {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  margin: var(--figure-space) auto;
+  border: 0;
+  border-radius: 4px;
+}
+
+.video-embed {
+  margin: var(--figure-space) 0;
+}
+
+.video-embed iframe {
+  margin: 0 auto;
+}
+
+.video-embed figcaption {
+  margin-top: calc(var(--figure-space) * 0.4);
+  font-size: 0.86em;
+  font-style: italic;
+  line-height: 1.5;
+  opacity: 0.75;
+  text-align: center;
+}
