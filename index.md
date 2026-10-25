@@ -1,5 +1,5 @@
 # Home
-I'm Yashovardhan Srivastava (Yash is fine), a recent engineering graduate from NIT Warangal (2025). I build developer tools, research systems, and practical machine learning projects, then write about what I learn along the way, both [technically](./blogs.html) and [otherwise](./diary.html).
+I'm Yashovardhan Srivastava (Yash is fine), a recent engineering graduate from NIT Warangal (2025). I build developer tools, research systems, and practical machine learning projects, then write about what I learn along the way, both [technically](./blogs.html) and [otherwise](/diary/).
 
 Reach me at *ysrivastava82(at)gmail(dot)com* or on [Twitter](https://twitter.com/Yaaaaaashhh).
 
