@@ -1,5 +1,14 @@
-last_updated: '2026-10-24T13:08:54'
+last_updated: '2026-10-25T13:35:55'
 films:
+- title: Rock On!!
+  year: '2008'
+  rating_numeric: 3.0
+  rating_stars: ★★★
+  watched_date: '2026-10-24'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/3/9/4/8/0/39480-rock-on--0-600-0-900-crop.jpg?v=47fb87e37c
+  review: i do agree that singing and investment banking don't go hand in hand
+  link: https://letterboxd.com/yash_sri19/film/rock-on/
 - title: 'Spider-Man: Brand New Day'
   year: '2026'
   rating_numeric: 2.0
