@@ -1,8 +1,9 @@
 // The header's mode slider: light, dark and reading. Click a stop, drag the
 // thumb, or use the arrow keys. With nothing saved the page follows the
 // system's light or dark setting, and the thumb shows which one that is. The
-// saved choice is applied before first paint by the inline script in
-// _includes/head.html.
+// inline script in _includes/head.html applies the saved choice and sets
+// data-mode on <html> before first paint; the slider's CSS reads data-mode, so
+// the thumb starts in place and this script only keeps it up to date.
 (function () {
   var modes = ["light", "dark", "reading"];
   var root = document.documentElement;
@@ -18,7 +19,7 @@
 
   function show() {
     var mode = saved() || (system.matches ? "dark" : "light");
-    slider.setAttribute("data-mode", mode);
+    root.setAttribute("data-mode", mode);
     stops.forEach(function (s) {
       var on = s.getAttribute("data-mode") === mode;
       s.setAttribute("aria-checked", on ? "true" : "false");
@@ -40,7 +41,7 @@
     var step = e.key === "ArrowRight" || e.key === "ArrowDown" ? 1 : e.key === "ArrowLeft" || e.key === "ArrowUp" ? -1 : 0;
     if (!step) return;
     e.preventDefault();
-    var i = modes.indexOf(slider.getAttribute("data-mode"));
+    var i = modes.indexOf(root.getAttribute("data-mode"));
     var next = modes[(i + step + modes.length) % modes.length];
     choose(next);
     slider.querySelector('[data-mode="' + next + '"]').focus();
@@ -58,7 +59,7 @@
     slider.setPointerCapture(e.pointerId);
   });
   slider.addEventListener("pointermove", function (e) {
-    if (dragging) slider.setAttribute("data-mode", stopAt(e.clientX));
+    if (dragging) root.setAttribute("data-mode", stopAt(e.clientX));
   });
   slider.addEventListener("pointerup", function (e) {
     if (!dragging) return;
