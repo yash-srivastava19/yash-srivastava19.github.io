@@ -1,5 +1,14 @@
-last_updated: '2026-10-31T15:08:34'
+last_updated: '2026-11-01T15:51:42'
 films:
+- title: You Can See Everything
+  year: '2026'
+  rating_numeric: 4.0
+  rating_stars: ★★★★
+  watched_date: '2026-11-01'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/6/2/9/4/4/3/1629443-you-can-see-everything-0-600-0-900-crop.jpg?v=84f6724d74
+  review: i though I was manipulative
+  link: https://letterboxd.com/yash_sri19/film/you-can-see-everything/
 - title: Rock On!!
   year: '2008'
   rating_numeric: 3.0
