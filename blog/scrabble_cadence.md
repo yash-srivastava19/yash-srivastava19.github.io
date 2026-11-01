@@ -173,6 +173,23 @@ I also tried thinking a level up: choose a plan for the next few turns (open the
 
 The problem with slow is that it was too **slow** to be the player, so I tried to teach fast what slow knows. I recorded 1,825 of slow's decisions and refitted fast's rule to them (readers may notice the parallel: strong players do this too, turning slow analysis into quick instinct), with a few new things to weigh, like how many premium squares a move opens up. The biggest lesson was the defence champion_1 had guessed at, but narrower: each triple-word square a move newly opens costs about 3.4 points. The refitted rule, which I'll call **steady**, kept at most a fifth of slow's edge. Teaching it again, and again, went flat.
 
+> **What slow knows, and where fast's rule comes from**
+>
+> - **Slow has no rulebook of its own.** It uses fast's rule three times: to pick the six moves worth trying, to choose the opponent's reply in each imagined world, and to judge where things stand afterwards. What slow adds is trying things out. It sees what the opponent can actually do after a move, instead of guessing.
+> - **Fast's rule is a stand-in** for "how good is this move really?". It started as points plus the measured value of the tiles kept (the leave). To refit it, I gave it four more things to look at and let a straight-line fit choose the weights that best matched slow's grades on 1,825 decisions:
+>
+>   ```
+>   score = 1.02 × points + 0.83 × leave
+>         − 3.4 × triple-word squares opened − 0.95 × double-word − 0.62 × triple-letter
+>         − 1.7 × tiles played
+>   ```
+>
+>   I chose what it looks at; the fit chose the numbers. It can only weigh what it's given, and that's where it ran out.
+> - **Did slow's skill move into fast?** Partly. On turns the fit never saw, fast picked slow's move 58% of the time before and 63% after. Its average loss against slow's choice fell from about 1.8 points a move to 1.35, so it closed about a quarter of the gap. Over whole games that's at most a fifth of slow's 17 points. Three more rounds of teaching went flat.
+> - **Does slow get better with a better rule inside it?** I tried that too, with the network from the next section in fast's place. It picks eight moves to try, plays two turns into each imagined world, and judges the result itself. It needed 64 imagined worlds in all, where slow used 120, and beat steady 53% of the time over 1,000 games, a narrow win. I didn't time it, so whether it's faster is still open.
+>
+> None of the fast and slow work used a model call. It was all engine time.
+
 The reason is simple once you see it. Slow knows "what can the opponent score after this?" because it tries it. Fast has a handful of counts standing in for that, and a stand-in can only hold so much.
 
 ## Neural networks to the rescue
