@@ -1,5 +1,78 @@
-last_updated: '2026-11-05T17:10:00'
+last_updated: '2026-11-19T18:00:22'
 films:
+- title: Blink Twice
+  year: '2024'
+  rating_numeric: 2.0
+  rating_stars: ★★
+  watched_date: '2026-11-19'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/7/5/6/0/4/2/756042-blink-twice-0-600-0-900-crop.jpg?v=2f35ddcd4e
+  review: Thought it would be good, but it was ass, just like many things in my life
+  link: https://letterboxd.com/yash_sri19/film/blink-twice/
+- title: Eyes Wide Shut
+  year: '1999'
+  rating_numeric: 4.0
+  rating_stars: ★★★★
+  watched_date: '2026-11-17'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/5/1/7/1/7/51717-eyes-wide-shut-0-600-0-900-crop.jpg?v=7010402aeb
+  review: Look me in the eye and say there's a real guy named nick nightingale
+  link: https://letterboxd.com/yash_sri19/film/eyes-wide-shut/
+- title: The Matrix Reloaded
+  year: '2003'
+  rating_numeric: 3.0
+  rating_stars: ★★★
+  watched_date: '2026-11-10'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/5/1/5/1/7/51517-the-matrix-reloaded-0-600-0-900-crop.jpg?v=a8bd09d740
+  review: Once again banger stuff
+  link: https://letterboxd.com/yash_sri19/film/the-matrix-reloaded/
+- title: The Matrix
+  year: '1999'
+  rating_numeric: 4.0
+  rating_stars: ★★★★
+  watched_date: '2026-11-09'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/5/1/5/1/8/51518-the-matrix-0-600-0-900-crop.jpg?v=fc7c366afe
+  review: This is some good stuff
+  link: https://letterboxd.com/yash_sri19/film/the-matrix/
+- title: Dorothy
+  year: '2026'
+  rating_numeric: 3.0
+  rating_stars: ★★★
+  watched_date: '2026-11-09'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/4/5/0/1/8/9/1450189-dorothy-2026-0-600-0-900-crop.jpg?v=404f54492e
+  review: good-ish
+  link: https://letterboxd.com/yash_sri19/film/dorothy-2026/
+- title: Kaabil
+  year: '2017'
+  rating_numeric: 2.5
+  rating_stars: ★★½
+  watched_date: '2026-11-09'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/3/3/8/4/2/1/338421-kaabil-0-600-0-900-crop.jpg?v=1b36265ac4
+  review: The question is how did Su know there was a hickey in the first place?
+  link: https://letterboxd.com/yash_sri19/film/kaabil/
+- title: The Crush
+  year: '1993'
+  rating_numeric: 4.0
+  rating_stars: ★★★★
+  watched_date: '2026-11-07'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/sm/upload/zy/47/yw/mg/7DGYohz2tyo0mpkVxsccqBTf9vl-0-600-0-900-crop.jpg?v=1f4e9cce41
+  review: Absolute banger
+  link: https://letterboxd.com/yash_sri19/film/the-crush/
+- title: 'Ramayana: Rise of a Legend'
+  year: '2026'
+  rating_numeric: 2.0
+  rating_stars: ★★
+  watched_date: '2026-11-07'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/5/8/2/4/6/6/582466-ramayana-rise-of-a-legend-0-600-0-900-crop.jpg?v=68491e1f52
+  review: I mean for a film which could be told in so much better way, this didn't
+    cut it for me
+  link: https://letterboxd.com/yash_sri19/film/ramayana-rise-of-a-legend/
 - title: You Can See Everything
   year: '2026'
   rating_numeric: 4.0
