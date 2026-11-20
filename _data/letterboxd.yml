@@ -1,5 +1,14 @@
-last_updated: '2026-11-19T18:00:22'
+last_updated: '2026-11-20T17:36:52'
 films:
+- title: Fatherland
+  year: '2026'
+  rating_numeric: 2.0
+  rating_stars: ★★
+  watched_date: '2026-11-20'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/3/1/5/3/1/8/1315318-fatherland-2026-0-600-0-900-crop.jpg?v=6995cce652
+  review: maybe in another universe I would have liked it
+  link: https://letterboxd.com/yash_sri19/film/fatherland-2026/
 - title: Blink Twice
   year: '2024'
   rating_numeric: 2.0
