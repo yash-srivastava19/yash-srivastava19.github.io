@@ -1,5 +1,14 @@
-last_updated: '2026-11-20T17:36:52'
+last_updated: '2026-11-21T16:38:15'
 films:
+- title: 'Maverick: The Epic Adventures of David Lean'
+  year: '2026'
+  rating_numeric: 3.5
+  rating_stars: ★★★½
+  watched_date: '2026-11-21'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/1/2/4/1/7/6/9/1241769-maverick-the-epic-adventures-of-david-lean-0-600-0-900-crop.jpg?v=c6e226ddef
+  review: Maybe 7th time's the charm
+  link: https://letterboxd.com/yash_sri19/film/maverick-the-epic-adventures-of-david-lean/
 - title: Fatherland
   year: '2026'
   rating_numeric: 2.0
