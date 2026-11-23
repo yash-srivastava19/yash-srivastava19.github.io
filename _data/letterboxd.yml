@@ -1,5 +1,14 @@
-last_updated: '2026-11-22T16:56:20'
+last_updated: '2026-11-23T20:55:42'
 films:
+- title: You Get Me
+  year: '2017'
+  rating_numeric: 1.0
+  rating_stars: ★
+  watched_date: '2026-11-23'
+  rewatch: false
+  poster: https://a.ltrbxd.com/resized/film-poster/3/4/6/2/7/0/346270-you-get-me-0-600-0-900-crop.jpg?v=bf39624d00
+  review: so many white folks, but good for infuriating purposes
+  link: https://letterboxd.com/yash_sri19/film/you-get-me/
 - title: 'Maverick: The Epic Adventures of David Lean'
   year: '2026'
   rating_numeric: 3.5
